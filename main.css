@@ -1,5 +1,17 @@
-body{
+.body{
+height: 100px;
+width:25%;
+border: solid black 1px;
+margin 2 2;
+padding 10 10;
+text-align: center;
+line-height: 100px
+}
+#one{
 background-color:#b0b4b5;
 color: #e2ac00;
-}
+position: fixed;
+top: 10px;
+left: 10px;
 
+}
