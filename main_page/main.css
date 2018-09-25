@@ -1,3 +1,8 @@
+
+body{
+	background-color:#666666;
+ } 
+
 .box {
 	height: 100px;
 	width: 25%;
@@ -8,7 +13,7 @@
 	line-height: 100px;
 }
  #one {
- background-color:#666666;
+ color:#FFd700;
  position: fixed;
  top 10px;
  left 10px;
