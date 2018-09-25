@@ -1,23 +1,30 @@
-.box{
-height: 100px;
-width:25%;
-border: solid black 1px;
-margin 2 2;
-padding 10 10;
-text-align: center;
-line-height: 100px;
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
 }
-#one{
-background-color:#b0b4b5;
-color: #e2ac00;
-position: fixed;
-top: 10px;
-left: 10px;
+.one {
+  grid-column: 1 / 3;
+  grid-row: 1;
 }
-.grid_HOLD{
-display: inline-grid;
-grid-template-columns:auto auto auto;
-background-color: #3456F1;
-padding 10px;
+.two { 
+  grid-column: 2 / 4;
+  grid-row: 1 / 3;
 }
-
+.three {
+  grid-column: 1;
+  grid-row: 2 / 5;
+}
+.four {
+  grid-column: 3;
+  grid-row: 3;
+}
+.five {
+  grid-column: 2;
+  grid-row: 4;
+}
+.six {
+  grid-column: 3;
+  grid-row: 4;
+}
