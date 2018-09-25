@@ -1,13 +1,11 @@
- .wrapper {
-	display: grid;
-	grid-template-columns: 40px 50px auto 50px 40px;
-	grid-template-rows: 25% 100px auto;
-}
-.logo{
-	grid-column-start: 3;
-	grid-column-end: 4;
-	grid-row-start: 1;
-	grid-row-end: 2;
+.box{
+	height: 100px;
+	width: 25%;
+	border: solid black 1px;
+	margin 2 2;
+	padding 10 10;
+	text-align: center;
+	line-height: 100px;
 }
  #one{
  background-color:#666666;
@@ -15,5 +13,5 @@
  top 10px;
  left 10px;
 
- }
+}
 
