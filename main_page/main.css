@@ -9,4 +9,11 @@
 	grid-row-start: 1;
 	grid-row-end: 2;
 }
+ #one{
+ background-color:#666666;
+ position: fixed;
+ top 10px;
+ left 10px;
+
+ }
 
