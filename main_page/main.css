@@ -1,0 +1,12 @@
+ .wrapper {
+	display: grid;
+	grid-template-columns: 40px 50px auto 50px 40px;
+	grid-template-rows: 25% 100px auto;
+}
+.logo{
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
