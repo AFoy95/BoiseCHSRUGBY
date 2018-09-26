@@ -24,7 +24,7 @@ h1 {
 }
 
 th {
-  background: #AAA;
+  background: #ffd700;
 }
 
 table, th, td {
@@ -36,7 +36,7 @@ table, th, td {
 #navigation ul {
 list-style:none;
 display:block;
-margin: 1 28%;
+margin: 1 50%;
 padding: 15 15;
 }
 
