@@ -25,16 +25,3 @@ table, th, td {
     margin: 10 10;
 }
 
-ul {
-  list-style:none;
-}
-
-li {
-  display:inline;
-  margin-left: 5px;
-  border: 1px black solid;
-  border-bottom: none;
-  padding: 3 7;
-  padding-bottom: 1px;
-  background-color: #F0F8FF;
-}
