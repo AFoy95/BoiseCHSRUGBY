@@ -24,4 +24,11 @@ table, th, td {
     padding: 10 10;
     margin: 10 10;
 }
+ul{
+	display:block;
+	margin-left:40px;
+}
+> li{
+	display:inline;
 
+}
