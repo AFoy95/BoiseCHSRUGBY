@@ -79,8 +79,11 @@ color: #ffd700;
 #navigation #admin a{
 background:#444;
 color: #ffd700;
+}
+#admin{
 position: absolute;
-top 8px;
-right: 16px;
+top 15%;
+right: 45px;
 font-size: 16px;
 }
+
