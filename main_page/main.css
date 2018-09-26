@@ -74,7 +74,6 @@ color: #ffd700;
 }
 .container{
  display: grid;
- grid-columns:50px;
+ grid-template-columns:50px 50px auto 50px;
  grid-border:1px solid #ffd700;
-
 }
