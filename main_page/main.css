@@ -37,7 +37,10 @@ padding: 20 20;
 }
 
 #navigation li {
+list-style:none;
 display: inline;
+margin 4 4;
+padding 20 20;
 }
 
 #navigation a {
