@@ -1,5 +1,4 @@
 #navigation ul {
-list-style: none;
 margin: 2 2;
 padding: 10 10;
 }
@@ -9,7 +8,8 @@ display: inline;
 }
 
 #navigation a {
-color: #666;
+
+color: #ffd700;
 font-weight: bold;
 padding: 5px 10px;
 text-decoration: none;
