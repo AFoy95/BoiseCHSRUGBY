@@ -20,6 +20,7 @@ h1 {
   margin-left:auto;
   margin-right:auto;
   width: 20%;
+  float:center;
 
 }
 
@@ -57,22 +58,27 @@ color: #ffff00;
 }
 
 #navigation #currentpage a {
-background: #000;
+background: #444;
 color: #ffd700;
 }
 #navigation #page_1 a{
-background: #000;
+background: #444;
 color: #ffd700;
 }
 #navigation #page_2 a{
-background: #000;
+background: #444;
 color: #ffd700;
 }
 #navigation #page_3 a{
-background: #000;
+background: #444;
 color: #ffd700;
 }
 #navigation #page_4 a{
-background: #000;
+background: #444;
 color: #ffd700;
+}
+#navigation #admin a{
+background:#444;
+color: #ffd700;
+float: right;
 }
