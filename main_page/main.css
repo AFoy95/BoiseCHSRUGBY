@@ -72,3 +72,9 @@ color: #ffd700;
 background: #000;
 color: #ffd700;
 }
+.container{
+ display: grid;
+ grid-columns:50px;
+ grid-border:1px solid #ffd700;
+
+}
