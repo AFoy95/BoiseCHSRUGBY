@@ -1,5 +1,9 @@
 body {
   background-color: #666666;
+  padding: 10px 20px;
+  border: solid 1px #ffd700;
+  line-height: 15px;
+  margin:0px 40px;
 }
 
 #header {
@@ -71,9 +75,4 @@ color: #ffd700;
 #navigation #page_4 a{
 background: #000;
 color: #ffd700;
-}
-.container{
- display: grid;
- grid-template-columns:50px 50px auto 50px;
- grid-border:1px solid #ffd700;
 }
