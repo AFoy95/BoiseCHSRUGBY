@@ -6,7 +6,7 @@ body {
   background: #ffd700;
 }
 
-h1 > img {
+img {
   height: 100px;
 }
 
