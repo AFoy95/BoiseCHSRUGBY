@@ -24,11 +24,44 @@ table, th, td {
     padding: 10 10;
     margin: 10 10;
 }
-ul{
-	display:block;
-	margin-left:40px;
+div#navigation ul {
+display:block;
+margin: 2 2;
+padding: 10 10;
 }
-> li{
-	display:inline;
 
+#navigation li {
+display: inline;
+}
+
+#navigation a {
+display: inline;
+color: #ffd700;
+font-weight: bold;
+padding: 5px 10px;
+text-decoration: none;
+}
+#navigation a:hover {
+color: #666666;
+}
+
+#navigation #currentpage a {
+background: #666666;
+color: #ffd700;
+}
+#navigation #page_1 a{
+background: #666666;
+color: #ffd700;
+}
+#navigation #page_2 a{
+background: #666666;
+color: #ffd700;
+}
+#navigation #page_3 a{
+background: #666666;
+color: #ffd700;
+}
+#navigation #page_4 a{
+background: #666666;
+color: #ffd700;
 }
