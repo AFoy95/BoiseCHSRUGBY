@@ -1,6 +1,4 @@
 body {
-  padding: 10px 20px;
-  border: solid 1px #ffd700;
   line-height: 15px;
   margin:0px 40px;
   background-image:linear-gradient(to right top,rgba(120,120,120,0.8),rgba(128,128,128,0.95)),url('/main_page/cover_photo.PNG');
@@ -89,4 +87,7 @@ position: absolute;
 right: 45px;
 font-size: 16px;
 }
+#navigation ul #currentpage a table tbody tr td:hover{
+	background-color:#ffff00;
 
+}
