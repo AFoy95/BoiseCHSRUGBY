@@ -12,6 +12,8 @@ body {
 
 img {
   height: 100px;
+  background:#ffd700;
+  border:1px solid #666;
 }
 
 h1 {
