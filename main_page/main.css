@@ -1,10 +1,10 @@
 body {
-  background: rgba(128,128,128,0.5) ;
   padding: 10px 20px;
   border: solid 1px #ffd700;
   line-height: 15px;
   margin:0px 40px;
   background-image: url('/main_page/Background_image1.jpg');
+  background-image-color: rgba(128,128,128,0.5);
 }
 
 #header {
