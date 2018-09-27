@@ -40,6 +40,11 @@ table, th, td {
     border-collapse: collapse;
     padding: 10 10;
 }
+#navigation {
+text-align:center;
+background-attachment: scroll;
+
+} 
 #navigation ul {
 list-style:none;
 display:block;
