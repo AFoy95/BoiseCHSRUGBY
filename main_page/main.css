@@ -3,7 +3,7 @@ body {
   border: solid 1px #ffd700;
   line-height: 15px;
   margin:0px 40px;
-  linear-gradient(rgba(128,128,128,0.5),rgba(128,128,128,0.75)) url('main_page/Background_image1.jpg'); 
+  background-image:linear-gradient(rgba(128,128,128,0.5),rgba(128,128,128,0.75)) url('main_page/Background_image1.jpg'); 
   background:center no-repeat;
   background-size:cover;
 }
