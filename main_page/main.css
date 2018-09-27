@@ -11,13 +11,15 @@ body {
 }
 
 #header {
-  background: #ffd700;
+  background: linear-gradient(to right,rgba(230,195,0,0.5),rgba(255,232,102,1));
+
 }
 
 img {
   height: 100px;
   color:#ff7d00;
   border:1px solid #666;
+  position: relative;
 }
 
 h1 {
