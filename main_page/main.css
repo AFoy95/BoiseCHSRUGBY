@@ -4,6 +4,7 @@ body {
   border: solid 1px #ffd700;
   line-height: 15px;
   margin:0px 40px;
+	opacity:0.4;
 }
 
 #header {
