@@ -3,8 +3,11 @@ body {
   border: solid 1px #ffd700;
   line-height: 15px;
   margin:0px 40px;
-  background:linear-gradient(rgba(128,128,128,0.5),rgba(128,128,128,0.75)) url('main_page/Background_image1.jpg') center no-repeat;
+  background-image:linear-gradient(to right,rgba(128,128,128,0.2),rgba(128,128,128,0.75)) url('main_page/Background_image1.jpg');
   background-size:cover;
+  background-position: center;
+  background-repeat:no-repeat;
+
 }
 
 #header {
