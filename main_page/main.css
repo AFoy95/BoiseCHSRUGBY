@@ -48,8 +48,9 @@ background-attachment: scroll;
 #navigation ul {
 list-style:none;
 display:block;
-margin: 1 28%;
+margin: auto auto;
 padding: 15 15;
+width 25%;
 }
 
 #navigation li {
