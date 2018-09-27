@@ -51,11 +51,9 @@ border: 1px solid black;
 color: black;
 font-weight: bold;
 padding: 5px 10px;
-text-decoration: none;
 }
 #navigation a:hover {
 color: #ffff00;
-background:#AAA;
 text-decoration:underline;
 }
 
