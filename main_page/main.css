@@ -4,7 +4,7 @@ body {
   border: solid 1px #ffd700;
   line-height: 15px;
   margin:0px 40px;
-  background-image: ('/main_page/Background_image1.jpg');
+  background-image: url('/main_page/Background_image1.jpg');
 }
 
 #header {
