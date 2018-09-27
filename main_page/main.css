@@ -25,14 +25,14 @@ h1 {
    display: block;
   margin-left:auto;
   margin-right:auto;
-  width: 20%;
-  float:center;
+  text-align:center;
 
 }
 
 table, th {
   background: #ffd700;
   background-attachment:scroll;
+  text-align:center;
 }
 
 table, th, td {
@@ -67,24 +67,24 @@ text-decoration:underline;
 background: #ffd700;
 }
 #navigation #page_1 a{
-background: #ffd7;
+background: #ffff00;
 }
 #navigation #page_2 a{
-background: #ffd7;
+background: #ffff00;
 }
 #navigation #page_3 a{
-background: #ffd7;
+background: #ffff00;
 }
 #navigation #page_4 a{
-background: #ffd7;
+background: #ffff00;
 }
 #navigation #admin a{
-background:#444;
-color:#ffd7;
+color:#ffff00;
 }
 #admin{
-position: absolute;
-right: 45px;
+position:absolute;
+right:45px;
+top:20%;
 font-size: 16px;
 }
 #navigation ul #currentpage a table tbody tr td:hover{
