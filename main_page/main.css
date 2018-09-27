@@ -35,7 +35,6 @@ table, th, td {
     margin: 10 10;
 }
 #navigation ul {
-background:#AAA;
 list-style:none;
 display:block;
 margin: 1 28%;
@@ -56,32 +55,27 @@ text-decoration: none;
 }
 #navigation a:hover {
 color: #ffff00;
+background:#AAA;
 text-decoration:underline;
 }
 
 #navigation #currentpage a {
-background: #444;
-color: #ffd700;
+background: #666;
 }
 #navigation #page_1 a{
-background: #444;
-color: #ffd700;
+background: #666;
 }
 #navigation #page_2 a{
-background: #444;
-color: #ffd700;
+background: #666;
 }
 #navigation #page_3 a{
-background: #444;
-color: #ffd700;
+background: #666;
 }
 #navigation #page_4 a{
-background: #444;
-color: #ffd700;
+background: #666;
 }
 #navigation #admin a{
 background:#444;
-color: #ffd700;
 }
 #admin{
 position: absolute;
