@@ -1,6 +1,5 @@
 body {
   line-height: 15px;
-  margin:0px 40px;
   background-image:linear-gradient(to right top,rgba(120,120,120,0.8),rgba(128,128,128,0.95)),url('/main_page/cover_photo.PNG');
   background-size:cover;
   background-position: center;
@@ -10,13 +9,14 @@ body {
 
 #header {
   background: linear-gradient(to right,rgba(230,195,0,0.5),rgba(255,232,102,1));
+  background-attachment:scroll;
 
 }
 
 img {
-  height: 100px;
+  height: 150px;
   color:#ff7d00;
-  border:1px solid #666;
+  border:2px solid #666;
   position: relative;
 }
 
@@ -32,13 +32,13 @@ h1 {
 
 table, th {
   background: #ffd700;
+  background-attachment:scroll;
 }
 
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 10 10;
-    margin: 10 10;
 }
 #navigation ul {
 list-style:none;
