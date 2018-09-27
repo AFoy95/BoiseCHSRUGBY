@@ -48,7 +48,7 @@ border: 1px solid black;
 }
 
 #navigation a {
-color: #ffd700;
+color: black;
 font-weight: bold;
 padding: 5px 10px;
 text-decoration: none;
@@ -60,26 +60,26 @@ text-decoration:underline;
 }
 
 #navigation #currentpage a {
-background: #666;
+background: #ffd700;
 }
 #navigation #page_1 a{
-background: #666;
+background: #ffd7;
 }
 #navigation #page_2 a{
-background: #666;
+background: #ffd7;
 }
 #navigation #page_3 a{
-background: #666;
+background: #ffd7;
 }
 #navigation #page_4 a{
-background: #666;
+background: #ffd7;
 }
 #navigation #admin a{
 background:#444;
+color:#ffd7;
 }
 #admin{
 position: absolute;
-top 15%;
 right: 45px;
 font-size: 16px;
 }
