@@ -3,7 +3,7 @@ body {
   border: solid 1px #ffd700;
   line-height: 15px;
   margin:0px 40px;
-  background-color: rgba(128,128,128,0.5);
+  background: rgba(128,128,128,0.5) url('main_page/Background_image1.jpg') center no-repeat;
 }
 
 #header {
@@ -83,7 +83,5 @@ position: absolute;
 right: 45px;
 font-size: 16px;
 }
-p{
-background-image: url('/main_page/Background_image1.jpg');
-}
+
 
