@@ -1,9 +1,7 @@
 body {
-  background-color: #666666;
-  padding: 10px 20px;
+  background-color: #777;
   border: solid 1px #ffd700;
   line-height: 15px;
-  margin:0px 40px;
 }
 
 #header {
@@ -15,12 +13,8 @@ img {
 }
 
 h1 {
-  font-size: 70px;
-   display: block;
-  margin-left:auto;
-  margin-right:auto;
-  width: 20%;
-  float:center;
+  background:#ffd700;
+  padding: 10 10;
 
 }
 
