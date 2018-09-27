@@ -3,7 +3,7 @@ body {
   border: solid 1px #ffd700;
   line-height: 15px;
   margin:0px 40px;
-  background: rgba(128,128,128,0.5) url('main_page/Background_image1.jpg') center no-repeat;
+  background: rgba(128,128,128,0.5) url('/main_page/Background_image1.jpg') center no-repeat;
 }
 
 #header {
