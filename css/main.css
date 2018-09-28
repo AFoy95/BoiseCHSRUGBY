@@ -1,0 +1,94 @@
+body {
+  line-height: 15px;
+  background-image:linear-gradient(to right top,rgba(120,120,120,0.8),rgba(128,128,128,0.95)),url('/main_page/cover_photo.PNG');
+  background-size:cover;
+  background-position: center;
+  background-repeat:no-repeat;
+
+}
+
+#header {
+  background: linear-gradient(to right,rgba(230,195,0,0.5),rgba(255,232,102,1));
+  background-attachment:scroll;
+
+}
+
+img {
+  height: 150px;
+  color:#ff7d00;
+  border:2px solid #666;
+  position: relative;
+}
+
+h1 {
+  font-size: 70px;
+   display: block;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+
+}
+
+table, th {
+  background: #ffd700;
+  background-attachment:scroll;
+  text-align:center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10 10;
+}
+#navigation {
+text-align:center;
+background-attachment: scroll;
+
+} 
+#navigation ul {
+list-style:none;
+display:block;
+margin: auto auto;
+padding: 15 15;
+width: 25%;
+}
+
+#navigation li {
+list-style:none;
+display: inline-block;
+border: 1px solid black;
+}
+
+#navigation a {
+color: black;
+font-weight: bold;
+padding: 5px 10px;
+}
+#navigation a:hover {
+color: #ffff00;
+text-decoration:underline;
+}
+
+#navigation #page_1 a{
+background: #ffff00;
+}
+#navigation #page_2 a{
+background: #ffff00;
+}
+#navigation #page_3 a{
+background: #ffff00;
+}
+#navigation #page_4 a{
+background: #ffff00;
+}
+#navigation #admin a{
+color:#ffff00;
+}
+#admin{
+position:absolute;
+right:45px;
+top:20%;
+font-size: 16px;
+background: #ffd700;
+border: solid 1px black;
+}
