@@ -21,9 +21,11 @@ h1 {
 
 }
 
-table, th {
+table {
   background: #ffd700;
-  text-align:center;
+  width:50%;
+  margin-left:auto;
+  margin-right: auto;
 }
 
 table, th, td {
