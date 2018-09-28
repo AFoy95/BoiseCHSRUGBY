@@ -3,11 +3,6 @@ body {
   line-height: 15px;
   text-align:center;
 }
-
-#header {
-  background: linear-gradient(to right,rgba(255,230,0,0.5),rgba(255,215,0,0.9));
-}
-
 img {
   height: 100px;
 }
@@ -16,8 +11,9 @@ h1 {
   font-size: 70px;
    display: block;
   padding: 20 20;
-  background: #ffd700;
   text-align:center;
+  background-image: linear-gradient(to right,rgba(255,230,0,0.5),rgba(255,215,0,0.9));
+
 
 }
 
