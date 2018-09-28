@@ -1,6 +1,8 @@
 body {
-  background-color: #777;
-  border: solid 1px #ffd700;
+  background-image: linear-gradient(to right,rgba(150,150,150,.05),rgba(128,128,128,0.9)),url("page_1/background_image2.jpg");
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
   line-height: 15px;
 }
 
@@ -10,6 +12,7 @@ body {
 
 img {
   height: 100px;
+  text-align:center;
 }
 
 h1 {
