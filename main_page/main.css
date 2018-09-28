@@ -89,4 +89,6 @@ position:absolute;
 right:45px;
 top:20%;
 font-size: 16px;
+background: #ffd7;
+border: solid 1px black;
 }
