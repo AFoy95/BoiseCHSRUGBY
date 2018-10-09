@@ -2,7 +2,6 @@ body {
   line-height: 15px;
 }
 #background{
-filter:contrast(2);
 background-image:linear-gradient(to right top,rgba(120,120,120,0.8),rgba(128,128,128,0.95)),url('/photos/cover_photo.PNG');
   background-size:cover;
   background-position: center;
@@ -11,7 +10,6 @@ background-image:linear-gradient(to right top,rgba(120,120,120,0.8),rgba(128,128
 #header {
   background: linear-gradient(to right,rgba(230,195,0,0.5),rgba(255,232,102,1));
   background-attachment:scroll;
-
 }
 
 img {
@@ -87,8 +85,8 @@ color:#ffff00;
 }
 #admin{
 position:absolute;
-right:45px;
-top:20%;
+right:16px;
+top:8px;
 font-size: 16px;
 background: #ffd700;
 border: solid 1px black;
