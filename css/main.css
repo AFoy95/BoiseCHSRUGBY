@@ -1,11 +1,13 @@
 body {
   line-height: 15px;
+}
+body.background{
   background-image:linear-gradient(to right top,rgba(120,120,120,0.8),rgba(128,128,128,0.95)),url('/photos/cover_photo.PNG');
   background-size:cover;
   background-position: center;
   background-repeat:no-repeat;
-
 }
+
 
 #header {
   background: linear-gradient(to right,rgba(230,195,0,0.5),rgba(255,232,102,1));
