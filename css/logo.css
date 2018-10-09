@@ -1,2 +1,7 @@
-;;;
+img {
+  height: 150px;
+  color:#ff7d00;
+  border:2px solid #666;
+  position: relative;
+}
 
