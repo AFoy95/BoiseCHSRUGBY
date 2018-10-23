@@ -109,3 +109,5 @@
                 return reset($query->fetchAll());
 	}
 }
+
+?>
