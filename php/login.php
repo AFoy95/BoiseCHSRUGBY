@@ -3,7 +3,7 @@ session_start();
 $message = isset($_SESSION['message']) ? $_SESSION['message'] : '';
 unset($_SESSION['message']);
 if(isset($_SESSION["access_granted"]) && $_SESSION["access_granted"]){
-	header("../html/admin.html");
+	header("html/admin.html");
 }
 $username="";
 $password="";
