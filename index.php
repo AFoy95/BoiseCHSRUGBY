@@ -1,2 +1,7 @@
-<?php require_once("html/main_page.html"); ?>
+<?php require_once("html/main_page.html");
+
+	
+
+
+?>
 
