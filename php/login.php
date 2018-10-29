@@ -9,7 +9,7 @@
   <body>
 <h1>Login page</h1>
 <div class="message"></div>
-<form action="/php/login_handler.php" method="POST">
+<form action="login_handler.php" method="POST">
 			username:<br>
 			<input type="text" name="username" id="username" value=""/><br>
 			password:<br>
