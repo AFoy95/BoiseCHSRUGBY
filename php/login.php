@@ -1,6 +1,5 @@
 <?php
-session_start();
-require_once "login_handler.php";
+require_once("login_handler.php");
 $username="";
 $password="";
 ?>
