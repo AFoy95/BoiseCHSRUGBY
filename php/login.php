@@ -1,5 +1,4 @@
 <?php
-	require 'login_handler.php';
 ?>
 
 <html>
