@@ -1,5 +1,5 @@
 <?php
-	require "/php/login_handler.php";
+	require 'login_handler.php';
 ?>
 
 <html>
