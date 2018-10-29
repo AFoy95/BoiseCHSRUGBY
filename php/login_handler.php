@@ -1,5 +1,4 @@
 <?php
-	session_start();
   if ($login == 'Foy' && $password == 'CHEMAN5') {
     header('/html/admin.html');
     exit;
