@@ -1,4 +1,4 @@
 <?php
- header("/admin/admin.html");  
+ echo "login_handler<br>"; 
 ?>
 	
