@@ -1,5 +1,5 @@
 <?php
-    header("/html/admin.html");
+   
   ?>
 ~
 ~
