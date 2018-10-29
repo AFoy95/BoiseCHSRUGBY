@@ -1,4 +1,5 @@
 <?php
+include_once("/php/login_handler.php");
 ?>
 
 <html>
