@@ -1,17 +1,8 @@
 <?php
 require_once 'login_handler.php';
 session_start();
-$message = isset($_SESSION['message']) ? $_SESSION['message'] : '';
-unset($_SESSION['message']);
-if(isset($_SESSION["access_granted"]) && $_SESSION["access_granted"]){
-	header("html/admin.html");
-}
 $username="";
 $password="";
-if(isset($_SESSION["user_preset"])&& isset($_SESSION["pass_preset"]){
-	$username=$_SESSION["user_preset"];
-	$password=$_SESSION["pass_preset"];
-}
 ?>
 
 <html>
