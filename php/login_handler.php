@@ -1,7 +1,8 @@
 <?php
  require 'Dao.php';
  session_start();
- echo "hello";
+ $dao=new Dao();
+ echo "hello all";
  $conn;
 ?>
 	
