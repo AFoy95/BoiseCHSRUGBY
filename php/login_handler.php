@@ -1,8 +1,8 @@
 <?php
+ session_start();
  require('Dao.php');
- start_session();
  $dao=new Dao();
- $dao->getConnection();
+ $conn=$dao->getConnection();
  echo "hello";
  header 'https://www.boisechsrugby.herokuapp.com/admin/admin.html';
  exit;
