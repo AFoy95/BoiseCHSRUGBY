@@ -110,11 +110,13 @@
                 $query->execute();
                 return reset($query->fetchAll());
 	}
-	public function isAdmin($id)
+	public function isAdmin($id){
 		$conn=$this->getConnection();
 		$getQuery="SELECT isadmin FROM admin where id =:id";
 		$query=$conn->prepare($getQuery);
-		$query->bindParam(":id",$id)
+		$query->bindParam(":id",$id);
+		
+	}
 }
 
 ?>
