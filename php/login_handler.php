@@ -1,10 +1,10 @@
 <?php
- include_once '/php/Dao.php';
+ require('Dao.php');
  start_session();
  $dao=new Dao();
  $dao->getConnection();
  echo "hello";
- header 'http://www.boisechsrugby.herokuapp.com/admin/admin.html';
+ header 'https://www.boisechsrugby.herokuapp.com/admin/admin.html';
  exit;
  
 ?>
