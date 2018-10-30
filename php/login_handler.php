@@ -4,7 +4,7 @@
  $dao=new Dao();
  $dao->getConnection();
  echo "hello";
- header '/admin/admin.html';
+ header 'http://www.boisechsrugby.herokuapp.com/admin/admin.html';
  exit;
  
 ?>
