@@ -4,7 +4,8 @@
 		private $db = "heroku_8d53fe00435ac54";
 		private $user = "bf8c0a51dea646";
 		private $pass = "0ae6984e";
-	public function getConnection(){
+		
+		public function getConnection(){
 		$conn=new PDO("mysql:host={$this->host};dbname={$this->db}",$this->user,$this->pass);
 		return $conn;
 	}
