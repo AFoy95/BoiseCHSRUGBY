@@ -13,13 +13,13 @@
 	public function setAdmin($id,$username,$password){
 		$conn = $this->getConnection();
 		$saveQuery= "INSERT INTO admin
-			(id,username,'password')
+			(id,username,passphrase)
 			VALUES
-			(:id,:username,:password)";
+			(:id,:username,:passphrase)";
 		$query=$conn->prepare($saveQuery);
 		$query->bindParam(":id",$id);
 		$query->bindParam(":username",$username);
-		$query->bindParam(":password",$password);
+		$query->bindParam(":passphrase",$password);
 		$query->execute();				
 	}
 
@@ -87,7 +87,7 @@
 	
 	public function get_admin($id){
 		$conn=$this->getConnection();
-		$getQuery = "SELECT id,username,'password' FROM admin WHERE id = :id";
+		$getQuery = "SELECT id,username,passphrase FROM admin WHERE id = :id";
 		$query=$conn->prepare($getQuery);
 		$query->bindParam(":id",$id);
 		$query->execute();
@@ -104,7 +104,7 @@
 	}	
 	public function get_admin_pass($id){
 	$conn=$this->getConnection();
-                $getQuery="SELECT 'password' FROM admin WHERE id =:id";
+                $getQuery="SELECT passphrase FROM admin WHERE id =:id";
                 $query=$conn->prepare($getQuery);
                 $query->bindParam(":id",$id);
                 $query->execute();
