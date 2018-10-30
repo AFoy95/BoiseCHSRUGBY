@@ -7,7 +7,7 @@
   $id=1;
  $username = $_POST["username"];
  $password = $_POST["password"];
-	if($username == $dao->get_admin_user($id) && $dao->get_admin_pass($id)){
+	if($username == $dao->get_admin_user($id) && $password == $dao->get_admin_pass($id)){
 		header('Location: https://boisechsrugby.herokuapp.com/admin_page/admin.html');
 		exit;
 	}
