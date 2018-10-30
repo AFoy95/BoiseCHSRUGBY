@@ -1,6 +1,6 @@
 <?php
  session_start();
- require('Dao.php');
+ require 'Dao.php';
  $dao=new Dao();
  $conn=$dao->getConnection();
  echo "hello";
