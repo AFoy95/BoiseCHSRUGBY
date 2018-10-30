@@ -12,11 +12,11 @@ unset($_SESSION['message']);
   <body>
 <h1>Login page</h1>
 <div class="message"></div>
-<form action="login_handler.php" method="POST">
+<form action="login_handler.php" method="post">
 			username:<br>
-			<input type="text" name="username" id="username" value=""/><br>
+			<input type="text" name="username" id="username"/><br>
 			password:<br>
-			<input type="password" name="password" value=""/>
+			<input type="password" name="password"/></br>
 	<div>
       <input type="submit" name="submit" id="login" value="Login"/>
 	</div>
