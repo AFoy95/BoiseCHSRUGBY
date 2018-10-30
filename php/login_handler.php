@@ -1,4 +1,4 @@
 <?php
- echo "login_handler<br>"; 
+ $dao=new Dao();
 ?>
 	
