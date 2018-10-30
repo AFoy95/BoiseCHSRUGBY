@@ -100,15 +100,15 @@
 		$query=$conn->prepare($getQuery);
 		$query->bindParam(":id",$id);
 		$query->execute();
-		return reset($query->fetchAll());
+		return $query->fetchAll();
 	}	
 	public function get_admin_pass($id){
 	$conn=$this->getConnection();
-                $getQuery="SELECT passphrase FROM admin WHERE id =:id";
+				$getQuery="SELECT passphrase FROM admin WHERE id =:id";
                 $query=$conn->prepare($getQuery);
-                $query->bindParam(":id",$id);
+				$query->bindParam(":id",$id);
                 $query->execute();
-                return reset($query->fetchAll());
+                return $query->fetchAll();
 	}
 }
 
