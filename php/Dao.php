@@ -5,7 +5,8 @@
 		private $user = "bf8c0a51dea646";
 		private $pass = "0ae6984e";
 	public function getConnection(){
-		new PDO("mysql:host={$this->host};dbname={$this->db}",$this->user,$this->pass);
+		$conn=new PDO("mysql:host={$this->host};dbname={$this->db}",$this->user,$this->pass);
+		return $conn;
 	}
 	
 	public function setAdmin($id,$username,$password){
