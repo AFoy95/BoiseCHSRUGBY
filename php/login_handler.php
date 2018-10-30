@@ -3,6 +3,6 @@
  session_start();
  $dao=new Dao();
  echo "hello all";
- $conn;
+ $conn=$dao->getConnection();
 ?>
 	
