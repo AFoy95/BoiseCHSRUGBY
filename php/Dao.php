@@ -100,7 +100,7 @@
 		$query=$conn->prepare($getQuery);
 		$query->bindParam(":id",$id);
 		$query->execute();
-		return $query->fetchAll();
+		return reset($query->fetchAll());
 	}	
 	public function get_admin_pass($id){
 	$conn=$this->getConnection();
@@ -108,7 +108,7 @@
                 $query=$conn->prepare($getQuery);
 				$query->bindParam(":id",$id);
                 $query->execute();
-                return $query->fetchAll();
+                return reset($query->fetchAll());
 	}
 }
 
