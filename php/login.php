@@ -14,9 +14,9 @@ unset($_SESSION['message']);
 <div class="message"></div>
 <form action="login_handler.php" method="post">
 			username:<br>
-			<input type="text" name="username" id="username"/><br>
+			<input type="text" name="username" id="username" value=""/><br>
 			password:<br>
-			<input type="password" name="password"/></br>
+			<input type="password" name="password" value="" /></br>
 	<div>
       <input type="submit" name="submit" id="login" value="Login"/>
 	</div>

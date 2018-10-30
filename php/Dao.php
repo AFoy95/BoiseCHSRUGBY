@@ -87,7 +87,7 @@
 	
 	public function get_admin($id){
 		$conn=$this->getConnection();
-		$getQuery="Select id,username,password WHERE id = :id";
+		$getQuery = "SELECT id,username,password FROM admin WHERE id = :id";
 		$query=$conn->prepare($getQuery);
 		$query->bindParam(":id",$id);
 		$query->execute();
@@ -96,7 +96,7 @@
 	}
 	public function get_admin_user($id){
 		$conn=$this->getConnection();
-		$getQuery="SELECT username FROM admin WHERE id =:id";
+		$getQuery = "SELECT username FROM admin WHERE id =:id";
 		$query=$conn->prepare($getQuery);
 		$query->bindParam(":id",$id);
 		$query->execute();
