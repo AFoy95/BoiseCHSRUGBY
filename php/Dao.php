@@ -95,19 +95,19 @@
 		return reset($query->fetchAll());
 
 	}
-	public function get_admin_user($id){
+	public function get_admin_user($username){
 		$conn=$this->getConnection();
-		$getQuery = "SELECT username FROM admin WHERE id = :id";
+		$getQuery = "SELECT id FROM admin WHERE username = :username";
 		$query=$conn->prepare($getQuery);
-		$query->bindParam(":id",$id);
+		$query->bindParam(":username",$username);
 		$query->execute();
 		return reset($query->fetchAll());
 	}	
-	public function get_admin_pass($id){
+	public function get_admin_pass($password){
 	$conn=$this->getConnection();
-				$getQuery="SELECT passphrase FROM admin WHERE id = :id";
+				$getQuery="SELECT id FROM admin WHERE passphrase = :passphrase";
                 $query=$conn->prepare($getQuery);
-				$query->bindParam(":id",$id);
+				$query->bindParam(":passphrase",$password);
                 $query->execute();
                 return reset($query->fetchAll());
 	}
