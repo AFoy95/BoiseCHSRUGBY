@@ -1,5 +1,5 @@
 <?php
-include_once("login.php");
+session_start();
 ?>
 
 
@@ -15,7 +15,7 @@ include_once("login.php");
                 <p>
                         <div id="header">
                                 <h1>CHS<img src="/photos/logo.PNG"/>RUGBY</h1>
-                                <a href="/php/login.php"id="admin">Admin Login</a>
+                                <a href="login.php"id="admin">Admin Login</a>
                         </div>
                                 <div>
                                         <div id="navigation">
@@ -23,8 +23,8 @@ include_once("login.php");
                                 <table>
                                 <li><tr><td><a href="/html/About_Us.html" id="page_1">About-Us</a></td>
                                         <td><a href="/html/Personal_Bios.html"id="page_2">Personal-Bios</a></td>
-                                        <td><a href="Schedules.php" id="page_3">Schedule</a></td>
-                                        <td><a href="Tables.php" id="page_4">Tables</a></td></li></tr></ul>
+                                        <td><a href="/Schedules.php" id="page_3">Schedule</a></td>
+                                        <td><a href="/Tables.php" id="page_4">Tables</a></td></li></tr></ul>
                                 </table>
                          </div>
                                 <div>
