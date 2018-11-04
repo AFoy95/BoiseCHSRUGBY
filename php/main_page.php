@@ -1,5 +1,5 @@
 <?php
-include_once("/php/login.php");
+include_once("login.php");
 ?>
 
 
@@ -23,8 +23,8 @@ include_once("/php/login.php");
                                 <table>
                                 <li><tr><td><a href="/html/About_Us.html" id="page_1">About-Us</a></td>
                                         <td><a href="/html/Personal_Bios.html"id="page_2">Personal-Bios</a></td>
-                                        <td><a href="/php/Schedules.php" id="page_3">Schedule</a></td>
-                                        <td><a href="/php/Tables.php" id="page_4">Tables</a></td></li></tr></ul>
+                                        <td><a href="Schedules.php" id="page_3">Schedule</a></td>
+                                        <td><a href="Tables.php" id="page_4">Tables</a></td></li></tr></ul>
                                 </table>
                          </div>
                                 <div>
