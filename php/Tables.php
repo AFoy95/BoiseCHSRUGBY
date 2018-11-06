@@ -29,15 +29,19 @@
 					$their_name;
 					$dates;
 					echo "<div>Insert Boys Stats </div>";
-					 echo"<br>Our Score:	<input type=text name=our_score id=our_score/></br>";
-					 echo"<br> Their Score:	<input type=text name=their_score id=their_score/></br>";
-					 echo"<br> Penalties:	<input type=text name=penalties id=penalties/> </br>";
-					 echo"<br> Conversion Made:	<input type=text name=convmade id=convmade/></br>";
-					 echo"<br> Conversion Attempts:	<input type=text name=convatt id=convatt/></br>";
-					 echo"<br> Our Team:	<input type=text name=our_name id=our_name/></br>";
-					 echo"<br> Their Team:	<input type=text name=their_name id=their_name/></br>";
-					 echo"<br> date:	<input type=text name=dates id=dates/></br>";
-					echo" <br><input type=submit value=Submit /></br>";
+					 echo"
+						  <form action = Tables.php method=post>
+						  <br>Our Score:	<input type=text name=our_score id=our_score/></br>
+						  <br> Their Score:	<input type=text name=their_score id=their_score/></br>
+						  <br> Penalties:	<input type=text name=penalties id=penalties/> </br>
+						  <br> Conversion Made:	<input type=text name=convmade id=convmade/></br>
+						  <br> Conversion Attempts:	<input type=text name=convatt id=convatt/></br>
+						  <br> Our Team:	<input type=text name=our_name id=our_name/></br>
+						  <br> Their Team:	<input type=text name=their_name id=their_name/></br>
+						  <br> date:	<input type=text name=dates id=dates/></br>
+						  <br><input type=submit value=Submit /></br></form>";
+						  
+						  
 						$our_score=$_POST['our_score'];
 						$their_score=$_POST['their_score'];
 						$penalties=$_POST['penalties'];
