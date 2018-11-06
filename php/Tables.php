@@ -19,7 +19,7 @@
 
 	  </table>
 				<?php if($_SESSION['logged_in']){
-					echo 'Success';
+					echo "<div>Insert Boys Score <\div>";
 				}?>
 		
   	
