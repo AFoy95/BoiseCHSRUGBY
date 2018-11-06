@@ -18,7 +18,10 @@
 					<td>12</td><td>0</td><td>4</td></tr>
 
 	  </table>
+				
 				<?php if($_SESSION['logged_in']){
+					include'Dao.php';
+					$dao=new Dao();
 					$our_score;
 					$their_score;
 					$penalties;
@@ -28,15 +31,15 @@
 					$their_name;
 					$dates;
 					echo "<div>Insert Boys Stats </div>";
-					 echo "Our Score: <input type=text value=our_score/>";
-					 echo "Their Score: <input type=text value=their_score/>";
-					 echo "Penalties: <input type=text value=penalties/>";
-					 echo "Conversion Made: <input type=text value=convmade/>";
-					 echo "Conversion Attempts: <input type=text value=convatt/>";
-					 echo "Our Team: <input type=text value=our_name/>";
-					 echo "Their Team: <input type=text value=their_name/>";
-					 echo "date: <input type=text value=dates/>";
-					//dao->boys_Stats($our_score,$their_score,$penalties,$convmade,$convatt,$our_name,$their_name,$dates);
+					 echo "Our Score: <input type=text value=$our_score/>";
+					 echo "Their Score: <input type=text value=$their_score/>";
+					 echo "Penalties: <input type=text value=$penalties/>";
+					 echo "Conversion Made: <input type=text value=$convmade/>";
+					 echo "Conversion Attempts: <input type=text value=$convatt/>";
+					 echo "Our Team: <input type=text value=$our_name/>";
+					 echo "Their Team: <input type=text value=$their_name/>";
+					 echo "date: <input type=text value=$dates/>";
+					dao->boys_Stats($our_score,$their_score,$penalties,$convmade,$convatt,$our_name,$their_name,$dates);
 				}?>
 		
   	
