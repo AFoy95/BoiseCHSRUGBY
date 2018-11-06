@@ -45,14 +45,14 @@
 							<input type=submit value=Submit />
 						</br>
 						";
-						$our_score=$_POST['our_score'];
-						$their_score=$_POST['their_score'];
-						$penalties=$_POST['penalties'];
-						$convmade=$_POST['convmade'];
-						$convatt=$_POST['convatt'];
-						$our_name=$_POST['our_name'];
-						$their_name=$_POST['their_name'];
-						$dates=$_POST['dates'];
+						//$our_score=$_POST['our_score'];
+						//$their_score=$_POST['their_score'];
+						//$penalties=$_POST['penalties'];
+						//$convmade=$_POST['convmade'];
+						//$convatt=$_POST['convatt'];
+						//$our_name=$_POST['our_name'];
+						//$their_name=$_POST['their_name'];
+						//$dates=$_POST['dates'];
 					//dao->boys_Stats($our_score,$their_score,$penalties,$convmade,$convatt,$our_name,$their_name,$dates);
 				}?>
 		
