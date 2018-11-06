@@ -19,7 +19,8 @@
 
 	  </table>
 				<?php if($_SESSION['logged_in']){
-					echo "<div>Insert Boys Score <\div>";
+					echo "<div>Insert Boys Score </div>";
+					 echo "our_score: <input type=text />";
 				}?>
 		
   	
