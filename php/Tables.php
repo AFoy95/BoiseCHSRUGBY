@@ -1,8 +1,10 @@
 <?php
 	include'Dao.php';
 	session_start();
+	$dao=new Dao();
+	$conn=$dao->getConnection();
 ?>
-<!doctype html>
+<html>
   <header><title>Main-Page</title></header>
   <head>
   <link href="/css/tables.css" type="text/css" rel="stylesheet" />
@@ -11,15 +13,12 @@
   <body>
 	  <table>
 		  <h2>Boys Score</h2>
-		  	<tr><td>Dates</td><td>Games</td>
-			  	<td>Eagles Score</td><td>Opp Score</td>
-			  		<td>Penalties</td><td>Conversions made</td>
-			  			<td>Conversion attempts</td></tr>
+		  	<tr><td>Dates</td><td>Games</td><td>Eagles Score</td><td>Opp Score</td><td>Penalties</td><td>Conversions made</td><td>Conversion attempts</td></tr>
 			<tr><td>03/14</td><td>vs Mtn. View</td><td>25</td><td>19</td>
 					<td>12</td><td>0</td><td>4</td></tr>
 
 	  </table>
-  
+		
   
   	
   

@@ -26,13 +26,13 @@
 
 
 
-	public function boys_Stats($our_score,$their_score,$penalties,$convmade,$convatt,$our_name,$their_name){
+	public function boys_Stats($our_score,$their_score,$penalties,$convmade,$convatt,$our_name,$their_name,$dates){
 			
 		 $conn = $this->getConnection();
                 $saveQuery= "INSERT INTO boys_scores
-                        (our_score,their_score,penalties,convmade,convatt,our_name,their_name)
+                        (our_score,their_score,penalties,convmade,convatt,our_name,their_name,dates)
                         VALUES
-                        (:our_score,:their_score,:penalties,:convmade,:convatt,:our_name,:their_name)";
+                        (:our_score,:their_score,:penalties,:convmade,:convatt,:our_name,:their_name,:dates)";
                 $query=$conn->prepare($saveQuery);
                 $query->bindParam(":our_score",$our_score);
                 $query->bindParam(":their_score",$their_score);
@@ -41,15 +41,16 @@
 		$query->bindParam(":convatt",$convatt);
 		$query->bindParam(":our_name",$our_name);
 		$query->bindParam(":their_name",$their_name);
+		$query->bindParam(":dates",$dates);
 		$query->execute();
 	}
-	public function girls_Stats($our_score,$their_score,$penalties,$convmade,$convatt,$our_name,$their_name){
+	public function girls_Stats($our_score,$their_score,$penalties,$convmade,$convatt,$our_name,$their_name,$dates){
 
                  $conn = $this->getConnection();
                 $saveQuery= "INSERT INTO girls_scores
-                        (our_score,their_score,penalties,convmade,convatt,our_name,their_name)
+                        (our_score,their_score,penalties,convmade,convatt,our_name,their_name,dates)
                         VALUES
-                        (:our_score,:their_score,:penalties,:convmade,:convatt,:our_name,:their_name)";
+                        (:our_score,:their_score,:penalties,:convmade,:convatt,:our_name,:their_name,:dates)";
                 $query=$conn->prepare($saveQuery);
                 $query->bindParam(":our_score",$our_score);
                 $query->bindParam(":their_score",$their_score);
@@ -58,6 +59,7 @@
                 $query->bindParam(":convatt",$convatt);
                 $query->bindParam(":our_name",$our_name);
                 $query->bindParam(":their_name",$their_name);
+				$query->bindParam(":dates",$dates);
                 $query->execute();
 	}
 		
