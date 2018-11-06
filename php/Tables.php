@@ -32,7 +32,6 @@
 					$their_name;
 					$dates;
 					echo "<div>Insert Boys Stats </div>";
-					 
 					 echo" Our Score: <input type=text name=our_score id=our_score/>";
 					 echo" Their Score: <input type=text name=their_score id=their_score/>";
 					 echo" Penalties: <input type=text name=penalties id=penalties/>";
@@ -42,14 +41,14 @@
 					 echo" Their Team: <input type=text name=their_name id=their_name/>";
 					 echo" date: <input type=text name=dates id=dates/>";
 					echo" <br><input type=submit value=Submit /></br>";
-						$our_score=$_POST['our_score'];
-						$their_score=$_POST['their_score'];
-						$penalties=$_POST['penalties'];
-						$convmade=$_POST['convmade'];
-						$convatt=$_POST['convatt'];
-						$our_name=$_POST['our_name'];
-						$their_name=$_POST['their_name'];
-						$dates=$_POST['dates'];
+						//$our_score=$_POST['our_score'];
+						//$their_score=$_POST['their_score'];
+						//$penalties=$_POST['penalties'];
+						//$convmade=$_POST['convmade'];
+						//$convatt=$_POST['convatt'];
+						//$our_name=$_POST['our_name'];
+						//$their_name=$_POST['their_name'];
+						//$dates=$_POST['dates'];
 					//dao->boys_Stats($our_score,$their_score,$penalties,$convmade,$convatt,$our_name,$their_name,$dates);
 				}?>
 		
