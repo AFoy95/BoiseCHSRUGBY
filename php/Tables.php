@@ -43,6 +43,7 @@
 						  
 						  
 						$our_score=$_POST['our_score'];
+						echo $our_score ;
 						$their_score=$_POST['their_score'];
 						$penalties=$_POST['penalties'];
 						$convmade=$_POST['convmade'];
