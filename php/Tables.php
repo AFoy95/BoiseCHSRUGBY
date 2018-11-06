@@ -62,14 +62,14 @@
 					$their_name;
 					$dates;
 					echo "<div>Insert Girls Stats </div>";
-					 echo "Our Score: <input type=text value=$our_score/>";
-					 echo "Their Score: <input type=text value=$their_score/>";
-					 echo "Penalties: <input type=text value=$penalties/>";
-					 echo "Conversion Made: <input type=text value=$convmade/>";
-					 echo "Conversion Attempts: <input type=text value=$convatt/>";
-					 echo "Our Team: <input type=text value=$our_name/>";
-					 echo "Their Team: <input type=text value=$their_name/>";
-					 echo "date: <input type=text value=$dates/>";
+					 echo "Our Score: <input type=text value=our_score/>";
+					 echo "Their Score: <input type=text value=their_score/>";
+					 echo "Penalties: <input type=text value=penalties/>";
+					 echo "Conversion Made: <input type=text value=convmade/>";
+					 echo "Conversion Attempts: <input type=text value=convatt/>";
+					 echo "Our Team: <input type=text value=our_name/>";
+					 echo "Their Team: <input type=text value=their_name/>";
+					 echo "date: <input type=text value=dates/>";
 					 dao->girls_Stats($our_score,$their_score,$penalties,$convmade,$convatt,$our_name,$their_name,$dates);
 				}?>
   
