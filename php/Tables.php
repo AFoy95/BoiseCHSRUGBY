@@ -32,7 +32,7 @@
 					$their_name;
 					$dates;
 					echo "<div>Insert Boys Stats </div>";
-					 echo "<form action=Tables.php method=post> 
+					 echo "<form method=post> 
 					 Our Score: <input type=text name=our_score id=our_score/>
 					 Their Score: <input type=text name=their_score id=their_score/>
 					 Penalties: <input type=text name=penalties id=penalties/>
