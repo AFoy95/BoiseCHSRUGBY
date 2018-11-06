@@ -32,7 +32,7 @@
 					$their_name;
 					$dates;
 					echo "<div>Insert Boys Stats </div>";
-					 echo "<form method=post> 
+					 echo "
 					 Our Score: <input type=text name=our_score id=our_score/>
 					 Their Score: <input type=text name=their_score id=their_score/>
 					 Penalties: <input type=text name=penalties id=penalties/>
@@ -41,7 +41,6 @@
 					 Our Team: <input type=text name=our_name id=our_name/>;
 					  Their Team: <input type=text name=their_name id=their_name/>
 					  date: <input type=text name=dates id=dates/>
-						</form>
 						<br>
 							<input type=submit value=Submit />
 						</br>
