@@ -36,7 +36,7 @@
 					 echo "Our Team: <input type=text value=our_name/>";
 					 echo "Their Team: <input type=text value=their_name/>";
 					 echo "date: <input type=text value=dates/>";
-					 dao->boys_Stats($our_score,$their_score,$penalties,$convmade,$convatt,$our_name,$their_name,$dates);
+					//dao->boys_Stats($our_score,$their_score,$penalties,$convmade,$convatt,$our_name,$their_name,$dates);
 				}?>
 		
   	
@@ -70,7 +70,7 @@
 					 echo "Our Team: <input type=text value=our_name/>";
 					 echo "Their Team: <input type=text value=their_name/>";
 					 echo "date: <input type=text value=dates/>";
-					 dao->girls_Stats($our_score,$their_score,$penalties,$convmade,$convatt,$our_name,$their_name,$dates);
+					 //dao->girls_Stats($our_score,$their_score,$penalties,$convmade,$convatt,$our_name,$their_name,$dates);
 				}?>
   
   
