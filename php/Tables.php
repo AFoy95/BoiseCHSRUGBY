@@ -5,7 +5,7 @@
 	$conn=$dao->getConnection();
 ?>
 <html>
-  <header><title>Main-Page</title></header>
+  <header><title>Scores</title></header>
   <head>
   <link href="/css/tables.css" type="text/css" rel="stylesheet" />
   </head>
@@ -18,8 +18,10 @@
 					<td>12</td><td>0</td><td>4</td></tr>
 
 	  </table>
+				<?php if($_SESSION['logged_in']){
+					echo 'Success';
+				}?>
 		
-  
   	
   
  <table>
