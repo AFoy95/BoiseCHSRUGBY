@@ -6,7 +6,7 @@
  $username = $_POST['username'];
  $password = $_POST['password'];
 	if($dao->get_admin_user($username) && $dao->get_admin_pass($password) || $_SESSION['logged_in']){
-		header('Location: https://boisechsrugby.herokuapp.com/admin_page/admin.html');
+		header('Location: https://boisechsrugby.herokuapp.com/');
 		$_SESSION['logged_in'] = true;
 		exit;
 	}
