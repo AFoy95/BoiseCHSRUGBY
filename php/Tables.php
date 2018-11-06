@@ -75,7 +75,7 @@
 					$our_name;
 					$their_name;
 					$dates;
-					echo "<div>Insert Boys Stats </div>";
+					echo "<div>Insert Girls Stats </div>";
 					 echo"
 						  <form action = Tables.php method=post>
 						  <br>Our Score:	<input type=text name=our_score id=our_score/></br>
