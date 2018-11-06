@@ -43,7 +43,6 @@
 						  
 						  
 						$our_score=$_POST['our_score'];
-						echo $our_score ;
 						$their_score=$_POST['their_score'];
 						$penalties=$_POST['penalties'];
 						$convmade=$_POST['convmade'];
@@ -76,16 +75,29 @@
 					$our_name;
 					$their_name;
 					$dates;
-					echo "<div>Insert Girls Stats </div>";
-					 echo "Our Score: <input type=text value=our_score/>";
-					 echo "Their Score: <input type=text value=their_score/>";
-					 echo "Penalties: <input type=text value=penalties/>";
-					 echo "Conversion Made: <input type=text value=convmade/>";
-					 echo "Conversion Attempts: <input type=text value=convatt/>";
-					 echo "Our Team: <input type=text value=our_name/>";
-					 echo "Their Team: <input type=text value=their_name/>";
-					 echo "date: <input type=text value=dates/>";
-					 //dao->girls_Stats($our_score,$their_score,$penalties,$convmade,$convatt,$our_name,$their_name,$dates);
+					echo "<div>Insert Boys Stats </div>";
+					 echo"
+						  <form action = Tables.php method=post>
+						  <br>Our Score:	<input type=text name=our_score id=our_score/></br>
+						  <br> Their Score:	<input type=text name=their_score id=their_score/></br>
+						  <br> Penalties:	<input type=text name=penalties id=penalties/> </br>
+						  <br> Conversion Made:	<input type=text name=convmade id=convmade/></br>
+						  <br> Conversion Attempts:	<input type=text name=convatt id=convatt/></br>
+						  <br> Our Team:	<input type=text name=our_name id=our_name/></br>
+						  <br> Their Team:	<input type=text name=their_name id=their_name/></br>
+						  <br> date:	<input type=text name=dates id=dates/></br>
+						  <br><input type=submit value=Submit /></br></form>";
+						  
+						  
+						$our_score=$_POST['our_score'];
+						$their_score=$_POST['their_score'];
+						$penalties=$_POST['penalties'];
+						$convmade=$_POST['convmade'];
+						$convatt=$_POST['convatt'];
+						$our_name=$_POST['our_name'];
+						$their_name=$_POST['their_name'];
+						$dates=$_POST['dates'];
+					$dao->girls_Stats($our_score,$their_score,$penalties,$convmade,$convatt,$our_name,$their_name,$dates);
 				}?>
   
   
