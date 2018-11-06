@@ -21,7 +21,6 @@
 				
 				<?php if($_SESSION['logged_in']){
 					include'Dao.php';
-					session_start();
 					$dao=new Dao();
 					$our_score;
 					$their_score;
