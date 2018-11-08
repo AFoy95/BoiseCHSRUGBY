@@ -9,8 +9,6 @@
   <head>
   <link href="/css/tables.css" type="text/css" rel="stylesheet" />
   </head>
-  <h1>Tables</h1>
-  
   <div id="header">
                                 <h1>CHS<img src="/photos/logo.PNG"/>RUGBY</h1>
 									<?php if($_Session['logged_in']){
