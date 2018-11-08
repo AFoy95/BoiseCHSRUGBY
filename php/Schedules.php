@@ -32,4 +32,8 @@
 	</table>
 
   </body>
+  <footer>
+  <p>Posted by: Austin Foy</p>
+  <p>Contact information: <a href="mailto:afoy95@live.com">
+  afoy95@live.com</a>.</p>
 </html>
