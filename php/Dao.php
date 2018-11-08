@@ -26,14 +26,15 @@
 
 
 
-	public function boys_Stats($our_score,$their_score,$penalties,$convmade,$convatt,$our_name,$their_name,$dates){
+	public function boys_Stats($id,$dates,$our_name,$our_score,$their_name,$their_score,$convmade,$convatt,$penalties){
 		 $conn = $this->getConnection();
                 $saveQuery="INSERT INTO heroku_8d53fe00435ac54.boys_scores
-                        (Our_Score,Their_Score,Penalties,Covmade,Convatt,Our_name,Their_name,dates)
+                        (id,dates,Our_name,Our_Score,Their_name,Their_Score,Covmade,Convatt,Penalties)
                         VALUES
-                        (:our_score,:their_score,:penalties,:convmade,:convatt,:our_name,:their_name,:dates)";
+                        (:id,:dates,:our_name,:our_score,:their_name,:their_score,:convmade,:convatt,:penalties)";
                 $query=$conn->prepare($saveQuery);
-                $query->bindParam(":our_score",$our_score);
+                $query->bindParam(":id",$id);
+				$query->bindParam(":our_score",$our_score);
                 $query->bindParam(":their_score",$their_score);
                 $query->bindParam(":penalties",$penalties);
 		$query->bindParam(":convmade",$convmade);
@@ -113,5 +114,15 @@
                 return reset($query->fetchAll());
 	}
 }
-
+public function get_our_Boys_Score($id){
+	$conn=$this->getConnection();
+	$getQuery="SELECT Our_Score from heroku_8d53fe00435ac54.boys_scores WHERE id=:id";
+	$query=$conn->prepare($getQuery);
+	$query->bindParam(":id",$id);
+	$query->execute();
+	return reset($query->fetchAll());
+	
+}
 ?>
+
+

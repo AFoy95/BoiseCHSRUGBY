@@ -32,12 +32,13 @@
 		  <h2>Boys Score</h2>
 		  	<tr><td>Boys Score</td><td>Opp Score</td><td>Penalties</td><td>Conversion Made</td><td>Conversion Attempt</td><td>Formal name</td><td>Formal Opponent</td><td>Date</td></tr>
 	<?php 
-		
+			$
 		?>
 
 	  </table>
 				
 				<?php if($_SESSION['logged_in']){
+					$id;
 					$our_score;
 					$their_score;
 					$penalties;
@@ -49,6 +50,7 @@
 					echo "<div>Insert Boys Stats </div>";
 					 echo"
 						  <form action = Tables.php method=post>
+						   <br>Game Number:	<input type=text name=Game # id=game#/></br>
 						  <br>Our Score:	<input type=text name=our_score id=our_score/></br>
 						  <br> Their Score:	<input type=text name=their_score id=their_score/></br>
 						  <br> Penalties:	<input type=text name=penalties id=penalties/> </br>
@@ -59,7 +61,7 @@
 						  <br> date:	<input type=text name=dates id=dates/></br>
 						  <br><input type=submit value=Submit /></br></form>";
 						  
-						  
+						$id=$_POST['game#'];
 						$our_score=$_POST['our_score'];
 						$their_score=$_POST['their_score'];
 						$penalties=$_POST['penalties'];
@@ -68,7 +70,7 @@
 						$our_name=$_POST['our_name'];
 						$their_name=$_POST['their_name'];
 						$dates=$_POST['dates'];
-					$dao->boys_Stats($our_score,$their_score,$penalties,$convmade,$convatt,$our_name,$their_name,$dates);
+					$dao->boys_Stats($id,$dates,$our_name,$our_score,$their_name,$their_score,$convmade,$convatt,$penalties);
 				}?>
 		
   	
