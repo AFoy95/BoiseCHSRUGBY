@@ -8,7 +8,22 @@
   <head>
   <link href="/css/Schedules.css" type="text/css" rel="stylesheet" />
   </head>
-  		<h1>Schedules</h1>
+  		<div id="header">
+                                <h1>CHS<img src="/photos/logo.PNG"/>RUGBY</h1>
+									<?php if($_Session['logged_in']){
+											echo" 
+												<a href=/php/logout.php id=logout> LOGOUT</a> 
+									";}?>
+							
+							<div class="topnav">
+								<a href="/php/main_page.php">Main-page</a>
+								<a href="/php/About_Us.php">About-Us</a>
+								<a href="/php/Personal_Bios.php">Personal-Bios</a>	
+								<a class="active "href="/php/Schedules.php">Schedule</a>	
+								<a href="/php/Tables.php">Tables</a>
+								<a href="/php/login.php">Admin Login</a>
+							</div>
+                                </div>	
   <body>
 	  <table><th>Dates</th><th>Events</th>
 		  <tr><td>sept 26</td><td>hw4</td></tr>
