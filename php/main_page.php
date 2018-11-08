@@ -39,13 +39,12 @@ session_start();
 		<button class="dropbtn">Rugby Laws</button>
 		<div class = "dropdown-content">
 		<a href="#">Rugby Law Book</a>
-		
 		</div>
 		</div>
 		<div class = "dropdown">
-		<button class="dropbtn">Users</button>
+		<button class="dropbtn">Users Sign-up/Sign-in</button>
 		<div class = "dropdown-content">
-		<a href="#">User login</a>
+		<a href="#">User Sign-in</a>
 		<a href="#">User Sign-up</a>
 		</div>
 		</div>
