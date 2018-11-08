@@ -28,6 +28,29 @@
                                 </div>	
   
   <body>
+	   <div class ="sidenav">
+		<div class = "dropdown">
+		<button class="dropbtn">Boys Games</button>
+		<div class = "dropdown-content">
+		<a href="#">Regular Season</a>
+		<a href="#">Playoffs</a>
+		</div>
+		</div>
+		<div class = "dropdown">
+		<button class="dropbtn">Girls Games</button>
+		<div class = "dropdown-content">
+		<a href="#">Regular Season</a>
+		<a href="#">Playoffs</a>
+		</div>
+		</div>
+		<div class = "dropdown">
+		<button class="dropbtn">Jv Boys Games</button>
+		<div class = "dropdown-content">
+		<a href="#">Regular Season</a>
+		<a href="#">Playoffs</a>
+		</div>
+		</div>
+		</div>
 	  <table>
 		  <h2>Boys Score</h2>
 		  	<tr><td>Game #</td><td>Date</td><td>Capital</td><td>Capital Score</td><td>Opponent</td><td>Opp Score</td><td>Conversion Made</td><td>Conversion Attempt</td><td>Penalties</td></tr>
