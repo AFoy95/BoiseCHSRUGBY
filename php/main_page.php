@@ -15,21 +15,20 @@ session_start();
                 <p>
                         <div id="header">
                                 <h1>CHS<img src="/photos/logo.PNG"/>RUGBY</h1>
-                                <a href="/php/login.php"id="admin">Admin Login</a>
 									<?php if($_Session['logged_in']){
 											echo" 
 												<a href=/php/logout.php id=logout> LOGOUT</a> 
 									";}?>
 							
+							<div class="topnav">
+								<a class="active" href="/php/main_page.php">Main-page</a>
+								<a href="/html/About_Us.html">About-Us</a>
+								<a href="/html/Personal_Bios.html">Personal-Bios</a>	
+								<a href="/php/Schedules.php">Schedule</a>	
+								<a href="/php/Tables.php">Tables</a>
+								<a href="/php/login.php">Admin Login</a>
+							</div>
                                 </div>		
-						<div class="topnav">
-						<a class="active" href="/php/main_page.php">Main-page</a>
-						<a href="/html/About_Us.html">About-Us</a>
-						<a href="/html/Personal_Bios.html">Personal-Bios</a>	
-						<a href="/php/Schedules.php">Schedule</a>	
-						<a href="/php/Tables.php">Tables</a>
-						<a href="/php/login.php">Admin Login</a>
-                        </div>
                                
                        <div>
                                         <table>
