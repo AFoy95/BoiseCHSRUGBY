@@ -30,7 +30,7 @@
   <body>
 	  <table>
 		  <h2>Boys Score</h2>
-		  	<tr><td>Boys Score</td><td>Opp Score</td><td>Penalties</td><td>Conversion Made</td><td>Conversion Attempt</td><td>Formal name</td><td>Formal Opponent</td><td>Date</td></tr>
+		  	<tr><td>Game #</td><td>Date</td><td>Capital</td><td>Capital Score</td><td>Opponent</td><td>Opp Score</td><td>Conversion Made</td><td>Conversion Attempt</td><td>Penalties</td></tr>
 	<?php 
 			
 		?>
@@ -77,12 +77,7 @@
   
  <table>
 		<h3> Girls Score</h3>        
-                        <tr><td>Dates</td><td>Games</td>
-                                <td>Eagles Score</td><td>Opp Score</td>
-                                        <td>Penalties</td><td>Conversions made</td>
-                                                <td>Conversion attempts</td></tr>
-                        <tr><td>03/13</td><td>vs Eagle</td><td>42</td><td>17</td>
-                                        <td>6</td><td>6</td><td>7</td></tr>
+                        <tr><td>Game #</td><td>Date</td><td>Capital</td><td>Capital Score</td><td>Opponent</td><td>Opp Score</td><td>Conversion Made</td><td>Conversion Attempt</td><td>Penalties</td></tr>
 
           </table>
 		
