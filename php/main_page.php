@@ -20,7 +20,8 @@ session_start();
 											echo" 
 												<a href=/php/logout.php id=logout> LOGOUT</a> 
 									";}?>
-									
+							
+                                </div>		
 						<div class="topnav">
 						<a class="active" href="/php/main_page.php">Main-page</a>
 						<a href="/html/About_Us.html">About-Us</a>
@@ -29,14 +30,15 @@ session_start();
 						<a href="/php/Tables.php">Tables</a>
 						<a href="/php/login.php">Admin Login</a>
                         </div>
-                                <div>
+                               
+                       <div>
                                         <table>
                                                 <th>Table of Contents</th>
                                                 <tr><td>What is Rugby?</td></tr>
                                                 <tr><td>The Rules Of Rugby</td></tr>
                                         </table>
-                                </div>
-                        </div>
+										
+						</div>
                 </p>
 
         </body>
