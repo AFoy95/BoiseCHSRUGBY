@@ -30,9 +30,10 @@
   <body>
 	  <table>
 		  <h2>Boys Score</h2>
-		  	<tr><td>Dates</td><td>Games</td><td>Eagles Score</td><td>Opp Score</td><td>Penalties</td><td>Conversions made</td><td>Conversion attempts</td></tr>
-			<tr><td>03/14</td><td>vs Mtn. View</td><td>25</td><td>19</td>
-					<td>12</td><td>0</td><td>4</td></tr>
+		  	<tr><td>Boys Score</td><td>Opp Score</td><td>Penalties</td><td>Conversion Made</td><td>Conversion Attempt</td><td>Formal name</td><td>Formal Opponent</td><td>Date</td></tr>
+	<?php 
+		
+		?>
 
 	  </table>
 				

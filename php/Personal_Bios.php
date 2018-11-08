@@ -7,7 +7,6 @@
 	<head>
 		<link href="/css/Personal_Bios.css" type="text/css" rel="stylesheet" />
 	</head>
-	<body>
 		<div id="header">
                                 <h1>CHS<img src="/photos/logo.PNG"/>RUGBY</h1>
 									
@@ -25,17 +24,25 @@
 									";}?>
 							</div>
                                 </div>		
-		 <div id="navigation">
-			
-        	<ul>
-		<a id="currentpage"/>
-        <li><a href="/html/coach_1.html" id="page_1">Coach 1</a>
-		<a href="/html/coach_2.html"id="page_2">Coach 2</a>
-                <a href="/html/coach_3.html" id="page_3">Coach 3</a>
-                <a href="/html/coach_4.html" id="page_4">Coach 4</a></li>
-                </ul>
-                </div>
-
+								
+	<body>
+	<div class = "sidenav">
+		<button class="dropdown-btn">Head Coaches<i class = "fa fa-caret-down"></i></button>
+		<div class = "dropdown-container">
+		<a href="#">Matt Jacobsen</a>
+		<a href="#">Jeff Turpen</a>
+		<a href="#">Greg Turpen</a>
+		</div>
+		<button class="dropdown-btn">Asst Coaches<i class = "fa fa-caret-down"></i></button>
+		<div class = "dropdown-container">
+		<a href="#">Alex Wray</a>
+		<a href="#">Austin Foy</a>
+		<a href="#">Laura Brown</a>
+		</div>
+		<button class="dropdown-btn">Grad Assistant<i class = "fa fa-caret-down"></i></button>
+		<div class = "dropdown-container">
+		<a href="#">Jacob Hardy</a>
+		</div>
 	</body>
 
 </html>
