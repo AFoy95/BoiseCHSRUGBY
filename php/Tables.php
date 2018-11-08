@@ -50,7 +50,7 @@
 					echo "<div>Insert Boys Stats </div>";
 					 echo"
 						  <form action = Tables.php method=post>
-						   <br>Game Number:	<input type=text name=Game # id=game#/></br>
+						   <br>Game Number:	<input type=text name=game_number id=game_number/></br>
 						  <br>Our Score:	<input type=text name=our_score id=our_score/></br>
 						  <br> Their Score:	<input type=text name=their_score id=their_score/></br>
 						  <br> Penalties:	<input type=text name=penalties id=penalties/> </br>
@@ -61,7 +61,7 @@
 						  <br> date:	<input type=text name=dates id=dates/></br>
 						  <br><input type=submit value=Submit /></br></form>";
 						  
-						$id=$_POST['game#'];
+						$id=$_POST['game_number'];
 						$our_score=$_POST['our_score'];
 						$their_score=$_POST['their_score'];
 						$penalties=$_POST['penalties'];
@@ -98,6 +98,7 @@
 					echo "<div>Insert Girls Stats </div>";
 					 echo"
 						  <form action = Tables.php method=post>
+						   <br>Game number:	<input type=text name=game_number id=game_number/></br>
 						  <br>Our Score:	<input type=text name=our_score id=our_score/></br>
 						  <br> Their Score:	<input type=text name=their_score id=their_score/></br>
 						  <br> Penalties:	<input type=text name=penalties id=penalties/> </br>
@@ -108,7 +109,7 @@
 						  <br> date:	<input type=text name=dates id=dates/></br>
 						  <br><input type=submit value=Submit /></br></form>";
 						  
-						  
+						 $id=$_POST['game_number']; 
 						$our_score=$_POST['our_score'];
 						$their_score=$_POST['their_score'];
 						$penalties=$_POST['penalties'];
@@ -117,7 +118,7 @@
 						$our_name=$_POST['our_name'];
 						$their_name=$_POST['their_name'];
 						$dates=$_POST['dates'];
-					$dao->girls_Stats($our_score,$their_score,$penalties,$convmade,$convatt,$our_name,$their_name,$dates);
+					$dao->girls_Stats($id,$dates,$our_name,$our_score,$their_name,$their_score,$convmade,$convatt,$penalties);
 				}?>
   
   

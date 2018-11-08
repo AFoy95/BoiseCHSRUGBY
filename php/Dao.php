@@ -37,30 +37,31 @@
 				$query->bindParam(":our_score",$our_score);
                 $query->bindParam(":their_score",$their_score);
                 $query->bindParam(":penalties",$penalties);
+				$query->bindParam(":convmade",$convmade);
+				$query->bindParam(":convatt",$convatt);
+				$query->bindParam(":our_name",$our_name);
+				$query->bindParam(":their_name",$their_name);
+				$query->bindParam(":dates",$dates);
+				$query->execute();
+	}
+	public function girls_Stats($id,$dates,$our_name,$our_score,$their_name,$their_score,$convmade,$convatt,$penalties){
+
+                 $conn = $this->getConnection();
+                $saveQuery="INSERT INTO heroku_8d53fe00435ac54.girls_scores
+                        (id,dates,Our_name,Our_Score,Their_name,Their_Score,Covmade,Convatt,Penalties)
+                        VALUES
+                        (:id,:dates,:our_name,:our_score,:their_name,:their_score,:convmade,:convatt,:penalties)";
+                $query=$conn->prepare($saveQuery);
+                $query->bindParam(":id",$id);
+				$query->bindParam(":our_score",$our_score);
+                $query->bindParam(":their_score",$their_score);
+                $query->bindParam(":penalties",$penalties);
 		$query->bindParam(":convmade",$convmade);
 		$query->bindParam(":convatt",$convatt);
 		$query->bindParam(":our_name",$our_name);
 		$query->bindParam(":their_name",$their_name);
 		$query->bindParam(":dates",$dates);
 		$query->execute();
-	}
-	public function girls_Stats($our_score,$their_score,$penalties,$convmade,$convatt,$our_name,$their_name,$dates){
-
-                 $conn = $this->getConnection();
-                $saveQuery= "INSERT INTO heroku_8d53fe00435ac54.girls_scores
-                        (Our_Score,Their_Score,Penalties,Covmade,Convatt,Our_name,Their_name,dates)
-                        VALUES
-                        (:our_score,:their_score,:penalties,:convmade,:convatt,:our_name,:their_name,:dates)";
-                $query=$conn->prepare($saveQuery);
-                $query->bindParam(":our_score",$our_score);
-                $query->bindParam(":their_score",$their_score);
-                $query->bindParam(":penalties",$penalties);
-                $query->bindParam(":convmade",$convmade);
-                $query->bindParam(":convatt",$convatt);
-                $query->bindParam(":our_name",$our_name);
-                $query->bindParam(":their_name",$their_name);
-				$query->bindParam(":dates",$dates);
-                $query->execute();
 	}
 		
 	 public function calendar($dates,$event){
