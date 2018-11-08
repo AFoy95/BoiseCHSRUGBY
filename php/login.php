@@ -47,7 +47,6 @@ unset($_SESSION['message']);
 		</div>
 		</div>
 		<div class = "dropdown">
-		<button class="dropbtn">Admin Login</button>
 			<form action="login_handler.php" method="post">
 			username:<br>
 			<input type="text" name="username" id="username"/><br>
