@@ -9,6 +9,7 @@
 #header {
   background: linear-gradient(to right,rgba(230,195,0,0.5),rgba(255,232,102,1));
   background-attachment:scroll;
+  padding: 10px;
 }
 
 img {
