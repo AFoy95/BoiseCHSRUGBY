@@ -25,7 +25,7 @@ session_start();
 								<a href="/php/login.php">Admin Login</a>
 								<?php if($_Session['logged_in']){
 											echo" 
-												<a href=/php/logout.php id=logout> LOGOUT</a> 
+												<a href=/php/logout.php> LOGOUT</a> 
 									";}?>
 							</div>
                                 </div>		
