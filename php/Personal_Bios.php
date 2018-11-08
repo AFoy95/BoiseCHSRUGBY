@@ -25,8 +25,8 @@
 							</div>
                                 </div>		
 								
-	<body class="sidenav">
-	
+	<body>
+		<div class = "sidenav">
 		<button class="dropdown-btn">Head Coaches<i class = "fa fa-caret-down"></i></button>
 		<div class = "dropdown-container">
 		<a href="#">Matt Jacobsen</a>
@@ -42,6 +42,7 @@
 		<button class="dropdown-btn">Grad Assistant<i class = "fa fa-caret-down"></i></button>
 		<div class = "dropdown-container">
 		<a href="#">Jacob Hardy</a>
+		</div>
 	</body>
 
 </html>
