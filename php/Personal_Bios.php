@@ -33,15 +33,20 @@
 		<a href="#">Jeff Turpen</a>
 		<a href="#">Greg Turpen</a>
 		</div>
+		</div>
+		<div class = "dropdown">
 		<button class="dropbtn">Asst Coaches</button>
 		<div class = "dropdown-content">
 		<a href="#">Alex Wray</a>
 		<a href="#">Austin Foy</a>
 		<a href="#">Laura Brown</a>
 		</div>
+		</div>
+		<div class = "dropdown">
 		<button class="dropbtn">Grad Assistant</button>
 		<div class = "dropdown-content">
 		<a href="#">Jacob Hardy</a>
+		</div>
 		</div>
 	</body>
 
