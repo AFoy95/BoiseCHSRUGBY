@@ -26,11 +26,28 @@
 							</div>
                                 </div>	
   <body>
-	  <table><th>Dates</th><th>Events</th>
-		  <tr><td>sept 26</td><td>hw4</td></tr>
-		  <tr><td>sept 30</td><td>World Domination</td></tr>
-	</table>
-
+	  <div class ="sidenav">
+		<div class = "dropdown">
+		<button class="dropbtn">Dates and Events</button>
+		<div class = "dropdown-content">
+		<a href="#">Dates</a>
+		<a href="#">Events</a>
+		</div>
+		</div>
+		<div class = "dropdown">
+		<button class="dropbtn">Practice Times</button>
+		<div class = "dropdown-content">
+		<a href="#">Practice</a>
+		</div>
+		</div>
+		<div class = "dropdown">
+		<button class="dropbtn">California Links</button>
+		<div class = "dropdown-content">
+		<a href="#">General info</a>
+		<a href="#">California Schedule</a>
+		</div>
+		</div>
+		</div>
   </body>
   <div class="footer">
    <p> &copy; boisechsrugby.com</p>
