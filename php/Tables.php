@@ -11,10 +11,7 @@
   </head>
   <div id="header">
                                 <h1>CHS<img src="/photos/logo.PNG"/>RUGBY</h1>
-									<?php if($_Session['logged_in']){
-											echo" 
-												<a href=/php/logout.php id=logout> LOGOUT</a> 
-									";}?>
+									
 							
 							<div class="topnav">
 								<a href="/php/main_page.php">Main-page</a>
