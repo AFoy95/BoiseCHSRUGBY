@@ -30,16 +30,6 @@ session_start();
 						<a href="/php/login.php">Admin Login</a>
                         </div>
                                 <div>
-                                        <div id="navigation">
-                                <ul>
-                                <table>
-                                <li><tr><td><a href="/html/About_Us.html" id="page_1">About-Us</a></td>
-                                        <td><a href="/html/Personal_Bios.html"id="page_2">Personal-Bios</a></td>
-                                        <td><a href="/php/Schedules.php" id="page_3">Schedule</a></td>
-                                        <td><a href="/php/Tables.php" id="page_4">Tables</a></td></li></tr></ul>
-                                </table>
-                         </div>
-                                <div>
                                         <table>
                                                 <th>Table of Contents</th>
                                                 <tr><td>What is Rugby?</td></tr>
