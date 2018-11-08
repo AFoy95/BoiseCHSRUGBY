@@ -27,19 +27,19 @@
 								
 	<body>
 		<div class = "sidenav">
-		<href class="dropdown-btn">Head Coaches<i class = "fa-caret-down"></i>
+		<button class="dropdown-btn">Head Coaches</button>
 		<div class = "dropdown-container">
 		<a href="#">Matt Jacobsen</a>
 		<a href="#">Jeff Turpen</a>
 		<a href="#">Greg Turpen</a>
 		</div>
-		<href class="dropdown-btn">Asst Coaches<i class = "fa-caret-down"></i>
+		<button class="dropdown-btn">Asst Coaches</button>
 		<div class = "dropdown-container">
 		<a href="#">Alex Wray</a>
 		<a href="#">Austin Foy</a>
 		<a href="#">Laura Brown</a>
 		</div>
-		<href class="dropdown-btn">Grad Assistant<i class = "fa-caret-down"></i>
+		<button class="dropdown-btn">Grad Assistant</button>
 		<div class = "dropdown-container">
 		<a href="#">Jacob Hardy</a>
 		</div>
