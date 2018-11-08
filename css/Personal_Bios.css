@@ -1,6 +1,7 @@
 body {
   background:linear-gradient(to right,rgba(100,100,100,0.2),rgba(128,128,128,0.9));
   line-height: 15px;
+  font-family: "Lato",sans-serif;
 }
 
 #header {
@@ -25,7 +26,6 @@ h1 {
 
 }
 .sidenav {
-    height: 100%;
     width: 200px;
     position: fixed;
     z-index: 1;
