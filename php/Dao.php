@@ -28,8 +28,8 @@
 
 	public function boys_Stats($our_score,$their_score,$penalties,$convmade,$convatt,$our_name,$their_name,$dates){
 		 $conn = $this->getConnection();
-                $saveQuery="INSERT INTO boys_scores
-                        (Our_score,Their_score,Penalties,Convmade,Convatt,Our_name,Their_name,dates)
+                $saveQuery="INSERT INTO heroku_8d53fe00435ac54.boys_scores
+                        (Our_Score,Their_Score,Penalties,Covmade,Convatt,Our_name,Their_name,dates)
                         VALUES
                         (:our_score,:their_score,:penalties,:convmade,:convatt,:our_name,:their_name,:dates)";
                 $query=$conn->prepare($saveQuery);
@@ -46,8 +46,8 @@
 	public function girls_Stats($our_score,$their_score,$penalties,$convmade,$convatt,$our_name,$their_name,$dates){
 
                  $conn = $this->getConnection();
-                $saveQuery= "INSERT INTO girls_scores
-                        (Our_score,Their_score,Penalties,Convmade,Convatt,Our_name,Their_name,dates)
+                $saveQuery= "INSERT INTO heroku_8d53fe00435ac54.girls_scores
+                        (Our_Score,Their_Score,Penalties,Covmade,Convatt,Our_name,Their_name,dates)
                         VALUES
                         (:our_score,:their_score,:penalties,:convmade,:convatt,:our_name,:their_name,:dates)";
                 $query=$conn->prepare($saveQuery);
