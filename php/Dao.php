@@ -114,16 +114,9 @@
                 $query->execute();
                 return reset($query->fetchAll());
 	}
-}
-public function get_our_Boys_Score($id){
-	$conn=$this->getConnection();
-	$getQuery="SELECT Our_Score from heroku_8d53fe00435ac54.boys_scores WHERE id=:id";
-	$query=$conn->prepare($getQuery);
-	$query->bindParam(":id",$id);
-	$query->execute();
-	return reset($query->fetchAll());
+
 	
-}
+	}
 ?>
 
 

@@ -32,7 +32,7 @@
 		  <h2>Boys Score</h2>
 		  	<tr><td>Boys Score</td><td>Opp Score</td><td>Penalties</td><td>Conversion Made</td><td>Conversion Attempt</td><td>Formal name</td><td>Formal Opponent</td><td>Date</td></tr>
 	<?php 
-			$
+			
 		?>
 
 	  </table>
