@@ -30,7 +30,7 @@
 			
 		 $conn = $this->getConnection();
                 $saveQuery= "INSERT INTO boys_scores
-                        (our_score,oheir_score,penalties,convmade,convatt,our_name,their_name,dates)
+                        (our_score,their_score,penalties,convmade,convatt,our_name,their_name,dates)
                         VALUES
                         (:our_score,:their_score,:penalties,:convmade,:convatt,:our_name,:their_name,:dates)";
                 $query=$conn->prepare($saveQuery);
