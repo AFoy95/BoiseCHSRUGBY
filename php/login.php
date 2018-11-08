@@ -62,4 +62,10 @@ unset($_SESSION['message']);
 		</div>
 		</div>
 </body>
+<div class="footer">
+  <p> &copy; boisechsrugby.com</p>
+  <p>&emsp;Admin: Austin Foy</p>
+  <p>&emsp;Contact information: <a href="mailto:afoy95@live.com">
+  afoy95@live.com</a>.</p>
+</div>
 </html
