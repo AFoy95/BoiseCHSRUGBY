@@ -16,6 +16,13 @@ session_start();
                         <div id="header">
                                 <h1>CHS<img src="/photos/logo.PNG"/>RUGBY</h1>
                                 <a href="/php/login.php"id="admin">Admin Login</a>
+									<?php if($_Session['logged_in']){
+											echo" 
+												<a href=/php/logout.php id=logout> LOGOUT</a> 
+											";
+									}
+								
+								
                         </div>
                                 <div>
                                         <div id="navigation">

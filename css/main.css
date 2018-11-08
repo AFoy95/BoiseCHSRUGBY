@@ -29,7 +29,6 @@ h1 {
 }
 
 table, th {
-  background: #ffd700;
   background-attachment:scroll;
   text-align:center;
 }
@@ -47,9 +46,8 @@ background-attachment: scroll;
 #navigation ul {
 list-style:none;
 display:block;
-margin: auto auto;
-padding: 15 15;
-width: 25%;
+margin: 0;
+padding: 0;
 }
 
 #navigation li {
@@ -91,4 +89,13 @@ font-size: 16px;
 background: #ffd700;
 border: solid 1px black;
 color: #ff0000;
+}
+#logout{
+	position:fixed;
+	
+}
+.active{
+	background-color: #ffd700;
+	color: white;
+	
 }
