@@ -26,7 +26,7 @@
                                 </div>		
 								
 	<body>
-		<div class = "sidenav">
+		<div class = "dropdown">
 		<button class="dropbtn">Head Coaches</button>
 		<div class = "dropdown-content">
 		<a href="#">Matt Jacobsen</a>
