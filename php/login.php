@@ -20,7 +20,7 @@ unset($_SESSION['message']);
 							<div class="topnav">
 								<a href="/php/main_page.php">Main-page</a>
 								<a href="/php/About_Us.php">About-Us</a>
-								<a class="active" href="/php/Personal_Bios.php">Personal-Bios</a>	
+								<a href="/php/Personal_Bios.php">Personal-Bios</a>	
 								<a href="/php/Schedules.php">Schedule</a>	
 								<a href="/php/Tables.php">Tables</a>
 								<a class="active" href="/php/login.php">Admin Login</a>
