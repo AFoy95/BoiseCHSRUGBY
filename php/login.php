@@ -46,7 +46,6 @@ unset($_SESSION['message']);
 		<a href="#">Dont be That Guy/Gal</a>
 		</div>
 		</div>
-		<div class = "dropdown">
 			<form action="login_handler.php" method="post">
 			username:<br>
 			<input type="text" name="username" id="username"/><br>
@@ -55,7 +54,7 @@ unset($_SESSION['message']);
 			<div>
 				<input type="submit" name="submit" id="login" value="Login"/>
 			</div>
-		</div>
+			</form>
 		</div>
   
   
