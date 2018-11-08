@@ -3,13 +3,11 @@
   background-repeat:no-repeat;
   background-position: center;
   background-size:cover;
-  line-height: 15px;
 }
 
 #header {
   background: linear-gradient(to right,rgba(230,195,0,0.5),rgba(255,232,102,1));
   background-attachment:scroll;
-  padding: 5px;
 }
 
 img {
