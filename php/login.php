@@ -9,8 +9,7 @@ unset($_SESSION['message']);
   <head>
     <link href="/css/admin.css" type="text/css" rel="stylesheet" />
   </head>
-  <body>
-		<div id="header">
+  <div id="header">
                                 <h1>CHS<img src="/photos/logo.PNG"/>RUGBY</h1>
 							
 							<div class="topnav">
@@ -26,7 +25,32 @@ unset($_SESSION['message']);
 									";}?>
 							</div>
                                 </div>		
-<div class="message"></div>
+  <body>
+
+   <div class ="sidenav">
+		<div class = "dropdown">
+		<button class="dropbtn">Admin info</button>
+		<div class = "dropdown-content">
+		<a href="#">Who is the Admin?</a>
+		</div>
+		</div>
+		<div class = "dropdown">
+		<button class="dropbtn">US Copyright Laws</button>
+		<div class = "dropdown-content">
+		<a href="#">US laws</a>
+		</div>
+		</div>
+		<div class = "dropdown">
+		<button class="dropbtn">General Guidelines</button>
+		<div class = "dropdown-content">
+		<a href="#">Dont be That Guy/Gal</a>
+		</div>
+		</div>
+		</div>
+  
+  
+  
+  <div class="message"></div>
 <form action="login_handler.php" method="post">
 			username:<br>
 			<input type="text" name="username" id="username"/><br>
