@@ -29,10 +29,10 @@
 	public function boys_Stats($our_score,$their_score,$penalties,$convmade,$convatt,$our_name,$their_name,$dates){
 			echo($our_score);
 		 $conn = $this->getConnection();
-                $saveQuery= "INSERT INTO boys_scores
+                $saveQuery= mysql_query("INSERT INTO boys_scores
                         (our_score,their_score,penalties,convmade,convatt,our_name,their_name,dates)
                         VALUES
-                        (:our_score,:their_score,:penalties,:convmade,:convatt,:our_name,:their_name,:dates)";
+                        (:our_score,:their_score,:penalties,:convmade,:convatt,:our_name,:their_name,:dates)");
                 $query=$conn->prepare($saveQuery);
                 $query->bindParam(":our_score",$our_score);
                 $query->bindParam(":their_score",$their_score);
