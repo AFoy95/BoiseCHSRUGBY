@@ -56,7 +56,7 @@
   	
   
  <table>
-	 <h3> Girls Score</h3>        
+		<h3> Girls Score</h3>        
                         <tr><td>Dates</td><td>Games</td>
                                 <td>Eagles Score</td><td>Opp Score</td>
                                         <td>Penalties</td><td>Conversions made</td>
