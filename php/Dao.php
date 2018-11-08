@@ -27,7 +27,7 @@
 
 
 	public function boys_Stats($our_score,$their_score,$penalties,$convmade,$convatt,$our_name,$their_name,$dates){
-			
+			echo($our_score);
 		 $conn = $this->getConnection();
                 $saveQuery= "INSERT INTO boys_scores
                         (our_score,their_score,penalties,convmade,convatt,our_name,their_name,dates)
