@@ -19,8 +19,8 @@ session_start();
 									<?php if($_Session['logged_in']){
 											echo" 
 												<a href=/php/logout.php id=logout> LOGOUT</a> 
-											";?>
-									}
+									";}?>
+									
 								
 								
                         </div>
