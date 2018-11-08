@@ -22,6 +22,10 @@
 								<a href="/php/Schedules.php">Schedule</a>	
 								<a href="/php/Tables.php">Tables</a>
 								<a href="/php/login.php">Admin Login</a>
+								<?php if($_Session['logged_in']){
+											echo" 
+												<a href=/php/logout.php id=logout> LOGOUT</a> 
+									";}?>
 							</div>
                                 </div>		
  
