@@ -26,6 +26,7 @@
                                 </div>		
 								
 	<body>
+		<div class ="sidenav">
 		<div class = "dropdown">
 		<button class="dropbtn">Head Coaches</button>
 		<div class = "dropdown-content">
@@ -46,6 +47,7 @@
 		<button class="dropbtn">Grad Assistant</button>
 		<div class = "dropdown-content">
 		<a href="#">Jacob Hardy</a>
+		</div>
 		</div>
 		</div>
 	</body>
