@@ -11,9 +11,7 @@ session_start();
                         <link href="/css/main.css" type="text/css" rel="stylesheet" />
                         <head><link rel="shortcut icon" href="/photos/logo.PNG" type="image/png" sizes="16x16" /></head>
                 </head>
-        <body id="background">
-                <p>
-                        <div id="header">
+         <div id="header">
                                 <h1>CHS<img src="/photos/logo.PNG"/>RUGBY</h1>
 							
 							<div class="topnav">
@@ -29,16 +27,29 @@ session_start();
 									";}?>
 							</div>
                                 </div>		
-                               
-                       <div>
-                                        <table>
-                                                <th>Table of Contents</th>
-                                                <tr><td>What is Rugby?</td></tr>
-                                                <tr><td>The Rules Of Rugby</td></tr>
-                                        </table>
-										
-						</div>
-                </p>
+		<body id="background">
+              <div class ="sidenav">
+		<div class = "dropdown">
+		<button class="dropbtn">What is Rugby</button>
+		<div class = "dropdown-content">
+		<a href="#">Rugby Basics</a>
+		</div>
+		</div>
+		<div class = "dropdown">
+		<button class="dropbtn">Rugby Laws</button>
+		<div class = "dropdown-content">
+		<a href="#">Rugby Law Book</a>
+		
+		</div>
+		</div>
+		<div class = "dropdown">
+		<button class="dropbtn">Users</button>
+		<div class = "dropdown-content">
+		<a href="#">User login</a>
+		<a href="#">User Sign-up</a>
+		</div>
+		</div>
+		</div>
 
         </body>
 <div class="footer">
