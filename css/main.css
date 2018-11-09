@@ -1,6 +1,6 @@
 
 #background{
-background-image:linear-gradient(to right top,rgba(120,120,120,0.8),rgba(128,128,128,0.95)),url('/photos/cover_photo_redone.png');
+background-image:url('/photos/cover_photo_redone.png');
   background-size:cover;
   background-position: center;
   background-repeat:no-repeat;
