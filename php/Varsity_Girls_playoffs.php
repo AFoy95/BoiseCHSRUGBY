@@ -50,6 +50,7 @@
 		</div>
 		</div>
 		</div>
+		<table>
 		<body>
 		<h3> Girls Playoffs Score</h3>        
                         <tr><td>Game #</td><td>Date</td><td>Capital</td><td>Capital Score</td><td>Opponent</td><td>Opp Score</td><td>Conversion Made</td><td>Conversion Attempt</td><td>Penalties</td></tr>
