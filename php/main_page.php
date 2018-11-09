@@ -11,6 +11,8 @@ session_start();
                         <link href="/css/main.css" type="text/css" rel="stylesheet" />
                         <head><link rel="shortcut icon" href="/photos/logo.PNG" type="image/png" sizes="16x16" /></head>
                 </head>
+				<body>
+				<div class ="grid">
          <div id="header">
                                 <h1>CHS<img src="/photos/logo.PNG"/>RUGBY</h1>
 							
@@ -27,7 +29,7 @@ session_start();
 									";}?>
 							</div>
                                 </div>		
-		<body id="background">
+		<div id="background">
               <div class ="sidenav">
 		<div class = "dropdown">
 		<button class="dropbtn">What is Rugby</button>
@@ -50,12 +52,13 @@ session_start();
 		</div>
 		</div>
 
-        </body>
 <div class="footer">
   <p> &copy; boisechsrugby.com</p>
   <p>&emsp;Admin: Austin Foy</p>
   <p>&emsp;Contact information: <a href="mailto:afoy95@live.com">
   afoy95@live.com</a>.</p>
 </div>
+</div>
+</body>
 </html>
 
