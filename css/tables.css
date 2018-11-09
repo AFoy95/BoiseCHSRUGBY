@@ -35,13 +35,14 @@ h1 {
 table, th {
   background-attachment:scroll;
   text-align:center;
-  grid-area:table;
 }
 
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 10 10;
+}
+#table{
 	grid-area:table;
 }
 #navigation {
