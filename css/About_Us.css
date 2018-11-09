@@ -85,6 +85,7 @@ color: #ff0000;
     background-color: #888;
     overflow-x: hidden;
     padding-top: 20px;
+	border-image: linear-gradient(to right top,rgba(100,100,100,0.5),rgba(120,120,120,0.9)),url("/photos/background_image3.png");
 }
 
 /* Style the sidenav links and the dropdown button */
