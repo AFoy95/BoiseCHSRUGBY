@@ -1,13 +1,22 @@
+body{
+	display: grid;
+grid-template-areas:"header header header header"
+					"main   main   main   main"
+					"main   main   main   main"
+					"footer footer footer footer";
+}
 .background {
   background-image:url("/photos/background_image3.png");
   background-repeat:no-repeat;
   background-position: center;
   background-size:cover;
+  grid-area:main;
 }
 
 #header {
   background: linear-gradient(to right,rgba(230,195,0,0.5),rgba(255,232,102,1));
   background-attachment:scroll;
+  grid-area:header;
 }
 
 img {
@@ -127,6 +136,7 @@ color: #ff0000;
     background-color: #888;
     color: white;
     text-align: center;
+	grid-area:footer;
 }
 .footer p {
 	display:inline;

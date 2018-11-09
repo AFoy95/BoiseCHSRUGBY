@@ -4,12 +4,13 @@
 ?>
 
 <html>
-  <header><title>Schedules</title></header>
-  <head>
-  <link href="/css/Schedules.css" type="text/css" rel="stylesheet" />
-  </head>
+  
   		<div id="header">
-                                <h1>CHS<img src="/photos/logo.PNG"/>RUGBY</h1>
+                           <header><title>Schedules</title></header>
+						<head>
+							<link href="/css/Schedules.css" type="text/css" rel="stylesheet" />
+						</head>
+						   <h1>CHS<img src="/photos/logo.PNG"/>RUGBY</h1>
 									
 							
 							<div class="topnav">

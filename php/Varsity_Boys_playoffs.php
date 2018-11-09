@@ -5,12 +5,14 @@
 	$conn=$dao->getConnection();
 ?>
 <html>
-  <header><title>Scores</title></header>
+ 
+  <div id="header">
+                               <header><title>Scores</title></header>
   <head>
   <link href="/css/tables.css" type="text/css" rel="stylesheet" />
-  </head>
-  <div id="header">
-                                <h1>CHS<img src="/photos/logo.PNG"/>RUGBY</h1>
+  </head>  
+								
+								<h1>CHS<img src="/photos/logo.PNG"/>RUGBY</h1>
 									
 							
 							<div class="topnav">

@@ -4,11 +4,12 @@
 ?>
 
 <html>
-  <header><title>About Us</title></header>
+ 
+						<div id="header">
+						 <header><title>About Us</title></header>
   <head>
   <link href="/css/About_Us.css" type="text/css" rel="stylesheet" />
   </head>
-						<div id="header">
                                 <h1>CHS<img src="/photos/logo.PNG"/>RUGBY</h1>
 							
 							<div class="topnav">

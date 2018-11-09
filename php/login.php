@@ -6,11 +6,12 @@ unset($_SESSION['message']);
 
 
 <html>
-  <head>
+
+  <div id="header">
+                                <head>
     <link href="/css/admin.css" type="text/css" rel="stylesheet" />
   </head>
-  <div id="header">
-                                <h1>CHS<img src="/photos/logo.PNG"/>RUGBY</h1>
+							  <h1>CHS<img src="/photos/logo.PNG"/>RUGBY</h1>
 							
 							<div class="topnav">
 								<a href="/php/main_page.php">Main-page</a>

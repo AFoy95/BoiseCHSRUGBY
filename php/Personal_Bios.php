@@ -3,12 +3,13 @@
 ?>
 
 <html>
-	<header><title>Personal-Bio's</title></header>
+	
+		<div id="header">
+<header><title>Personal-Bio's</title></header>
 	<head>
 		<link href="/css/Personal_Bios.css" type="text/css" rel="stylesheet" />
 	</head>
-		<div id="header">
-                                <h1>CHS<img src="/photos/logo.PNG"/>RUGBY</h1>
+							   <h1>CHS<img src="/photos/logo.PNG"/>RUGBY</h1>
 									
 							
 							<div class="topnav">
