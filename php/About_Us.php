@@ -41,9 +41,12 @@
 		</div>
 		</div>
 		</div>
-  <body class="background">
+  <body>
   
   </body>
+  <div class="background">
+  
+  </div>
   
   <div class="footer">
    <p> &copy; boisechsrugby.com</p>
