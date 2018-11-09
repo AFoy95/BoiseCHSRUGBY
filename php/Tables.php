@@ -13,6 +13,7 @@
   <link href="/css/tables.css" type="text/css" rel="stylesheet" />
   </head>	
   <h1>CHS<img src="/photos/logo.PNG"/>RUGBY</h1>
+  </div>
 									
 							
 							<div class="topnav">
@@ -27,7 +28,6 @@
 								<a href=/php/logout.php> LOGOUT</a> 
 									";}?>
 							</div>
-                                </div>	
 	   <div class ="sidenav">
 		<div class = "dropdown">
 		<button class="dropbtn">Boys Games</button>

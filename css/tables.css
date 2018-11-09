@@ -1,9 +1,10 @@
 body{
 display: grid;
 grid-template-areas:"header header header header"
-					"menu    main  main   	main    main"
-					"menu    main  main     main    main"
-					"menu    footer footer footer   footer";
+					"menu	  nav		nav		nav	"
+					"menu     main   	main    main"
+					"menu      main     main    main"
+					"menu     footer footer   footer";
 background-position:center;
 	
 }
@@ -87,6 +88,7 @@ color: #ff0000;
 	background-color:#888;
 	color:white;
 	overflow:hidden;
+	grid-area:nav;
 }
 .topnav a{
 	float:left;
