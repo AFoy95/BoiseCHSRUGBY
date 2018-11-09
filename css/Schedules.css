@@ -1,5 +1,5 @@
 body {
-  background-image:linear-gradient(45deg,rgba(100,100,100,0.1),rgba(128,128,128,0.9),url("/photos/background_image4.png"));
+  background-image:url("/photos/background_image4.png");
   text-align:center;
 }
 #header {
