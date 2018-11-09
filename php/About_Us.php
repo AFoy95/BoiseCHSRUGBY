@@ -28,14 +28,14 @@
 	<body id="background">
 		<div class ="sidenav">
 		<div class = "dropdown">
-		<button class="dropbtn">About-Us</button>
+		<button class="dropbtn">About Us</button>
 		<div class = "dropdown-content">
 		<a href="#">Teams</a>
 		<a href="#">Championships</a>
 		</div>
 		</div>
 		<div class = "dropdown">
-		<button class="dropbtn">Timeline</button>
+		<button class="dropbtn">Teams Timeline</button>
 		<div class = "dropdown-content">
 		<a href="#">Founding</a>
 		<a href="#">Boys Timeline</a>
