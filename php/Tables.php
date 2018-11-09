@@ -5,7 +5,7 @@
 	$conn=$dao->getConnection();
 ?>
 <html>
-  
+  <body>
   <div id="header">
                                 
 							<header><title>Scores</title></header>
@@ -28,7 +28,7 @@
 									";}?>
 							</div>
                                 </div>	
-  
+	<div id="background">
 	   <div class ="sidenav">
 		<div class = "dropdown">
 		<button class="dropbtn">Boys Games</button>
@@ -52,6 +52,7 @@
 		</div>
 		</div>
 		</div>
+		</div>
   
  <div class="footer">
   <p> &copy; boisechsrugby.com</p>
@@ -59,4 +60,5 @@
   <p>&emsp;Contact information: <a href="mailto:afoy95@live.com">
   afoy95@live.com</a>.</p>
 </div>
+</body>
 </html>
