@@ -12,7 +12,6 @@ session_start();
                         <head><link rel="shortcut icon" href="/photos/logo.PNG" type="image/png" sizes="16x16" /></head>
                 </head>
 				<body>
-				<div class ="grid">
          <div id="header">
                                 <h1>CHS<img src="/photos/logo.PNG"/>RUGBY</h1>
 							
@@ -57,7 +56,6 @@ session_start();
   <p>&emsp;Admin: Austin Foy</p>
   <p>&emsp;Contact information: <a href="mailto:afoy95@live.com">
   afoy95@live.com</a>.</p>
-</div>
 </div>
 </body>
 </html>

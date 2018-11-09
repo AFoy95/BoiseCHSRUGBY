@@ -1,4 +1,4 @@
-.grid{
+body{
 display: grid;
 grid-template-areas:"menu header header header header"
 					"menu main   main   main   main"
