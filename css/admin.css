@@ -8,6 +8,7 @@ background-position:center;
 	
 }
 #background{
+  background-image:url('/photos/background_image.png');
   background-size:cover;
   background-position: center;
   background-repeat:no-repeat;
