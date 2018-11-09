@@ -1,8 +1,8 @@
 body{
 display: grid;
 grid-template-areas:"header header header header"
-					"main   main   main   main"
-					"main   main   main   main"
+					"main   table   table   main"
+					"main   table   table   main"
 					"footer footer footer footer";
 background-position:center;
 	
@@ -35,12 +35,14 @@ h1 {
 table, th {
   background-attachment:scroll;
   text-align:center;
+  grid-area:table;
 }
 
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 10 10;
+	grid-area:table;
 }
 #navigation {
 text-align:center;
