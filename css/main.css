@@ -1,6 +1,6 @@
 .grid{
 display: grid;
-grid-template-areas:"header header header"
+grid-template-areas:"menu header header"
 					"menu 	main   main	 "
 					"menu   main   main  "
 					"menu   footer footer";
