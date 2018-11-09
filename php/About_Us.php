@@ -25,7 +25,7 @@
 							</div>
                                 </div>		
  
-	<body id="background">
+	<body>
 		<div class ="sidenav">
 		<div class = "dropdown">
 		<button class="dropbtn">About Us</button>
@@ -43,6 +43,9 @@
 		</div>
 		</div>
 		</div>
+  <div id="background">
+  
+  </div>
   </body>
   <div class="footer">
    <p> &copy; boisechsrugby.com</p>
