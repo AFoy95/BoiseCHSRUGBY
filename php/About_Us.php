@@ -44,7 +44,7 @@
 		</div>
 		</div>
   <div id="background">
-  
+	This is the About us page.
   </div>
   </body>
   <div class="footer">
