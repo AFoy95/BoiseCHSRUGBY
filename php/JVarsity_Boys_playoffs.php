@@ -5,7 +5,7 @@
 	$conn=$dao->getConnection();
 ?>
 <html>
-
+<body>
   <div id="header">
                                 <header><title>Scores</title></header>
   <head>
@@ -28,6 +28,7 @@
 									";}?>
 							</div>
                                 </div>	
+	   <div id = "background">
 	   <div class ="sidenav">
 		<div class = "dropdown">
 		<button class="dropbtn">Boys Games</button>
@@ -96,11 +97,12 @@
 						$dates=$_POST['dates'];
 					$dao->boys_Stats($id,$dates,$our_name,$our_score,$their_name,$their_score,$convmade,$convatt,$penalties);
 				}?>
-  </body>
+  </div>
  <div class="footer">
   <p> &copy; boisechsrugby.com</p>
   <p>&emsp;Admin: Austin Foy</p>
   <p>&emsp;Contact information: <a href="mailto:afoy95@live.com">
   afoy95@live.com</a>.</p>
 </div>
+</body>
 </html>

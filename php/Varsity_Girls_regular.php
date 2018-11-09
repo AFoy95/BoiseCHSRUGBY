@@ -5,7 +5,7 @@
 	$conn=$dao->getConnection();
 ?>
 <html>
-  
+  <body>
   <div id="header">
                                
 						<header><title>Scores</title></header>
@@ -28,7 +28,7 @@
 									";}?>
 							</div>
                                 </div>	
-  
+  <div id="background">
 	   <div class ="sidenav">
 		<div class = "dropdown">
 		<button class="dropbtn">Boys Games</button>
@@ -52,7 +52,6 @@
 		</div>
 		</div>
 		</div>
-		<body>
  <table>
 		<h3> Girls Score</h3>        
                         <tr><td>Game #</td><td>Date</td><td>Capital</td><td>Capital Score</td><td>Opponent</td><td>Opp Score</td><td>Conversion Made</td><td>Conversion Attempt</td><td>Penalties</td></tr>
@@ -94,12 +93,12 @@
 					$dao->girls_Stats($id,$dates,$our_name,$our_score,$their_name,$their_score,$convmade,$convatt,$penalties);
 				}?>
   
-  
-  </body>
+  </div>
  <div class="footer">
   <p> &copy; boisechsrugby.com</p>
   <p>&emsp;Admin: Austin Foy</p>
   <p>&emsp;Contact information: <a href="mailto:afoy95@live.com">
   afoy95@live.com</a>.</p>
 </div>
+</body>
 </html>
