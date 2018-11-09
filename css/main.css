@@ -1,9 +1,9 @@
 .grid{
 display: grid;
-grid-template-areas:"menu header header"
-					"menu 	main   main	 "
-					"menu   main   main  "
-					"menu   footer footer";
+grid-template-areas:"menu  header header header"
+					"menu  main   main	 main"
+					"menu  main   main   main"
+					"menu  footer footer footer";
 	
 }
 #background{
