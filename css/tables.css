@@ -142,7 +142,6 @@ padding:10 10;
 
 .dropdown:hover .dropbtn {background-color: #ffd700;}
 .footer {
-    position:fixed;
 	left: 0;
     bottom: 0;
     width: 100%;
