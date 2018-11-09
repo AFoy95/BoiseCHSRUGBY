@@ -25,6 +25,8 @@
 							</div>
                                 </div>		
 <body>
+		<table>
+		<tr><td>
 		<div class ="sidenav">
 		<div class = "dropdown">
 		<button class="dropbtn">About Us</button>
@@ -42,9 +44,12 @@
 		</div>
 		</div>
 		</div>
- <div>
+		</td>
+	<td>	
+ <div class="background">
   
   </div>
+  </td></tr>
   
   </body>
   <div class="footer">
