@@ -6,14 +6,16 @@ session_start();
 
 
 <html>
-        <header><title>main-page</title></header>
+				<body>
+         <div id="header">
+                                <header><title>main-page</title></header>
                 <head>
                         <link href="/css/main.css" type="text/css" rel="stylesheet" />
                         <head><link rel="shortcut icon" href="/photos/logo.PNG" type="image/png" sizes="16x16" /></head>
-                </head>
-				<body>
-         <div id="header">
-                                <h1>CHS<img src="/photos/logo.PNG"/>RUGBY</h1>
+                </head> 
+								
+								
+								<h1>CHS<img src="/photos/logo.PNG"/>RUGBY</h1>
 							
 							<div class="topnav">
 								<a class="active" href="/php/main_page.php">Main-page</a>

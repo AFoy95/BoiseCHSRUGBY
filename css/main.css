@@ -4,6 +4,7 @@ grid-template-areas:"menu header header header header"
 					"menu main   main   main   main"
 					"menu main   main   main   main"
 					"menu footer footer footer footer";
+background-position:center;
 	
 }
 #background{
@@ -169,3 +170,4 @@ color: #ff0000;
 .footer p {
 	display:inline;
 }
+
