@@ -27,7 +27,6 @@
 							</div>
                                 </div>	
   
-  <body>
 	   <div class ="sidenav">
 		<div class = "dropdown">
 		<button class="dropbtn">Boys Games</button>
@@ -52,7 +51,6 @@
 		</div>
 		</div>
   
-  </body>
  <div class="footer">
   <p> &copy; boisechsrugby.com</p>
   <p>&emsp;Admin: Austin Foy</p>
