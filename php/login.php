@@ -6,7 +6,7 @@ unset($_SESSION['message']);
 
 
 <html>
-
+  <body>
   <div id="header">
                                 <head>
     <link href="/css/admin.css" type="text/css" rel="stylesheet" />
@@ -26,8 +26,7 @@ unset($_SESSION['message']);
 									";}?>
 							</div>
                                 </div>		
-  <body>
-
+	<div id ="background">
    <div class ="sidenav">
 		<div class = "dropdown">
 		<button class="dropbtn">Admin info</button>
@@ -62,11 +61,13 @@ unset($_SESSION['message']);
 		</div>
 		</div>
 		</div>
-</body>
+		</div>
+
 <div class="footer">
   <p> &copy; boisechsrugby.com</p>
   <p>&emsp;Admin: Austin Foy</p>
   <p>&emsp;Contact information: <a href="mailto:afoy95@live.com">
   afoy95@live.com</a>.</p>
 </div>
+</body>
 </html
