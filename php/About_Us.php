@@ -24,6 +24,7 @@
 									";}?>
 							</div>
                                 </div>		
+	<body class="background">
 		<div class ="sidenav">
 		<div class = "dropdown">
 		<button class="dropbtn">About Us</button>
@@ -41,10 +42,6 @@
 		</div>
 		</div>
 		</div>
-		</td>
-	<td>	
- 
- <body class="background">
   
   </body>
   
