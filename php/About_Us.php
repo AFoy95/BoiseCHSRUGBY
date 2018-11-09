@@ -43,10 +43,9 @@
 		</div>
 		</td>
 	<td>	
- <body>
- <div class="background">
+ 
+ <body class="background">
   
-  </div>
   </body>
   
   <div class="footer">
