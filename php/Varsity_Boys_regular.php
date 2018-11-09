@@ -38,8 +38,8 @@
 		<div class = "dropdown">
 		<button class="dropbtn">Girls Games</button>
 		<div class = "dropdown-content">
-		<a href="#">Regular Season</a>
-		<a href="#">Playoffs</a>
+		<a href="/php/Varsity_Girls_regular.php">Regular Season</a>
+		<a href="/php/Varsity_Girls_playoffs.php">Playoffs</a>
 		</div>
 		</div>
 		<div class = "dropdown">

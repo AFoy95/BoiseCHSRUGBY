@@ -27,30 +27,30 @@
 							</div>
                                 </div>	
   
-  <body>
-	   <div class ="sidenav">
+ <div class ="sidenav">
 		<div class = "dropdown">
 		<button class="dropbtn">Boys Games</button>
 		<div class = "dropdown-content">
-		<a href="#">Regular Season</a>
-		<a href="#">Playoffs</a>
+		<a href="/php/Varsity_Boys_regular.php">Regular Season</a>
+		<a href="/php/Varsity_Boys_playoffs.php">Playoffs</a>
 		</div>
 		</div>
 		<div class = "dropdown">
 		<button class="dropbtn">Girls Games</button>
 		<div class = "dropdown-content">
-		<a href="#">Regular Season</a>
-		<a href="#">Playoffs</a>
+		<a href="/php/Varsity_Girls_regular.php">Regular Season</a>
+		<a href="/php/Varsity_Girls_playoffs.php">Playoffs</a>
 		</div>
 		</div>
 		<div class = "dropdown">
 		<button class="dropbtn">Jv Boys Games</button>
 		<div class = "dropdown-content">
-		<a href="#">Regular Season</a>
-		<a href="#">Playoffs</a>
+		<a href="/php/JVarsity_Boys_regular.php">Regular Season</a>
+		<a href="/php/JVarsity_Boys_playoffs.php">Playoffs</a>
 		</div>
 		</div>
 		</div>
+	  <body>
 	  <table>
 		  <h2>Boys Playoff Scores</h2>
 		  	<tr><td>Game #</td><td>Date</td><td>Capital</td><td>Capital Score</td><td>Opponent</td><td>Opp Score</td><td>Conversion Made</td><td>Conversion Attempt</td><td>Penalties</td></tr>
