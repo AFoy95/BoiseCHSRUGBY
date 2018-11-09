@@ -170,4 +170,6 @@ color: #ff0000;
 .footer p {
 	display:inline;
 }
-
+html{
+	background-color:#AAA;	
+}
