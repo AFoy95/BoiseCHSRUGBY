@@ -50,6 +50,7 @@
   
   </div>
   </td></tr>
+  </table>
   
   </body>
   <div class="footer">
