@@ -4,7 +4,7 @@
 ?>
 
 <html>
- 
+ <body>
 						<div id="header">
 						 <header><title>About Us</title></header>
   <head>
@@ -24,8 +24,8 @@
 								<a href=/php/logout.php> LOGOUT</a> 
 									";}?>
 							</div>
-                                </div>		
-	<body class="background">
+                              </div>
+		<div id="background">
 		<div class ="sidenav">
 		<div class = "dropdown">
 		<button class="dropbtn">About Us</button>
@@ -43,8 +43,8 @@
 		</div>
 		</div>
 		</div>
+		</div>
   
-  </body>
   
   <div class="footer">
    <p> &copy; boisechsrugby.com</p>
@@ -52,4 +52,5 @@
   <p>&emsp;Contact information: <a href="mailto:afoy95@live.com">
   afoy95@live.com</a>.</p>
 </div>
+</body>
 </html>
