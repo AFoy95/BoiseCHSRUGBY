@@ -52,7 +52,8 @@
 		</div>
 		</div>
 		</div>
-  </div>
+	</div>
+   <div id = "table">
    <table>
 		  <h2>Jv Boys Playoff Scores</h2>
 		  	<tr><td>Game #</td><td>Date</td><td>Capital</td><td>Capital Score</td><td>Opponent</td><td>Opp Score</td><td>Conversion Made</td><td>Conversion Attempt</td><td>Penalties</td></tr>
@@ -97,6 +98,7 @@
 						$dates=$_POST['dates'];
 					$dao->boys_Stats($id,$dates,$our_name,$our_score,$their_name,$their_score,$convmade,$convatt,$penalties);
 				}?>
+			</div id = "table">
  <div class="footer">
   <p> &copy; boisechsrugby.com</p>
   <p>&emsp;Admin: Austin Foy</p>
