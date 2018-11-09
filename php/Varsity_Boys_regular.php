@@ -7,11 +7,13 @@
 <html>
   <body>
   <div id="header">
-                           <header><title>Scores</title></header>
+                                
+							<header><title>Scores</title></header>
   <head>
   <link href="/css/tables.css" type="text/css" rel="stylesheet" />
-  </head>   
-							  <h1>CHS<img src="/photos/logo.PNG"/>RUGBY</h1>
+  </head>	
+  <h1>CHS<img src="/photos/logo.PNG"/>RUGBY</h1>
+  </div>
 									
 							
 							<div class="topnav">
@@ -26,8 +28,6 @@
 								<a href=/php/logout.php> LOGOUT</a> 
 									";}?>
 							</div>
-                                </div>	
-		<div id = "background">
 	   <div class ="sidenav">
 		<div class = "dropdown">
 		<button class="dropbtn">Boys Games</button>
@@ -51,18 +51,14 @@
 		</div>
 		</div>
 		</div>
- 
-	 <table>
-		  <h2>Boys Score</h2>
-		  	<tr><td>Game #</td><td>Date</td><td>Capital</td><td>Capital Score</td><td>Opponent</td><td>Opp Score</td><td>Conversion Made</td><td>Conversion Attempt</td><td>Penalties</td></tr>
-	<?php 
-			
-		?>
+  <div id="background">
+  <table>
+		<h3> Boys Scores</h3>        
+                        <tr><td>Game #</td><td>Date</td><td>Capital</td><td>Capital Score</td><td>Opponent</td><td>Opp Score</td><td>Conversion Made</td><td>Conversion Attempt</td><td>Penalties</td></tr>
 
-	  </table>
-				
-				<?php if($_SESSION['logged_in']){
-					$id;
+          </table>
+		
+  <?php if($_SESSION['logged_in']){
 					$our_score;
 					$their_score;
 					$penalties;
@@ -74,7 +70,7 @@
 					echo "<div>Insert Boys Stats </div>";
 					 echo"
 						  <form action = Tables.php method=post>
-						   <br>Game Number:	<input type=text name=game_number id=game_number/></br>
+						   <br>Game number:	<input type=text name=game_number id=game_number/></br>
 						  <br>Our Score:	<input type=text name=our_score id=our_score/></br>
 						  <br> Their Score:	<input type=text name=their_score id=their_score/></br>
 						  <br> Penalties:	<input type=text name=penalties id=penalties/> </br>
@@ -85,7 +81,7 @@
 						  <br> date:	<input type=text name=dates id=dates/></br>
 						  <br><input type=submit value=Submit /></br></form>";
 						  
-						$id=$_POST['game_number'];
+						 $id=$_POST['game_number']; 
 						$our_score=$_POST['our_score'];
 						$their_score=$_POST['their_score'];
 						$penalties=$_POST['penalties'];
@@ -94,9 +90,9 @@
 						$our_name=$_POST['our_name'];
 						$their_name=$_POST['their_name'];
 						$dates=$_POST['dates'];
-					$dao->boys_Stats($id,$dates,$our_name,$our_score,$their_name,$their_score,$convmade,$convatt,$penalties);
+					$dao->girls_Stats($id,$dates,$our_name,$our_score,$their_name,$their_score,$convmade,$convatt,$penalties);
 				}?>
-	</div>	
+  </div>
  <div class="footer">
   <p> &copy; boisechsrugby.com</p>
   <p>&emsp;Admin: Austin Foy</p>

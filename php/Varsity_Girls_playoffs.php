@@ -7,12 +7,13 @@
 <html>
   <body>
   <div id="header">
-                           <header><title>Scores</title></header>
+                                
+							<header><title>Scores</title></header>
   <head>
   <link href="/css/tables.css" type="text/css" rel="stylesheet" />
-  </head>   
-
-							  <h1>CHS<img src="/photos/logo.PNG"/>RUGBY</h1>
+  </head>	
+  <h1>CHS<img src="/photos/logo.PNG"/>RUGBY</h1>
+  </div>
 									
 							
 							<div class="topnav">
@@ -27,9 +28,7 @@
 								<a href=/php/logout.php> LOGOUT</a> 
 									";}?>
 							</div>
-                                </div>	
-  <div id = "background">
-	  <div class ="sidenav">
+	   <div class ="sidenav">
 		<div class = "dropdown">
 		<button class="dropbtn">Boys Games</button>
 		<div class = "dropdown-content">
@@ -52,8 +51,9 @@
 		</div>
 		</div>
 		</div>
-		<table>
-		<h3> Girls Playoffs Score</h3>        
+  <div id="background">
+  <table>
+		<h3> Girls Playoff Scores</h3>        
                         <tr><td>Game #</td><td>Date</td><td>Capital</td><td>Capital Score</td><td>Opponent</td><td>Opp Score</td><td>Conversion Made</td><td>Conversion Attempt</td><td>Penalties</td></tr>
 
           </table>
@@ -92,8 +92,6 @@
 						$dates=$_POST['dates'];
 					$dao->girls_Stats($id,$dates,$our_name,$our_score,$their_name,$their_score,$convmade,$convatt,$penalties);
 				}?>
-  
-  
   </div>
  <div class="footer">
   <p> &copy; boisechsrugby.com</p>
