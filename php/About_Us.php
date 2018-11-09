@@ -41,7 +41,7 @@
 		</div>
 		</div>
 		</div>
-  <body id="background">
+  <body class="background">
   
   </body>
   
