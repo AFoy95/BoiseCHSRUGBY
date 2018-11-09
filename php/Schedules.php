@@ -4,7 +4,7 @@
 ?>
 
 <html>
-  
+   <body>
   		<div id="header">
                            <header><title>Schedules</title></header>
 						<head>
@@ -25,8 +25,9 @@
 								<a href=/php/logout.php> LOGOUT</a> 
 									";}?>
 							</div>
-                                </div>	
-  <body>
+      
+	  </div>
+		<div id="background">
 	  <div class ="sidenav">
 		<div class = "dropdown">
 		<button class="dropbtn">Dates and Events</button>
@@ -49,11 +50,12 @@
 		</div>
 		</div>
 		</div>
-  </body>
+		</div>
   <div class="footer">
    <p> &copy; boisechsrugby.com</p>
   <p>&emsp;Admin: Austin Foy</p>
   <p>&emsp;Contact information: <a href="mailto:afoy95@live.com">
   afoy95@live.com</a>.</p>
 </div>
+</body>
 </html>
