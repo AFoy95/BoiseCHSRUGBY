@@ -51,9 +51,14 @@
 		<a href="/php/JVarsity_Boys_playoffs.php">Playoffs</a>
 		</div>
 		</div>
-		</div>        
-       <tr><td>Game #</td><td>Date</td><td>Capital</td><td>Capital Score</td><td>Opponent</td><td>Opp Score</td><td>Conversion Made</td><td>Conversion Attempt</td><td>Penalties</td></tr>
+		</div>
+		<div>
+		<table>
+		<h3> Girls Score</h3>        
+                        <tr><td>Game #</td><td>Date</td><td>Capital</td><td>Capital Score</td><td>Opponent</td><td>Opp Score</td><td>Conversion Made</td><td>Conversion Attempt</td><td>Penalties</td></tr>
 
+          </table>
+		  </div>
 		
   <?php if($_SESSION['logged_in']){
 					$our_score;
