@@ -2,7 +2,7 @@ body{
 display: grid;
 grid-template-areas:"header header header header"
 					"main   main   	main    main"
-					"main   table   table   main"
+					"main   main   main   main"
 					"footer footer footer footer";
 background-position:center;
 	
