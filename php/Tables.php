@@ -28,7 +28,6 @@
 									";}?>
 							</div>
                                 </div>	
-	<div id="background">
 	   <div class ="sidenav">
 		<div class = "dropdown">
 		<button class="dropbtn">Boys Games</button>
@@ -52,8 +51,9 @@
 		</div>
 		</div>
 		</div>
-		</div>
+  <div id="background">
   
+  </div>
  <div class="footer">
   <p> &copy; boisechsrugby.com</p>
   <p>&emsp;Admin: Austin Foy</p>
