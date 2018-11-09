@@ -43,9 +43,9 @@
 		</div>
 		</div>
 		</div>
-  <div id="background">
+  <body id="background">
 	This is the About us page.
-  </div>
+  </body>
   </body>
   <div class="footer">
    <p> &copy; boisechsrugby.com</p>
