@@ -60,6 +60,8 @@ table, th, td {
     border-collapse: collapse;
     padding: 10 10;
 	color:#ffd700;
+	margin-left:auto;
+	margin-right:auto;
 }
 #table{
 	grid-area:table;
