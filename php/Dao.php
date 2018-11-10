@@ -27,6 +27,7 @@
 
 
 	public function boys_Stats($id,$dates,$our_name,$our_score,$their_name,$their_score,$convmade,$convatt,$penalties){
+		 echo($id);
 		 $conn = $this->getConnection();
                 $saveQuery="INSERT INTO heroku_8d53fe00435ac54.boys_scores
                         (id,dates,Our_name,Our_Score,Their_name,Their_Score,Covmade,Convatt,Penalties)
