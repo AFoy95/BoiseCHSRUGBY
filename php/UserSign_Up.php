@@ -8,6 +8,7 @@ session_start();
 <head>
 <link href="/css/usersign_in.css" type="text/css" rel="stylesheet" />
 </head>
+<div>
 <form action="user_handler.php" method="post">
 			email:<br>
 			<input type="text" name="email" id="email"/><br>
@@ -18,6 +19,6 @@ session_start();
 			</div>
 
 </form>
-
+</div>
 </body>
 </html>
