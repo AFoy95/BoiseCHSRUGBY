@@ -55,7 +55,23 @@
   <table>
 		<h3> Boys Scores</h3>        
                         <tr><td>Game #</td><td>Date</td><td>Capital</td><td>Capital Score</td><td>Opponent</td><td>Opp Score</td><td>Conversion Made</td><td>Conversion Attempt</td><td>Penalties</td></tr>
-
+						<?php
+								$boys_scores=$dao->get_Boys_Games();
+								foreach($boys_scores as $boys_score){
+									echo"<tr>";
+									echo "<td>" . $boys_score["id"] . "</td>";
+									echo "<td>" . $boys_score["dates"] . "</td>";
+									echo "<td>" . $boys_score["Our_name"] . "</td>";
+									echo "<td>" . $boys_score["Our_Score"] . "</td>";
+									echo "<td>" . $boys_score["Their_name"] . "</td>";
+									echo "<td>" . $boys_score["Their_Score"] . "</td>";
+									echo "<td>" . $boys_score["Covmade"] . "</td>";
+									echo "<td>" . $boys_score["Convatt"] . "</td>";
+									echo "<td>" . $boys_score["Penalties"] . "</td>";
+									echo "</tr>";
+								}
+						
+						?>
           </table>
 		
   <?php if($_SESSION['logged_in'] && $_SESSION['isadmin']){
