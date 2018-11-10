@@ -106,7 +106,7 @@
 						$our_name=$_POST['our_name'];
 						$their_name=$_POST['their_name'];
 						$dates=$_POST['dates'];
-					$dao->girls_Stats($id,$dates,$our_name,$our_score,$their_name,$their_score,$convmade,$convatt,$penalties);
+					$dao->boys_Stats($id,$dates,$our_name,$our_score,$their_name,$their_score,$convmade,$convatt,$penalties);
 				}?>
   </div>
  <div class="footer">
