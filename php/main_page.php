@@ -48,6 +48,15 @@ session_start();
 		<button class="dropbtn">Users Sign-up/Sign-in</button>
 		<div class = "dropdown-content">
 		<a href="#">User Sign-in</a>
+		<form action="login_handler.php" method="post">
+			email:<br>
+			<input type="text" name="email" id="email"/><br>
+			password:<br>
+			<input type="password" name="password" id="password"/><br/>
+			<div>
+				<input type="submit" name="submit" id="login" value="Login"/>
+			</div>
+			</form>
 		<a href="#">User Sign-up</a>
 		</div>
 		</div>
