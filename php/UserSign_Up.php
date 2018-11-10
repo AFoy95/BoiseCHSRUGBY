@@ -9,14 +9,26 @@ session_start();
 <link href="/css/usersign_in.css" type="text/css" rel="stylesheet" />
 </head>
 <div>
-<form action="user_handler.php" method="post">
-			email:<br>
-			<input type="text" name="email" id="email"/><br>
-			password:<br>
-			<input type="password" name="password" id="password"/><br/>
-				<br>
-				<input type="submit" name="submit" id="create" value="Create"/>
-				</br>
+<form action="user_handler.php" method="post" style="border:1px solid black">
+	<div class="container">
+    <h1>Sign Up</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>	
 
 </form>
 </div>
