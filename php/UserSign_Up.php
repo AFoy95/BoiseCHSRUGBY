@@ -14,9 +14,9 @@ session_start();
 			<input type="text" name="email" id="email"/><br>
 			password:<br>
 			<input type="password" name="password" id="password"/><br/>
-			<div>
+				<br>
 				<input type="submit" name="submit" id="create" value="Create"/>
-			</div>
+				</br>
 
 </form>
 </div>
