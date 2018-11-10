@@ -8,6 +8,7 @@
 	if($dao->get_admin_user($username) && $dao->get_admin_pass($password) || $_SESSION['logged_in']){
 		header('Location: https://boisechsrugby.herokuapp.com/');
 		$_SESSION['logged_in'] = true;
+		$_SESSION['isadmin']= true;
 		exit;
 	}
 	$_SESSION['message'] = "Invalid Username and/or Password";

@@ -58,7 +58,7 @@
 
           </table>
 		
-  <?php if($_SESSION['logged_in']){
+  <?php if($_SESSION['logged_in'] && $_SESSION['isadmin']){
 					$our_score;
 					$their_score;
 					$penalties;
