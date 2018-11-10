@@ -16,7 +16,7 @@ background-position:center;
 }
 #background{
   grid-area:main;
-  background-image:url('/photos/background_image3.png');
+  background-image:url('/photos/tables_background.png');
   background-size:cover;
   background-position: center;
   background-repeat:no-repeat;
