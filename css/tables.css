@@ -22,7 +22,7 @@ grid-template-columns:10%;
 }
 #background{
   grid-area:main;
-  background-image:url('/photos/tables_background.png');
+  /*background-image:url('/photos/tables_background.png');*/
   background-size:cover;
   background-position: center;
   background-repeat:no-repeat;
