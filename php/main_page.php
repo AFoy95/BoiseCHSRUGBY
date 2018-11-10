@@ -41,7 +41,7 @@ session_start();
 		<div class = "dropdown">
 		<button class="dropbtn">Rugby Laws</button>
 		<div class = "dropdown-content">
-		<a href="#">Rugby Law Book</a>
+		<a href="https://laws.worldrugby.org/?variation=1&language=EN">Rugby Law Book</a>
 		</div>
 		</div>
 		<div class = "dropdown">
