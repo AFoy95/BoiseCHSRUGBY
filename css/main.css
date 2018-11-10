@@ -10,7 +10,6 @@ background-position:center;
 #background{
 background-image:url('/photos/cover_photo_redone.png');
   background-size:cover;
-  background-position: center;
   background-repeat:no-repeat;
   grid-area:main;
 }
