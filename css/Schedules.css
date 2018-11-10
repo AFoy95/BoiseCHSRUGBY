@@ -108,9 +108,8 @@ color: #ff0000;
 	z-index: 1;
     top: 0;
     left: 0;
-    background-color: #888;
+    background-color: #666;
     overflow-x: hidden;
-    padding-top: 20px;
 	grid-area:menu;
 }
 
