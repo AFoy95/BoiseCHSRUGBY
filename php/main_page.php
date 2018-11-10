@@ -57,7 +57,7 @@ session_start();
 				<input type="submit" name="submit" id="login" value="Login"/>
 			</div>
 			</form>
-		<a href="#">User Sign-up</a>
+		<a href="/php/UserSign_Up.php">User Sign-up</a>
 		</div>
 		</div>
 		</div>
