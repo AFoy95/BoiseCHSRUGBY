@@ -154,6 +154,14 @@ public function get_User_email($email){
 		$conn=$this->getConnection();
 		return $conn->query("SELECT * FROM heroku_8d53fe00435ac54.boys_scores");
 	}
+	public function get_JVBoys_Games(){
+		$conn=$this->getConnection();
+		return $conn->query("SELECT * FROM heroku_8d53fe00435ac54.jv_boys_scores");
+	}
+	public function get_Girls_Games(){
+		$conn=$this->getConnection();
+		return $conn->query("SELECT * FROM heroku_8d53fe00435ac54.girls_scores");
+	}
 	}
 ?>
 
