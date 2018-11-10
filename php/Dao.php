@@ -97,14 +97,13 @@
                 $query->execute();
 	 }
 
-	 public function new_user($id,$email,$password){
+	 public function new_user($email,$password){
                 $conn = $this->getConnection();
                 $saveQuery= "INSERT INTO users
-                        (id,email,password)
+                        (email,password)
                         VALUES
-                        (:id,:email,:password)";
+                        (:email,:password)";
                 $query=$conn->prepare($saveQuery);
-                $query->bindParam(":id",$id);
 		$query->bindParam(":email",$email);
 		$query->bindParam(":password",$password);
                 $query->execute();
@@ -135,8 +134,22 @@
                 $query->execute();
                 return reset($query->fetchAll());
 	}
-
-	
+public function get_User_email($email){
+		$conn=$this->getConnection();
+		$getQuery = "SELECT id FROM users WHERE email = :email";
+		$query=$conn->prepare($getQuery);
+		$query->bindParam(":email",$email);
+		$query->execute();
+		return reset($query->fetchAll());
+	}	
+	public function get_User_pass($password){
+	$conn=$this->getConnection();
+				$getQuery="SELECT id FROM users WHERE password = :password";
+                $query=$conn->prepare($getQuery);
+				$query->bindParam(":password",$password);
+                $query->execute();
+                return reset($query->fetchAll());
+	}
 	}
 ?>
 
