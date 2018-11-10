@@ -14,7 +14,11 @@ session_start();
     <h1>Sign Up</h1>
     <p>Please fill in this form to create an account.</p>
     <hr>
-
+		<?php if(isset($_SESSION['err']){
+			
+			echo($_SESSION['err']);
+		}
+		?>
     <label for="email"><b>Email</b></label>
     <input type="text" placeholder="Enter Email" name="email" value="email" required>
 

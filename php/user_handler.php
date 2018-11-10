@@ -6,11 +6,12 @@
  $email = $_POST['email'];
  $password = $_POST['password'];
  $password_rep=$_POST['password-repeat'];
+ 
  $pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9-]+\.[a-zA-Z.]{2,5}$";
 	
 	if(filter_var($email,FILTER_VALIDATE_EMAIL)){
 		if(strlen($password) < 6 && $password_repeat != $password){
-			echo"Password is too short it must be at least 6 keys long";
+			$_SESSION['err']="Password is too short it must be at least 6 keys long and password verification does not match";
 		header('Location: https://boisechsrugby.herokuapp.com/php/UserSign_Up.php');
 		exit;
 		}else{
@@ -20,7 +21,8 @@
 			exit;
 		}
 	}else{
-		echo"Invalid email and/or user exists already";
+		
+		$_SESSION['err']="Invalid email must include an @ and .";
 		header('Location: https://boisechsrugby.herokuapp.com/php/UserSign_Up.php');
 		exit;
 	}
