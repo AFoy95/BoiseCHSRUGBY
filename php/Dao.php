@@ -136,7 +136,7 @@
 	}
 public function get_User_email($email){
 		$conn=$this->getConnection();
-		$getQuery = "SELECT id FROM users WHERE email = :email";
+		$getQuery = "SELECT id FROM  heroku_8d53fe00435ac54.users WHERE email = :email";
 		$query=$conn->prepare($getQuery);
 		$query->bindParam(":email",$email);
 		$query->execute();
@@ -144,7 +144,7 @@ public function get_User_email($email){
 	}	
 	public function get_User_pass($password){
 	$conn=$this->getConnection();
-				$getQuery="SELECT id FROM users WHERE password = :password";
+				$getQuery="SELECT id FROM  heroku_8d53fe00435ac54.users WHERE password = :password";
                 $query=$conn->prepare($getQuery);
 				$query->bindParam(":password",$password);
                 $query->execute();
