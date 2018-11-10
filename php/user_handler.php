@@ -7,7 +7,7 @@
  $password = $_POST['password'];
  $pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9-]+\.[a-zA-Z.]{2,5}$";
 	
-	if(preg_match($pattern,$email)){
+	if(filter_var($email,FILTER_VALIDATE_EMAIL)){
 		if(strlen($password) < 6){
 			echo"Password is too short it must be at least 6 keys long";
 		header('Location: https://boisechsrugby.herokuapp.com/php/UserSign_Up.php');
