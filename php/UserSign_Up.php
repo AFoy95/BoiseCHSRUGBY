@@ -1,6 +1,6 @@
 <?php
 session_start();
-if(isset($_SESSION['err']){
+if(isset($_SESSION['err'])){
 			
 			echo($_SESSION['err']);
 }
