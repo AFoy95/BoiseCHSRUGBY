@@ -85,7 +85,7 @@
 					$dates;
 					echo "<div>Insert Boys Stats </div>";
 					 echo"
-						  <form action = Tables.php method=post>
+						  <form action = /Tables.php method=post>
 						   <br>Game number:	<input type=text name=game_number id=game_number/></br>
 						  <br>Our Score:	<input type=text name=our_score id=our_score/></br>
 						  <br> Their Score:	<input type=text name=their_score id=their_score/></br>
@@ -106,6 +106,7 @@
 						$our_name=$_POST['our_name'];
 						$their_name=$_POST['their_name'];
 						$dates=$_POST['dates'];
+						echo($id);
 					$dao->boys_Stats($id,$dates,$our_name,$our_score,$their_name,$their_score,$convmade,$convatt,$penalties);
 				}?>
   </div>
