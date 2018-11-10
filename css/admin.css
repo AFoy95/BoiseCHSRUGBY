@@ -123,6 +123,7 @@ color: #ff0000;
     padding: 16px;
     font-size: 16px;
     border: none;
+	width:200px;
 }
 
 .dropdown {
