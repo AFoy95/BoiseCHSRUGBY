@@ -6,6 +6,8 @@
  $email = $_POST['email'];
  $password = $_POST['password'];
  $password_rep=$_POST['password-repeat'];
+ echo($email);
+ echo($password);
  
  $pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9-]+\.[a-zA-Z.]{2,5}$";
 	
