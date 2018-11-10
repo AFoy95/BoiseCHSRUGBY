@@ -150,6 +150,10 @@ public function get_User_email($email){
                 $query->execute();
                 return reset($query->fetchAll());
 	}
+	public function get_Boys_Games(){
+		$conn=$this->getConnection();
+		return $conn->query("SELECT * FROM heroku_8d53fe00435ac54.boys_scores");
+	}
 	}
 ?>
 
