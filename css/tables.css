@@ -20,6 +20,7 @@ background-position:center;
   background-size:cover;
   background-position: center;
   background-repeat:no-repeat;
+  color:#ffd700;
 }
 #header {
   background: linear-gradient(to right,rgba(230,195,0,0.5),rgba(255,232,102,1));
