@@ -70,7 +70,7 @@ session_start();
 </div>
 </body>
 <script>
-var dropdown = document.getElementsByClassName("dropdown-btn");
+var dropdown = document.getElementsByClassName("dropdown");
 var i;
 
 for (i = 0; i < dropdown.length; i++) {
