@@ -13,15 +13,15 @@
 									
 							
 							<div class="topnav">
-								<a href="/php/main_page.php">Main-page</a>
-								<a href="/php/About_Us.php">About-Us</a>
+								<a href="/php/top-level/main_page.php">Main-page</a>
+								<a href="/php/top-level/About_Us.php">About-Us</a>
 								<a class="active" href="/php/Personal_Bios.php">Personal-Bios</a>	
-								<a href="/php/Schedules.php">Schedule</a>	
-								<a href="/php/Tables.php">Tables</a>
-								<a href="/php/login.php">Admin Login</a>
+								<a href="/php/top-level/Schedules.php">Schedule</a>	
+								<a href="/php/top-level/Tables.php">Tables</a>
+								<a href="/php/login_handles/login.php">Admin Login</a>
 								<?php if($_SESSION['logged_in']){
 											echo" 
-								<a href=/php/logout.php> LOGOUT</a> 
+								<a href=/php/login_handles/logout.php> LOGOUT</a> 
 									";}?>
 							</div>
                                 </div>		

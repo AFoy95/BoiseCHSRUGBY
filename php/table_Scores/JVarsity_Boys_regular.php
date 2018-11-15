@@ -1,5 +1,5 @@
 <?php
-	include'Dao.php';
+	include'/php_Classes/Dao.php';
 	session_start();
 	$dao=new Dao();
 	$conn=$dao->getConnection();
@@ -17,12 +17,12 @@
 									
 							
 							<div class="topnav">
-								<a href="/php/main_page.php">Main-page</a>
-								<a href="/php/About_Us.php">About-Us</a>
-								<a href="/php/Personal_Bios.php">Personal-Bios</a>	
-								<a href="/php/Schedules.php">Schedule</a>	
-								<a class="active" href="/php/Tables.php">Tables</a>
-								<a href="/php/login.php">Admin Login</a>
+								<a href="/php/top-level/main_page.php">Main-page</a>
+								<a href="/php/top-level/About_Us.php">About-Us</a>
+								<a href="/php/top-level/Personal_Bios.php">Personal-Bios</a>	
+								<a href="/php/top-level/Schedules.php">Schedule</a>	
+								<a class="active" href="/php/top-level/Tables.php">Tables</a>
+								<a href="/php/login_handles/login.php">Admin Login</a>
 								<?php if($_SESSION['logged_in']){
 											echo" 
 								<a href=/php/logout.php> LOGOUT</a> 
@@ -53,21 +53,21 @@
 		</div>
   <div id="background">
   <table>
-		<h3> Girls Score</h3>        
+		<h3> JV Boys Scores</h3>        
                         <tr><td>Game #</td><td>Date</td><td>Capital</td><td>Capital Score</td><td>Opponent</td><td>Opp Score</td><td>Conversion Made</td><td>Conversion Attempt</td><td>Penalties</td></tr>
 						<?php
-								$girls_scores=$dao->get_Girls_Games();
-								foreach($girls_scores as $girls_score){
+								$boys_scores=$dao->get_JVBoys_Games();
+								foreach($boys_scores as $boys_score){
 									echo"<tr>";
-									echo "<td>" . $girls_score["id"] . "</td>";
-									echo "<td>" . $girls_score["dates"] . "</td>";
-									echo "<td>" . $girls_score["Our_name"] . "</td>";
-									echo "<td>" . $girls_score["Our_Score"] . "</td>";
-									echo "<td>" . $girls_score["Their_name"] . "</td>";
-									echo "<td>" . $girls_score["Their_Score"] . "</td>";
-									echo "<td>" . $girls_score["Covmade"] . "</td>";
-									echo "<td>" . $girls_score["Convatt"] . "</td>";
-									echo "<td>" . $girls_score["Penalties"] . "</td>";
+									echo "<td>" . $boys_score["id"] . "</td>";
+									echo "<td>" . $boys_score["dates"] . "</td>";
+									echo "<td>" . $boys_score["Our_name"] . "</td>";
+									echo "<td>" . $boys_score["Our_Score"] . "</td>";
+									echo "<td>" . $boys_score["Their_name"] . "</td>";
+									echo "<td>" . $boys_score["Their_Score"] . "</td>";
+									echo "<td>" . $boys_score["Covmade"] . "</td>";
+									echo "<td>" . $boys_score["Convatt"] . "</td>";
+									echo "<td>" . $boys_score["Penalties"] . "</td>";
 									echo "</tr>";
 								}
 						
@@ -83,9 +83,9 @@
 					$our_name;
 					$their_name;
 					$dates;
-					echo "<div>Insert Girls Stats </div>";
+					echo "<div>Insert Jv Boys Stats </div>";
 					 echo"
-						  <form action = Varsity_Girls_regular.php method=post>
+						  <form action = JVarsity_Boys_regular.php method=post>
 						   <br>Game number:	<input type=text name=game_number id=game_number/></br>
 						  <br>Our Score:	<input type=text name=our_score id=our_score/></br>
 						  <br> Their Score:	<input type=text name=their_score id=their_score/></br>
@@ -106,7 +106,7 @@
 						$our_name=$_POST['our_name'];
 						$their_name=$_POST['their_name'];
 						$dates=$_POST['dates'];
-					$dao->girls_Stats($id,$dates,$our_name,$our_score,$their_name,$their_score,$convmade,$convatt,$penalties);
+					$dao->jv_Boys_Stats($id,$dates,$our_name,$our_score,$their_name,$their_score,$convmade,$convatt,$penalties);
 				}?>
   </div>
  <div class="footer">
@@ -117,4 +117,3 @@
 </div>
 </body>
 </html>
-		

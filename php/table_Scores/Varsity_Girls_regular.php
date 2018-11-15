@@ -53,21 +53,21 @@
 		</div>
   <div id="background">
   <table>
-		<h3> JV Boys Scores</h3>        
+		<h3> Girls Score</h3>        
                         <tr><td>Game #</td><td>Date</td><td>Capital</td><td>Capital Score</td><td>Opponent</td><td>Opp Score</td><td>Conversion Made</td><td>Conversion Attempt</td><td>Penalties</td></tr>
 						<?php
-								$boys_scores=$dao->get_JVBoys_Games();
-								foreach($boys_scores as $boys_score){
+								$girls_scores=$dao->get_Girls_Games();
+								foreach($girls_scores as $girls_score){
 									echo"<tr>";
-									echo "<td>" . $boys_score["id"] . "</td>";
-									echo "<td>" . $boys_score["dates"] . "</td>";
-									echo "<td>" . $boys_score["Our_name"] . "</td>";
-									echo "<td>" . $boys_score["Our_Score"] . "</td>";
-									echo "<td>" . $boys_score["Their_name"] . "</td>";
-									echo "<td>" . $boys_score["Their_Score"] . "</td>";
-									echo "<td>" . $boys_score["Covmade"] . "</td>";
-									echo "<td>" . $boys_score["Convatt"] . "</td>";
-									echo "<td>" . $boys_score["Penalties"] . "</td>";
+									echo "<td>" . $girls_score["id"] . "</td>";
+									echo "<td>" . $girls_score["dates"] . "</td>";
+									echo "<td>" . $girls_score["Our_name"] . "</td>";
+									echo "<td>" . $girls_score["Our_Score"] . "</td>";
+									echo "<td>" . $girls_score["Their_name"] . "</td>";
+									echo "<td>" . $girls_score["Their_Score"] . "</td>";
+									echo "<td>" . $girls_score["Covmade"] . "</td>";
+									echo "<td>" . $girls_score["Convatt"] . "</td>";
+									echo "<td>" . $girls_score["Penalties"] . "</td>";
 									echo "</tr>";
 								}
 						
@@ -83,9 +83,10 @@
 					$our_name;
 					$their_name;
 					$dates;
-					echo "<div>Insert Jv Boys Stats </div>";
+					echo "<div>Insert Girls Stats </div>";
 					 echo"
-						  <form action = JVarsity_Boys_regular.php method=post>
+						  <form action = Varsity_Girls_regularls
+						  .php method=post>
 						   <br>Game number:	<input type=text name=game_number id=game_number/></br>
 						  <br>Our Score:	<input type=text name=our_score id=our_score/></br>
 						  <br> Their Score:	<input type=text name=their_score id=their_score/></br>
@@ -106,7 +107,7 @@
 						$our_name=$_POST['our_name'];
 						$their_name=$_POST['their_name'];
 						$dates=$_POST['dates'];
-					$dao->jv_Boys_Stats($id,$dates,$our_name,$our_score,$their_name,$their_score,$convmade,$convatt,$penalties);
+					$dao->girls_Stats($id,$dates,$our_name,$our_score,$their_name,$their_score,$convmade,$convatt,$penalties);
 				}?>
   </div>
  <div class="footer">
@@ -117,3 +118,4 @@
 </div>
 </body>
 </html>
+		
