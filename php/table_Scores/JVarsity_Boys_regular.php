@@ -25,29 +25,29 @@
 								<a href="/php/login_handles/login.php">Admin Login</a>
 								<?php if($_SESSION['logged_in']){
 											echo" 
-								<a href=/php/logout.php> LOGOUT</a> 
+								<a href=/php/login_handles/logout.php> LOGOUT</a> 
 									";}?>
 							</div>
 	   <div class ="sidenav">
 		<div class = "dropdown">
 		<button class="dropbtn">Boys Games</button>
 		<div class = "dropdown-content">
-		<a href="/php/Varsity_Boys_regular.php">Regular Season</a>
-		<a href="/php/Varsity_Boys_playoffs.php">Playoffs</a>
+		<a href="/php/table_Scores/Varsity_Boys_regular.php">Regular Season</a>
+		<a href="/php/table_Scores/Varsity_Boys_playoffs.php">Playoffs</a>
 		</div>
 		</div>
 		<div class = "dropdown">
 		<button class="dropbtn">Girls Games</button>
 		<div class = "dropdown-content">
-		<a href="/php/Varsity_Girls_regular.php">Regular Season</a>
-		<a href="/php/Varsity_Girls_playoffs.php">Playoffs</a>
+		<a href="/php/table_Scores/Varsity_Girls_regular.php">Regular Season</a>
+		<a href="/php/table_Scores/Varsity_Girls_playoffs.php">Playoffs</a>
 		</div>
 		</div>
 		<div class = "dropdown">
 		<button class="dropbtn">Jv Boys Games</button>
 		<div class = "dropdown-content">
-		<a href="/php/JVarsity_Boys_regular.php">Regular Season</a>
-		<a href="/php/JVarsity_Boys_playoffs.php">Playoffs</a>
+		<a href="/php/table_Scores/JVarsity_Boys_regular.php">Regular Season</a>
+		<a href="/php/table_Scores/JVarsity_Boys_playoffs.php">Playoffs</a>
 		</div>
 		</div>
 		</div>

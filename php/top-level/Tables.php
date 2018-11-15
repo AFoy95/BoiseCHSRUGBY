@@ -39,15 +39,15 @@
 		<div class = "dropdown">
 		<button class="dropbtn">Girls Games</button>
 		<div class = "dropdown-content">
-		<a href="/php/tables_Scores/Varsity_Girls_regular.php">Regular Season</a>
-		<a href="/php/tables_Scores/Varsity_Girls_playoffs.php">Playoffs</a>
+		<a href="/php/table_Scores/Varsity_Girls_regular.php">Regular Season</a>
+		<a href="/php/table_Scores/Varsity_Girls_playoffs.php">Playoffs</a>
 		</div>
 		</div>
 		<div class = "dropdown">
 		<button class="dropbtn">Jv Boys Games</button>
 		<div class = "dropdown-content">
-		<a href="/php/tables_Scores/JVarsity_Boys_regular.php">Regular Season</a>
-		<a href="/php/tables_Scores/JVarsity_Boys_playoffs.php">Playoffs</a>
+		<a href="/php/table_Scores/JVarsity_Boys_regular.php">Regular Season</a>
+		<a href="/php/table_Scores/JVarsity_Boys_playoffs.php">Playoffs</a>
 		</div>
 		</div>
 		</div>

@@ -15,7 +15,7 @@
 							<div class="topnav">
 								<a href="/php/top-level/main_page.php">Main-page</a>
 								<a href="/php/top-level/About_Us.php">About-Us</a>
-								<a class="active" href="/php/Personal_Bios.php">Personal-Bios</a>	
+								<a class="active" href="/php/top-level/Personal_Bios.php">Personal-Bios</a>	
 								<a href="/php/top-level/Schedules.php">Schedule</a>	
 								<a href="/php/top-level/Tables.php">Tables</a>
 								<a href="/php/login_handles/login.php">Admin Login</a>

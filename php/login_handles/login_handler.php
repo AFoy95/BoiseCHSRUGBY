@@ -1,5 +1,5 @@
 <?php
- require 'Dao.php';
+ require '../php_Classes/Dao.php';
  session_start();
  $dao=new Dao();
  $conn=$dao->getConnection();
@@ -13,7 +13,7 @@
 	}
 	$_SESSION['message'] = "Invalid Username and/or Password";
 	$_SESSION['logged_in']=false;
-	header('Location: https://boisechsrugby.herokuapp.com/php/login.php');
+	header('Location: https://boisechsrugby.herokuapp.com/login_handles/php/login.php');
 	exit;
 	
 ?>

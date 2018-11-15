@@ -1,5 +1,5 @@
 <?php
- require 'Dao.php';
+ require '../php_Classes/Dao.php';
  session_start();
  $dao=new Dao();
  $conn=$dao->getConnection();
@@ -14,7 +14,7 @@
 	if(filter_var($email,FILTER_VALIDATE_EMAIL)){
 		if(strlen($password) < 6 && $password_repeat != $password){
 			$_SESSION['err']="Password is too short it must be at least 6 keys long and password verification does not match";
-		header('Location: https://boisechsrugby.herokuapp.com/php/UserSign_Up.php');
+		header('Location: https://boisechsrugby.herokuapp.com/php/User_Pages/UserSign_Up.php');
 		exit;
 		}else{
 			$dao->new_user($email,$password);
