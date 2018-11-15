@@ -27,7 +27,17 @@
                ";}?>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i></a>
-         </div>
+         <script>
+		function myFunction() {
+			var x = document.getElementById("topnav");
+			if (x.className === "topnav") {
+			x.className += " responsive";
+			} else {
+				x.className = "topnav";
+				}
+		}		
+	</script>
+		 </div>
       </div>
       <div id="background">
       <div class ="sidenav">
@@ -67,15 +77,5 @@
             afoy95@live.com</a>.
          </p>
       </div>
-	<script>
-		function myFunction() {
-			var x = document.getElementById("topnav");
-			if (x.className === "topnav") {
-			x.className += " responsive";
-			} else {
-				x.className = "topnav";
-				}
-		}		
-	</script>
    </body>
 </html>
