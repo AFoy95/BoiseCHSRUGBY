@@ -25,18 +25,6 @@
                echo" 
                <a href=/php/login_handles/logout.php> LOGOUT</a> 
                ";}?>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i></a>
-         <script>
-		function myFunction() {
-			var x = document.getElementById("topnav");
-			if (x.className === "topnav") {
-			x.className += " responsive";
-			} else {
-				x.className = "topnav";
-				}
-		}		
-	</script>
 		 </div>
       </div>
       <div id="background">
