@@ -68,7 +68,6 @@ session_start();
   <p>&emsp;Contact information: <a href="mailto:afoy95@live.com">
   afoy95@live.com</a>.</p>
 </div>
-</body>
 <script>
 var dropdown = document.getElementsByClassName("dropdown");
 var i;
@@ -86,5 +85,8 @@ for (i = 0; i < dropdown.length; i++) {
 }
 
 </script>
+
+</body>
+
 </html>
 
