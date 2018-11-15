@@ -69,7 +69,7 @@ session_start();
   afoy95@live.com</a>.</p>
 </div>
 <script>
-var dropdown = document.getElementsByClassName("dropdown");
+var dropdown = document.getElementsByClassName(".dropbtn");
 var i;
 
 for (i = 0; i < dropdown.length; i++) {
