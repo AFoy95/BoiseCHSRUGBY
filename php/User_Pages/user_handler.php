@@ -25,6 +25,6 @@
 	}else{
 		
 		$_SESSION['err']="Invalid email must include an @ and .";
-		header('Location: https://boisechsrugby.herokuapp.com/php/UserSign_Up.php');
+		header('Location: https://boisechsrugby.herokuapp.com/php/User_Pages/UserSign_Up.php');
 		exit;
 	}
