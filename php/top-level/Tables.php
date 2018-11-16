@@ -10,7 +10,7 @@
                                 
 							<header><title>Scores</title></header>
   <head>
-  <link href="/css/tables.css" type="text/css" rel="stylesheet" />
+  <link href="../css/tables.css" type="text/css" rel="stylesheet" />
   </head>	
   <h1>CHS<img src="/photos/logo.PNG"/>RUGBY</h1>
   </div>
