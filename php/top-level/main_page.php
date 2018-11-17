@@ -70,15 +70,14 @@
 	  <script>
 		var dropdown = document.getElementsByClassName("dropbtn");
 		var i;
-		dropdown.display="none";
 			for(i=0;i<dropdown.length;i++){
 				dropdown[i].addEventListener("click",function(){
 					this.classList.toggle("active");
 					var dropdownContent=this.nextElementSibling;
-					if(dropdown.display === "block"){
-						dropdown.display = "none";
+					if(dropdown.style.display === "block"){
+						dropdown.style.display = "none";
 					}else{
-					dropdown.display = "block";
+					dropdown.style.display = "block";
 					}
 				});
 			}
