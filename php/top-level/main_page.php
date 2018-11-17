@@ -75,9 +75,9 @@
 					this.classList.toggle("active");
 					var dropdownContent=this.nextElementSibling;
 					if($(this).css("display") === "block"){
-						$(this).css("display") = "none";
+						dropdown.style.display="none";
 					}else{
-					$(this).css("display")= "block";
+						dropdownContent.style.display="block";
 					}
 				});
 			}
