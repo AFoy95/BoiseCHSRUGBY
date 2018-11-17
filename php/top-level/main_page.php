@@ -69,6 +69,7 @@
       </div>
 	  <script>
 		var dropdown = document.getElementsByClassName("dropbtn");
+		$('.dropbtn').css('display','block');
 		var i;
 			for(i=0;i<dropdown.length;i++){
 				dropdown[i].addEventListener("click",function(){
