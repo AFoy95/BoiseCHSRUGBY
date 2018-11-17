@@ -72,6 +72,7 @@
 		$('.dropbtn').css('display','block');
 		var i;
 			for(i=0;i<dropdown.length;i++){
+				dropdown[i].style.display="block";
 				dropdown[i].addEventListener("click",function(){
 					this.classList.toggle("active");
 					var dropdownContent=this.nextElementSibling;
