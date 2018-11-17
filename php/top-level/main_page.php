@@ -68,7 +68,7 @@
          </p>
       </div>
 	  <script>
-		var dropdown = document.getElementsbyClassName("dropbtn");
+		var dropdown = document.getElementsByClassName("dropbtn");
 		var i;
 			for(i=0;i<dropdown.length;i++){
 				dropdown[i].addEventListener("click",function(){
