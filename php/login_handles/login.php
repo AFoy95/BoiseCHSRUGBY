@@ -28,25 +28,25 @@ unset($_SESSION['message']);
                                 </div>		
 	<div id ="background">
    <div class ="sidenav">
-		<div class = "dropdown">
+		<div>
 		<button class="dropbtn">Admin info</button>
 		<div class = "dropdown-content">
 		<a href="#">Who is the Admin?</a>
 		</div>
 		</div>
-		<div class = "dropdown">
+		<div>
 		<button class="dropbtn">US Copyright Laws</button>
 		<div class = "dropdown-content">
 		<a href="#">US laws</a>
 		</div>
 		</div>
-		<div class = "dropdown">
+		<div>
 		<button class="dropbtn">General Guidelines</button>
 		<div class = "dropdown-content">
 		<a href="#">Dont be That Guy/Gal</a>
 		</div>
 		</div>
-		<div class = "dropdown">
+		<div>
 		<button class="dropbtn">Admin Login</button>
 		<div class = "dropdown-content">
 			<form action="login_handler.php" method="post">
