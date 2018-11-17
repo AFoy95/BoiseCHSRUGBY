@@ -140,7 +140,7 @@ color: #ff0000;
 	display:block;
 	outline:none;
 	cursor:pointer;
-	width:100%;
+	width:width 100%;
 }
 
 .dropdown {
@@ -164,6 +164,8 @@ color: #ff0000;
 }
 
 .sidenav a:hover,.dropbtn:hover {background-color: #ffd700;}
+
+.dropdown-content a:hover {background-color: #ffd700;}
 
 
 
