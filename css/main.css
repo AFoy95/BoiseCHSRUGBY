@@ -131,7 +131,7 @@ color: #ff0000;
 /* Style the sidenav links and the dropdown button */
 
 
-.dropbtn {
+.sidenav a, .dropbtn {
     background-color: #666;
     color: white;
     padding: 16px;
@@ -163,11 +163,9 @@ color: #ff0000;
     display: block;
 }
 
-.dropdown-content a{background-color: #ddd;}
+.sidenav a:hover,.dropdown:hover {background-color: #ddd;}
 
-.dropdown .dropdown-content {display: block;}
 
-.dropdown .dropbtn {background-color: #ffd700;}
 
 
 
