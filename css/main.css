@@ -163,11 +163,9 @@ color: #ff0000;
     display: block;
 }
 
-.sidenav a:hover,.dropdown:hover {background-color: #ddd;}
+.sidenav a:hover,.dropbtn:hover {background-color: #ffd700;}
 
-.dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #ffd700;}
 
 
 
