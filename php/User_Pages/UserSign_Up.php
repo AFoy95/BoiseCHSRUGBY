@@ -27,7 +27,7 @@ if(isset($_SESSION['err'])){
     <input type="password" placeholder="Repeat Password" name="password-repeat" value="password-repeat" required>
 
     <div class="clearfix">
-      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="cancelbtn">Cancel</button>
       <button type="submit" class="signupbtn">Sign Up</button>
     </div>
   </div>	
