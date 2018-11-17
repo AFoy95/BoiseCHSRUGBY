@@ -123,6 +123,8 @@ color: #ff0000;
     left: 0;
     background-color: #666;
     overflow-x: hidden;
+	text-align:left;
+	cursor:pointer;
 	grid-area:menu;
 }
 
@@ -136,6 +138,7 @@ color: #ff0000;
     font-size: 16px;
     border: none;
 	display:block;
+	cursor:pointer;
 	width:200px;
 }
 
