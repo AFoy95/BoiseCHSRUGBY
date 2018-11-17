@@ -28,20 +28,20 @@
       </div>
       <div id="background">
          <div class ="sidenav">
-            <div class = "dropdown">
+            <div>
                <button class="dropbtn">Dates and Events</button>
                <div class = "dropdown-content">
                   <a href="#">Dates</a>
                   <a href="#">Events</a>
                </div>
             </div>
-            <div class = "dropdown">
+            <div>
                <button class="dropbtn">Practice Times</button>
                <div class = "dropdown-content">
                   <a href="#">Practice</a>
                </div>
             </div>
-            <div class = "dropdown">
+            <div>
                <button class="dropbtn">California Links</button>
                <div class = "dropdown-content">
                   <a href="#">General info</a>
@@ -57,5 +57,21 @@
             afoy95@live.com</a>.
          </p>
       </div>
+	   <script>
+		var dropdown = document.getElementsByClassName("dropbtn");
+		var i;
+			for(i=0;i<dropdown.length;i++){
+				dropdown[i].addEventListener("click",function(){
+					this.classList.toggle("active");
+					var dropdownContent=this.nextElementSibling;
+					if(dropdownContent.style.display === "block"){
+						dropdownContent.style.display="none";
+					}else{
+						dropdownContent.style.display="block";
+					}
+				});
+			}
+	  </script>
+	  
    </body>
 </html>
