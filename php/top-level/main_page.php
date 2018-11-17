@@ -74,7 +74,7 @@
 				dropdown[i].addEventListener("click",function(){
 					this.classList.toggle("active");
 					var dropdownContent=this.nextElementSibling;
-					if(dropdownContent === "block"){
+					if(dropdownContent.display === "block"){
 						dropdown.style.display = "none";
 					}else{
 					dropdownContent.style.display = "block";
