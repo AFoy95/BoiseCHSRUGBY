@@ -74,10 +74,10 @@
 				dropdown[i].addEventListener("click",function(){
 					this.classList.toggle("active");
 					var dropdownContent=this.nextElementSibling;
-					if(dropdown.style.display === "block"){
-						dropdown.style.display = "none";
+					if($(this).css("display") === "block"){
+						$(this).css("display") = "none";
 					}else{
-					dropdown.style.display = "block";
+					$(this).css("display")= "block";
 					}
 				});
 			}
