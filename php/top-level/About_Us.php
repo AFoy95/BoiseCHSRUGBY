@@ -28,14 +28,14 @@
                               </div>
 		<div id="background">
 		<div class ="sidenav">
-		<div class = "dropdown">
+		<div>
 		<button class="dropbtn">About Us</button>
 		<div class = "dropdown-content">
 		<a href="#">Teams</a>
 		<a href="#">Championships</a>
 		</div>
 		</div>
-		<div class = "dropdown">
+		<div>
 		<button class="dropbtn">Teams Timeline</button>
 		<div class = "dropdown-content">
 		<a href="#">Founding</a>
@@ -53,5 +53,21 @@
   <p>&emsp;Contact information: <a href="mailto:afoy95@live.com">
   afoy95@live.com</a>.</p>
 </div>
+
+ <script>
+		var dropdown = document.getElementsByClassName("dropbtn");
+		var i;
+			for(i=0;i<dropdown.length;i++){
+				dropdown[i].addEventListener("click",function(){
+					this.classList.toggle("active");
+					var dropdownContent=this.nextElementSibling;
+					if(dropdownContent.style.display === "block"){
+						dropdownContent.style.display="none";
+					}else{
+						dropdownContent.style.display="block";
+					}
+				});
+			}
+	  </script>
 </body>
 </html>
