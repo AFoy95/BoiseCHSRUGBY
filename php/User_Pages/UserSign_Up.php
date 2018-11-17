@@ -12,6 +12,8 @@ if(isset($_SESSION['err'])){
 <link href="/css/usersign_in.css" type="text/css" rel="stylesheet" />
 </head>
 <div>
+<div id="error">
+</div>
 <form action="/php/User_Pages/user_handler.php" method="post" style="border:1px solid black">
 	<div class="container">
     <h1>Sign Up</h1>
