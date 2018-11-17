@@ -69,17 +69,14 @@
       </div>
 	  <script>
 		var dropdown = document.getElementsByClassName("dropbtn");
-		$('.dropbtn').css('display','block');
 		var i;
 			for(i=0;i<dropdown.length;i++){
-				dropdown[i].style.display="block";
 				dropdown[i].addEventListener("click",function(){
 					this.classList.toggle("active");
-					var dropdownContent=this.nextElementSibling;
-					if(dropdownContent.style.display == "block"){
-						dropdown.style.display = "none";
+					if(dropdown.display == "block"){
+						dropdown.display = "none";
 					}else{
-					dropdownContent.style.display = "block";
+					dropdown.display = "block";
 					}
 				});
 			}
