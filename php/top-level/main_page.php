@@ -67,5 +67,20 @@
             afoy95@live.com</a>.
          </p>
       </div>
+	  <script>
+		var dropdown = document.getElementsbyClassName("dropbtn");
+		var i;
+			for(i=0;i<dropdown.length;i++){
+				dropdown[i].addEventListener("click",function(){
+					this.classList.toggle("active");
+					var dropdownContent=this.nextElementSibling;
+					if(dropdownContent.style.display === "block"){
+						dropdown.style.display = "none";
+					}else{
+					dropdownContent.style.display = "block";
+					}
+				});
+			}
+	  </script>
    </body>
 </html>
