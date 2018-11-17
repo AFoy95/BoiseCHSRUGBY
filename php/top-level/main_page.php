@@ -30,19 +30,19 @@
       </div>
       <div id="background">
       <div class ="sidenav">
-         <div class = "dropdown">
+         <div>
             <button class="dropbtn">What is Rugby</button>
             <div class = "dropdown-content">
                <a href="#">Rugby Basics</a>
             </div>
          </div>
-         <div class = "dropdown">
+         <div>
             <button class="dropbtn">Rugby Laws</button>
             <div class = "dropdown-content">
                <a href="https://laws.worldrugby.org/?variation=1&language=EN">Rugby Law Book</a>
             </div>
          </div>
-         <div class = "dropdown">
+         <div>
             <button class="dropbtn">Users Sign-up/Sign-in</button>
             <div class = "dropdown-content">
                <a>User Sign-in</a>
