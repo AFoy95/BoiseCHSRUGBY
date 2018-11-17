@@ -29,21 +29,21 @@
 									";}?>
 							</div>
 	   <div class ="sidenav">
-		<div class = "dropdown">
+		<div >
 		<button class="dropbtn">Boys Games</button>
 		<div class = "dropdown-content">
 		<a href="/php/table_Scores/Varsity_Boys_regular.php">Regular Season</a>
 		<a href="/php/table_Scores/Varsity_Boys_playoffs.php">Playoffs</a>
 		</div>
 		</div>
-		<div class = "dropdown">
+		<div>
 		<button class="dropbtn">Girls Games</button>
 		<div class = "dropdown-content">
 		<a href="/php/table_Scores/Varsity_Girls_regular.php">Regular Season</a>
 		<a href="/php/table_Scores/Varsity_Girls_playoffs.php">Playoffs</a>
 		</div>
 		</div>
-		<div class = "dropdown">
+		<div>
 		<button class="dropbtn">Jv Boys Games</button>
 		<div class = "dropdown-content">
 		<a href="/php/table_Scores/JVarsity_Boys_regular.php">Regular Season</a>
@@ -115,5 +115,20 @@
   <p>&emsp;Contact information: <a href="mailto:afoy95@live.com">
   afoy95@live.com</a>.</p>
 </div>
+<script>
+		var dropdown = document.getElementsByClassName("dropbtn");
+		var i;
+			for(i=0;i<dropdown.length;i++){
+				dropdown[i].addEventListener("click",function(){
+					this.classList.toggle("active");
+					var dropdownContent=this.nextElementSibling;
+					if(dropdownContent.style.display === "block"){
+						dropdownContent.style.display="none";
+					}else{
+						dropdownContent.style.display="block";
+					}
+				});
+			}
+	  </script>
 </body>
 </html>
