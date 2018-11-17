@@ -31,7 +31,7 @@
 	   <div class ="sidenav">
 		<div>
 		<button class="dropbtn">Boys Games</button>
-		<div>
+		<div class = "dropdown-content">
 		<a href="/php/table_Scores/Varsity_Boys_regular.php">Regular Season</a>
 		<a href="/php/table_Scores/Varsity_Boys_playoffs.php">Playoffs</a>
 		</div>
