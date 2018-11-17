@@ -73,6 +73,7 @@
 			for(i=0;i<dropdown.length;i++){
 				dropdown[i].addEventListener("click",function(){
 					this.classList.toggle("active");
+					var dropdownContent=this.nextElementSibling;
 					if(dropdown.display == "block"){
 						dropdown.display = "none";
 					}else{
