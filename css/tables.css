@@ -1,4 +1,5 @@
 body{
+display:grid;
 grid-template-areas:"header header header header header header header"
 					"nav  	nav    nav    nav  	 nav    nav    nav"
 					"menu   main   main   main   main   main   main"
@@ -18,6 +19,7 @@ grid-template-areas:"header header header header header header header"
 					"footer footer footer footer footer footer footer";
 background-position:center;
 grid-template-columns:10%;
+height:100%;
 }
 #background{
   grid-area:main;
