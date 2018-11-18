@@ -15,3 +15,6 @@ echo($password);
 	}
 	$_SESSION['message'] = "Invalid Username and/or Password";
 	$_SESSION['logged_in']=false;
+	header('Location: https://boisechsrugby.herokuapp.com/');
+	exit;
+?>
