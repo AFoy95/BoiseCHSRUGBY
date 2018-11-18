@@ -7,13 +7,13 @@
  $password = $_POST['password'];
  $dao->passkey=$dao->get_User_pass($email);
  echo($dao->passkey);
- sleep(5);
 	if($dao->get_User_email($email) && password_verify($password,$dao->passkey) || $_SESSION['logged_in']){
 		header('Location: https://boisechsrugby.herokuapp.com/');
 		$_SESSION['isadmin']= false;
 		$_SESSION['logged_in'] = true;
 		exit;
 	}
+	sleep(5);
 	$_SESSION['message'] = "Invalid Username and/or Password";
 	$_SESSION['logged_in']=false;
 	header('Location: https://boisechsrugby.herokuapp.com/php/User_Pages/UserSign_Up.php');
