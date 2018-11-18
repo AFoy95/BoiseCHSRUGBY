@@ -106,6 +106,7 @@
                 $query=$conn->prepare($saveQuery);
 		$query->bindParam(":email",$email);
 		$query->bindParam(":password",$password);
+		$password= password_hash($password , 10);
                 $query->execute();
          }
 	
