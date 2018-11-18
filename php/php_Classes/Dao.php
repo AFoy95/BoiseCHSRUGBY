@@ -151,7 +151,6 @@ public function get_User_email($email){
                 $query=$conn->prepare($getQuery);
 				$query->bindParam(":email",$email);
                 $query->execute();
-				$pass=
                 return reset($query->fetchAll());
 	}
 	public function get_Boys_Games(){
