@@ -18,7 +18,7 @@
 		exit;
 		}else{
 			 $hash= password_hash($password , PASSWORD_DEFAULT);
-			 $dao->passkey=$password;
+			 $dao->passkey=$hash;
 			$dao->new_user($email,$hash);
 			echo"Success: new User created";
 			header('Location: https://boisechsrugby.herokuapp.com/');
