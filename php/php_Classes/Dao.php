@@ -98,7 +98,8 @@
 	 }
 
 	 public function new_user($email,$password){
-                $conn = $this->getConnection();
+                $password= password_hash($password , 10);
+				$conn = $this->getConnection();
                 $saveQuery= "INSERT INTO users
                         (email,password)
                         VALUES
@@ -106,7 +107,6 @@
                 $query=$conn->prepare($saveQuery);
 		$query->bindParam(":email",$email);
 		$query->bindParam(":password",$password);
-		$password= password_hash($password , 10);
                 $query->execute();
          }
 	
