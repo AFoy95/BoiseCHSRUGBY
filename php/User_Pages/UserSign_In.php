@@ -5,7 +5,6 @@
  $conn=$dao->getConnection();
  $email = $_POST['email'];
  $password = $_POST['password'];
- $dao->passkey=$dao->get_User_pass($email);
  echo($dao->passkey);
 	if($dao->get_User_email($email) && password_verify($password,$dao->passkey) || $_SESSION['logged_in']){
 		header('Location: https://boisechsrugby.herokuapp.com/');
