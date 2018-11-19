@@ -51,8 +51,9 @@
             </div>
          </div>
 		<div class="content">
-		<img src="">
-		</img>
+		<embed>
+		
+		</embed>
 		<textarea>
 		</textarea>
 		</div>
