@@ -29,3 +29,4 @@
 		header('Location: https://boisechsrugby.herokuapp.com/php/User_Pages/UserSign_Up.php');
 		exit;
 	}
+?>
