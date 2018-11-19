@@ -1,9 +1,11 @@
 body{
 
-grid-template-areas:"header header header header"
-					"main   main   main   main"
-					"main   main   main   main"
-					"footer footer footer footer";
+grid-template-areas:"header header header header header"
+					"topnav topnav topnav topnav topnav",
+					"sidenav   main   main   main main"
+					"sidenav   main   main   main main"
+					"sidenav   main   main   main main"
+					"sidenav footer footer footer footer";
 background-position:center;
 	
 }
@@ -87,6 +89,7 @@ color: #ff0000;
 	background-color:#888;
 	color:white;
 	overflow:hidden;
+	grid-area:topnav;
 }
 .topnav a{
 	float:left;
@@ -112,7 +115,7 @@ color: #ff0000;
     overflow-x: hidden;
 	text-align:left;
 	cursor:pointer;
-	grid-area:menu;
+	grid-area:sidenav;
 }
 
 /* Style the sidenav links and the dropdown button */
