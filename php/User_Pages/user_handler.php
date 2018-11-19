@@ -17,8 +17,8 @@
 		header('Location: https://boisechsrugby.herokuapp.com/php/User_Pages/UserSign_Up.php');
 		exit;
 		}else{
-			
-			$dao->new_user($email,password_hash($password , PASSWORD_DEFAULT));
+			$dao->passkey=password_hash($password , PASSWORD_DEFAULT)
+			$dao->new_user($email,$dao->passkey);
 			echo"Success: new User created";
 			header('Location: https://boisechsrugby.herokuapp.com/');
 			exit;
