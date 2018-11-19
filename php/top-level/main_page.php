@@ -27,6 +27,13 @@
                <a href=/php/login_handles/logout.php> LOGOUT</a> 
                ";}?>
 		 </div>
+		 <div id = "success_fail">
+		 <?php 
+			if(isset($_SESSION["success_fail"]){
+				echo($_SESSION["success_fail"];
+			}
+		 ?>
+		 </div>
       </div>
       <div id="background">
       <div class ="sidenav">
@@ -68,5 +75,6 @@
          </p>
       </div>
 	  <script src = "/../../js/sideNav.js"></script>
+	  <script src="/../../js/success_fail.js"></script>
    </body>
 </html>

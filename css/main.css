@@ -164,9 +164,20 @@ color: #ff0000;
 .sidenav a:hover,.dropbtn:hover {background-color: #ffd700;}
 
 
+#success_fail{
+	color: white;
+  padding: 10px 10;
+  margin-bottom: 5px;
+  width: 500px;
+}
 
+.bad {
+  background-color: #B90000;
+}
 
-
+.good {
+  background-color: #228B22;
+}
 
 
 
