@@ -6,7 +6,8 @@
  $email = $_POST['email'];
  $password = $_POST['password'];
  $hash=hash("sha512",$password,"YwJGQafgbRdJIC2p");
-	if($dao->get_User_email($email) && $dao->get_User_pass($hash) || $_SESSION['logged_in']){
+ if(!$_SESSION['isadmin']){
+	if($dao->get_User_email($email) && $dao->get_User_pass($hash) || $_SESSION['logged_in'] ){
 		header('Location: https://boisechsrugby.herokuapp.com/');
 		$_SESSION['isadmin']= false;
 		$_SESSION['logged_in'] = true;
@@ -17,5 +18,9 @@
 	$_SESSION['logged_in']=false;
 	header('Location: https://boisechsrugby.herokuapp.com/');
 	exit;
+ }else{
+	header('Location: https://boisechsrugby.herokuapp.com/');
+	exit; 
+ }
 	
 ?>
