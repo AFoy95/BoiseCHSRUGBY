@@ -9,9 +9,6 @@ background-position:center;
 }
 	
 #background{
-background-image:url('/photos/background_image4.png');
-  background-size:cover;
-  background-repeat:no-repeat;
   grid-area:main;
   grid-template-areas:"menu body body body"
 					  "menu body body body"
@@ -158,6 +155,9 @@ color: #ff0000;
 
 
 .content{
+	background-image:url('/photos/background_image4.png');
+  background-size:cover;
+  background-repeat:no-repeat;
 	color:#ffd700;
 	text-align:center;
 	grid-area:body;
