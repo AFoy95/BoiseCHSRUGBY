@@ -51,9 +51,7 @@
             </div>
          </div>
 		<div class="content">
-		<embed>
-		
-		</embed>
+		<div id="image" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 		<textarea>
 		</textarea>
 		</div>
@@ -66,5 +64,6 @@
          </p>
       </div>
 	   	  <script src = "/../../js/sideNav.js"></script>
+		  <script src = "/../../js/drag_and_drop.js"></script>
    </body>
 </html>
