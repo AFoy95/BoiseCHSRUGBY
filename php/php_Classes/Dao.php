@@ -14,10 +14,10 @@
 	
 	public function setAdmin($id,$username,$password,$isadmin){
 		$conn = $this->getConnection();
-		$saveQuery= "INSERT INTO admin
+		$saveQuery= "UPDATE admin
 			(id,username,passphrase,isadmin)
-			VALUES
-			(:id,:username,:passphrase,:isadmin)";
+			SET
+			(:id,:username,:passphrase,:isadmin)where id=:id";
 		$query=$conn->prepare($saveQuery);
 		$query->bindParam(":id",$id);
 		$query->bindParam(":username",$username);

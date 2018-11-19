@@ -59,6 +59,23 @@ unset($_SESSION['message']);
 			</div>
 			</form>
 		</div>
+		<?php
+			if($_SESSION['isadmin']){
+			echo"
+			<div class = dropdown-content>
+			<form action=set_admin.php method=post>
+			username:<br>
+			<input type= text name= username id= username/><br>
+			password:<br>
+			<input type= password name= password id= password/><br/>
+			<div>
+				<input type= submit  name= submit  id=login value=change/>
+			</div>
+			</form>
+		</div>
+		";
+			}
+		?>
 		</div>
 		</div>
 		</div>
