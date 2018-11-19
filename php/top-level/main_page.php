@@ -63,7 +63,9 @@
                      <input type="submit" name="submit" id="login" value="Login"/>
                   </div>
                </form>
-               <a href="/php/User_Pages/UserSign_Up.php" id="sign_up">User Sign-up</a>
+               <a href="/php/User_Pages/UserSign_Up.php" id="sign_up">User Sign-up
+					<script src = "/../../js/sideNav.js"></script>
+			   </a>
             </div>
          </div>
       </div>
@@ -75,7 +77,6 @@
             afoy95@live.com</a>.
          </p>
       </div>
-	  <script src = "/../../js/sideNav.js"></script>
 	  <script src="/../../js/success_fail.js"></script>
    </body>
 </html>
