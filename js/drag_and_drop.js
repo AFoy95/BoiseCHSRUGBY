@@ -30,8 +30,6 @@ if (isAdvancedUpload) {
 }
 
 if (isAdvancedUpload) {
-  e.preventDefault();
-
   var ajaxData = new FormData($form.get(0));
 
   if (droppedFiles) {
