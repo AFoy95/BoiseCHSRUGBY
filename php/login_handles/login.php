@@ -59,9 +59,12 @@ unset($_SESSION['message']);
 			</div>
 			</form>
 		</div>
+		</div>
 		<?php
 			if($_SESSION['isadmin']){
 			echo("
+			<div>
+			<button class=dropbtn>Update Admin</button>
 			<div class = dropdown-content>
 			<form action=set_admin.php method=post>
 			username:<br>
@@ -73,10 +76,10 @@ unset($_SESSION['message']);
 			</div>
 			</form>
 		</div>
+		</div>
 		");
 			}
 		?>
-		</div>
 		</div>
 		</div>
 
