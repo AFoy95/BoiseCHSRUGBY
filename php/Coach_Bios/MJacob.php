@@ -51,7 +51,9 @@
                </div>
             </div>
          </div>
-		Writing stuff can be difficult.
+		 <div>
+		 Writing can be hard
+		 </div>
 	  </div>
       <div class="footer">
          <p> &copy; boisechsrugby.com</p>
