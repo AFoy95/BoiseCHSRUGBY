@@ -12,16 +12,17 @@
  $pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9-]+\.[a-zA-Z.]{2,5}$";
 	
 	if(filter_var($email,FILTER_VALIDATE_EMAIL)){
-		if(strlen($password) < 6 && $password_repeat != $password){
-			$_SESSION['err']="Password is too short it must be at least 6 keys long and password verification does not match";
+		if(strlen($password_repeat != $password){
+			$_SESSION['err']="Password verification does not match";
 		header('Location: https://boisechsrugby.herokuapp.com/php/User_Pages/UserSign_Up.php');
 		exit;
 		}else{
 			$dao->passkey=password_hash($password , PASSWORD_DEFAULT)
 			$dao->new_user($email,$dao->passkey);
 			echo"Success: new User created";
-			header('Location: https://boisechsrugby.herokuapp.com/');
-			exit;
+			echo($password);
+			//header('Location: https://boisechsrugby.herokuapp.com/');
+			//exit;
 		}
 	}else{
 		
