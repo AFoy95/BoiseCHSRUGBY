@@ -144,11 +144,11 @@ public function get_User_email($email){
 		$query->execute();
 		return reset($query->fetchAll());
 	}	
-	public function get_User_pass($email){
+	public function get_User_pass($password){
 		$conn=$this->getConnection();
-				$getQuery="SELECT password FROM  heroku_8d53fe00435ac54.users WHERE email = :email";
+				$getQuery="SELECT id FROM  heroku_8d53fe00435ac54.users WHERE password = :password";
                 $query=$conn->prepare($getQuery);
-				$query->bindParam(":email",$email);
+				$query->bindParam(":password",$password);
                 $query->execute();
                 return reset($query->fetchAll());
 	}
