@@ -21,8 +21,7 @@
 			$dao->new_user($email,$dao->passkey);
 			echo"Success: new User created";
 			echo($password);
-			//header('Location: https://boisechsrugby.herokuapp.com/');
-			//exit;
+			
 		}
 	}else{
 		
