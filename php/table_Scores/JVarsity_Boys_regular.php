@@ -112,8 +112,8 @@
 						$dates=$_POST['dates'];
 					$dao->jv_Boys_Stats($id,$dates,$our_name,$our_score,$their_name,$their_score,$convmade,$convatt,$penalties);
 				}?>
-				</d
-  </div>iv>
+				</div>
+  </div>
  <div class="footer">
   <p> &copy; boisechsrugby.com</p>
   <p>&emsp;Admin: Austin Foy</p>
