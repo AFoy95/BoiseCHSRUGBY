@@ -12,7 +12,6 @@
             <link href="/css/Personal_Bios.css" type="text/css" rel="stylesheet" />
          </head>
          <h1>CHS<img src="/photos/logo.PNG"/>RUGBY</h1>
-		 </div>
          <div class="topnav">
             <a href="/php/top-level/main_page.php">Main-page</a>
             <a href="/php/top-level/About_Us.php">About-Us</a>
@@ -25,6 +24,7 @@
                <a href=/php/login_handles/logout.php> LOGOUT</a> 
                ";}?>
          </div>
+		 </div>
 		 <div id="background">
          <div class ="sidenav">
             <div>
