@@ -59,10 +59,6 @@ if (isAdvancedUpload) {
       // Log the error, show an alert, whatever works for you
     }
   });
-.on('drop', function(e) { // when drag & drop is supported
-  droppedFiles = e.originalEvent.dataTransfer.files;
-  $form.trigger('submit');
-});
   }
 
 // ...
