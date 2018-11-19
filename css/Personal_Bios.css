@@ -13,6 +13,9 @@ background-position:center;
   grid-template-areas:"menu body body body"
 					  "menu body body body"
 					  "menu body body body";
+	display:grid;
+	height:100%;
+	grid-template-columns:min-content;
 }
 #header {
   background: linear-gradient(to right,rgba(230,195,0,0.5),rgba(255,232,102,1));
