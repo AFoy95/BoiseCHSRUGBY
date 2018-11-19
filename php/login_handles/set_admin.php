@@ -6,7 +6,7 @@
  $username = $_POST['username'];
  $password = $_POST['password'];
 	$hash=hash("sha512",$password,"YwJGQafgbRdJIC2p");
-	$dao->setAdmin(1,$username,$hash,1);
+	$dao->setAdmin(3,$username,$hash,1);
 	header('Location: https://boisechsrugby.herokuapp.com/');
 	exit;
 	

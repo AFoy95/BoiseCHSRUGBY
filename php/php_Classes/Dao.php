@@ -14,13 +14,10 @@
 	
 	public function setAdmin($id,$username,$password,$isadmin){
 		$conn = $this->getConnection();
-		$saveQuery= "UPDATE heroku_8d53fe00435ac54.admin
-			SET
-			id= :id,
-			username = :username,
-			passphrase = :passphrase,
-			isadmin = :isadmin,
-			WHERE id = 1";
+		$saveQuery= "INSERT INTO admin
+			(id,username,passphrase,isadmin)
+			VALUES
+			(:id,:username,:passphrase,:isadmin)";
 		$query=$conn->prepare($saveQuery);
 		$query->bindParam(":id",$id);
 		$query->bindParam(":username",$username);
