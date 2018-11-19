@@ -14,14 +14,15 @@
 		exit;
 		}else{
 			$_SESSION["success_fail"]="Created new User Account";
+			$_SESSION['validated'] = 'good';
 			$dao->new_user($email,hash("sha512",$password,"YwJGQafgbRdJIC2p"));
-			$dao->passkey="YwJGQafgbRdJIC2p";
 			header('Location: https://boisechsrugby.herokuapp.com/');
 			exit;
 		}
 	}else{
 		
-		$_SESSION['success_fail']="Invalid email must include an @ and .";
+		$_SESSION['success_fail']="Invalid email";
+		$_SESSION['validated'] = 'bad';
 		header('Location: https://boisechsrugby.herokuapp.com/');
 		exit;
 	}

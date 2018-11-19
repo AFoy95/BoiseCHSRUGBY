@@ -14,7 +14,7 @@
 	$_SESSION['message'] = "Invalid Username and/or Password";
 	$_SESSION['logged_in']=false;
 	$_SESSION['isadmin']= false;
-	header('Location: https://boisechsrugby.herokuapp.com/login_handles/php/login.php');
+	header('Location: https://boisechsrugby.herokuapp.com/php/login_handles/login.php');
 	exit;
 	
 ?>
