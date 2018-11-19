@@ -37,7 +37,7 @@ unset($_SESSION['message']);
 		<div>
 		<button class="dropbtn">US Copyright Laws</button>
 		<div class = "dropdown-content">
-		<a href="#">US laws</a>
+		<a href="https://www.copyright.gov/circs/circ61.pdf">Web Copyright</a>
 		</div>
 		</div>
 		<div>
