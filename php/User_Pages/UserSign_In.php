@@ -7,7 +7,7 @@
  $password = $_POST['password'];
 $hash=password_hash($password,PASSWORD_DEFAULT);
 	echo($hash);
-	if($dao->get_User_email($email) && $dao->get_User_pass($email) || $_SESSION['logged_in']){
+	if($dao->get_User_email($email) && $dao->get_User_pass($hash) || $_SESSION['logged_in']){
 		header('Location: https://boisechsrugby.herokuapp.com/');
 		$_SESSION['isadmin']= false;
 		$_SESSION['logged_in'] = true;
