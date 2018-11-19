@@ -30,23 +30,23 @@
             <div>
                <button class="dropbtn">Head Coaches</button>
                <div class = "dropdown-content">
-                  <a href="#">Greg Turpen</a>
-                  <a href="#">Jeff Turpen</a>
-                  <a href="#">Matt Jacobsen</a>
+                  <a href="/php/Coach_Bios/GTurp.php">Greg Turpen</a>
+                  <a href="/php/Coach_Bios/JTurp.php">Jeff Turpen</a>
+                  <a href="/php/Coach_Bios/MJacob.php">Matt Jacobsen</a>
                </div>
             </div>
             <div>
                <button class="dropbtn">Asst Coaches</button>
                <div class = "dropdown-content">
-                  <a href="#">Alex Wray</a>
-                  <a href="#">Austin Foy</a>
-                  <a href="#">Laura Brown</a>
+                  <a href="/php/Coach_Bios/AWray.php">Alex Wray</a>
+                  <a href="/php/Coach_Bios/AFoy.php">Austin Foy</a>
+                  <a href="/php/Coach_Bios/LFried.php">Laura Brown</a>
                </div>
             </div>
             <div>
                <button class="dropbtn">Grad Assistant</button>
                <div class = "dropdown-content">
-                  <a href="#">Jacob Hardy</a>
+                  <a href="/php/Coach_Bios/JHardy.php">Jacob Hardy</a>
                </div>
             </div>
          </div>
