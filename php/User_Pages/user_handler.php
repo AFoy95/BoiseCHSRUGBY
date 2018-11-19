@@ -16,7 +16,7 @@
 		}else{
 			$dao->passkey=password_hash($password , PASSWORD_DEFAULT);
 			$dao->new_user($email,$dao->passkey);
-			echo($password);
+			echo($dao->passkey);
 			
 		}
 	}else{
