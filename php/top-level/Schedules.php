@@ -31,8 +31,7 @@
             <div>
                <button class="dropbtn">Dates and Events</button>
                <div class = "dropdown-content">
-                  <a href="#">Dates</a>
-                  <a href="#">Events</a>
+                  <a href="#">Dates and Events</a>
                </div>
             </div>
             <div>
