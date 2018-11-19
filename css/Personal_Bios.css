@@ -1,12 +1,22 @@
 body{
-
-grid-template-areas:"header header header header header"
-					"topnav topnav topnav topnav topnav"
-					"sidenav   main   main   main main"
-					"sidenav   main   main   main main"
-					"sidenav   main   main   main main"
-					"sidenav   main   main   main main"
-					"footer footer footer footer footer";
+display:grid;
+grid-template-areas:"header header header header header header header"
+					"nav  	nav    nav    nav  	 nav    nav    nav"
+					"menu   main   main   main   main   main   main"
+					"menu   main   main   main   main   main   main"
+					"menu   main   main   main   main   main   main"
+					"menu   main   main   main   main   main   main"
+					"menu   main   main   main   main   main   main"
+					"menu   main   main   main   main   main   main"
+					"menu   main   main   main   main   main   main"
+					"menu   main   main   main   main   main   main"
+					"menu   main   main   main   main   main   main"
+					"menu   main   main   main   main   main   main"
+					"menu   main   main   main   main   main   main"
+					"menu   main   main   main   main   main   main"
+					"menu   main   main   main   main   main   main"
+					"menu   main   main   main   main   main   main"
+					"footer footer footer footer footer footer footer";
 background-position:center;
 	
 }
@@ -116,7 +126,7 @@ color: #ff0000;
     overflow-x: hidden;
 	text-align:left;
 	cursor:pointer;
-	grid-area:sidenav;
+	grid-area:menu;
 }
 
 /* Style the sidenav links and the dropdown button */
