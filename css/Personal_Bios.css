@@ -1,4 +1,4 @@
-body{
+/*body{
 display:grid;
 grid-template-areas:"header header header header header header header"
 					"nav  	nav    nav    nav  	 nav    nav    nav"
@@ -20,7 +20,7 @@ grid-template-areas:"header header header header header header header"
 background-position:center;
 grid-template-columns:10%;
 	
-}
+}*/
 #background{
 background-image:url('/photos/background_image4.png');
   background-size:cover;
@@ -187,4 +187,24 @@ color: #ff0000;
 }
 html{
 	background-color:#888;	
+	display:grid;
+grid-template-areas:"header header header header header header header"
+					"nav  	nav    nav    nav  	 nav    nav    nav"
+					"menu   main   main   main   main   main   main"
+					"menu   main   main   main   main   main   main"
+					"menu   main   main   main   main   main   main"
+					"menu   main   main   main   main   main   main"
+					"menu   main   main   main   main   main   main"
+					"menu   main   main   main   main   main   main"
+					"menu   main   main   main   main   main   main"
+					"menu   main   main   main   main   main   main"
+					"menu   main   main   main   main   main   main"
+					"menu   main   main   main   main   main   main"
+					"menu   main   main   main   main   main   main"
+					"menu   main   main   main   main   main   main"
+					"menu   main   main   main   main   main   main"
+					"menu   main   main   main   main   main   main"
+					"footer footer footer footer footer footer footer";
+background-position:center;
+grid-template-columns:10%;
 }
