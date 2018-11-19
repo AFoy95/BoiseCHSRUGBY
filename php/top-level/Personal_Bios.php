@@ -51,6 +51,7 @@
          </div>
 		  <div id="background">
 		 <div class="content">
+			writing can be useful
 		 </div>
 	  </div>
       <div class="footer">
