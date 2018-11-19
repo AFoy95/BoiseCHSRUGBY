@@ -152,7 +152,10 @@ color: #ff0000;
 .sidenav a:hover,.dropbtn:hover {background-color: #ffd700;}
 
 
-
+.content{
+	color:#ffd700;
+	text-align:center;
+}
 
 
 .footer {
