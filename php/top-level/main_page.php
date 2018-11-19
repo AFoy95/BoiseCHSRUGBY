@@ -29,7 +29,7 @@
 		 </div>
 		 <div id = "success_fail">
 		 <?php 
-			if(isset($_SESSION["success_fail"]){
+			if(isset($_SESSION["success_fail"])){
 				echo($_SESSION["success_fail"]);
 			}
 		 ?>
