@@ -69,6 +69,8 @@
             </div>
          </div>
       </div>
+	  <div class = "content">
+	  </div>
 	  </div>
       <div class="footer">
          <p> &copy; boisechsrugby.com</p>
