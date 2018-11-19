@@ -61,9 +61,6 @@ if (isAdvancedUpload) {
 
 // ...
 
-$input.on('change', function(e) { // when drag & drop is NOT supported
-  $form.trigger('submit');
-});
 
 var $input    = $form.find('input[type="file"]'),
     $label    = $form.find('label'),
@@ -81,5 +78,9 @@ $input.on('drop', function(e) {
 
 $input.on('change', function(e) {
   showFiles(e.target.files);
+});
+
+$input.on('change', function(e) { // when drag & drop is NOT supported
+  $form.trigger('submit');
 });
 };
