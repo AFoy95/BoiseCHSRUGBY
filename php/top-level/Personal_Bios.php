@@ -50,7 +50,7 @@
                </div>
             </div>
          </div>
-      </div>
+	  </div>
       <div class="footer">
          <p> &copy; boisechsrugby.com</p>
          <p>&emsp;Admin: Austin Foy</p>

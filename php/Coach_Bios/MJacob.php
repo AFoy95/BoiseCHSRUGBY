@@ -51,7 +51,8 @@
                </div>
             </div>
          </div>
-      </div>
+		Writing stuff can be difficult.
+	  </div>
       <div class="footer">
          <p> &copy; boisechsrugby.com</p>
          <p>&emsp;Admin: Austin Foy</p>
