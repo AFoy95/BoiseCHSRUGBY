@@ -31,7 +31,7 @@
 		 <?php 
 			if(isset($_SESSION["success_fail"])){
 				echo($_SESSION["success_fail"]);
-				unset($_SESSION["success_fail"];
+				unset($_SESSION["success_fail"]);
 			}
 		 ?>
 		 </div>
