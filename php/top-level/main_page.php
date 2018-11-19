@@ -41,7 +41,7 @@
          <div>
             <button class="dropbtn">What is Rugby</button>
             <div class = "dropdown-content">
-               <a href="https://passport.worldrugby.org/?page=beginners">Rugby Basics</a>
+               <a href="https://passport.worldrugby.org/?page=beginners&p=3">Rugby Basics</a>
             </div>
          </div>
          <div>
