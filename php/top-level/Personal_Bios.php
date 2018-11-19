@@ -51,7 +51,6 @@
             </div>
          </div>
 		 <div class="content">
-		 Writing can be useful
 		 </div>
 	  </div>
       <div class="footer">
