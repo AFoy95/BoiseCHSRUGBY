@@ -1,28 +1,23 @@
 body{
-display:grid;
-grid-template-areas:"header header header header header header header"
-					"nav  	nav    nav    nav  	 nav    nav    nav"
-					"menu   main   main   main   main   main   main"
-					"menu   main   main   main   main   main   main"
-					"menu   main   main   main   main   main   main"
-					"menu   main   main   main   main   main   main"
-					"menu   main   main   main   main   main   main"
-					"menu   main   main   main   main   main   main"
-					"menu   main   main   main   main   main   main"
-					"menu   main   main   main   main   main   main"
-					"menu   main   main   main   main   main   main"
-					"menu   main   main   main   main   main   main"
-					"menu   main   main   main   main   main   main"
-					"menu   main   main   main   main   main   main"
-					"menu   main   main   main   main   main   main"
-					"menu   main   main   main   main   main   main"
-					"footer footer footer footer footer footer footer";
+grid-template-areas:"header header header header"
+					"main   main   main   main"
+					"main   main   main   main"
+					"footer footer footer footer";
 background-position:center;
-grid-template-columns:10%;
-height:100%;
+	
 }
+	
 #background{
   grid-area:main;
+  grid-template-areas:"menu body body body"
+					  "menu body body body"
+					  "menu body body body";
+	display:grid;
+	height:100%;
+	grid-template-columns:min-content;
+}
+.content{
+  grid-area:body;
   background-image:url('/photos/tables_background.png');
   background-size:cover;
   background-position: center;
