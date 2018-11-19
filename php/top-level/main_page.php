@@ -64,7 +64,7 @@
                   </div>
                </form>
                <a href="/php/User_Pages/UserSign_Up.php" id="sign_up">User Sign-up
-					<script src = "/../../js/sideNav.js"></script>
+				
 			   </a>
             </div>
          </div>
@@ -78,5 +78,6 @@
          </p>
       </div>
 	  <script src="/../../js/success_fail.js"></script>
+	  <script src = "/../../js/sideNav.js"></script>
    </body>
 </html>
