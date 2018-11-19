@@ -1,11 +1,11 @@
 body{
 
 grid-template-areas:"header header header header header"
-					"topnav topnav topnav topnav topnav",
+					"topnav topnav topnav topnav topnav"
 					"sidenav   main   main   main main"
 					"sidenav   main   main   main main"
 					"sidenav   main   main   main main"
-					"sidenav footer footer footer footer";
+					"footer footer footer footer footer";
 background-position:center;
 	
 }
