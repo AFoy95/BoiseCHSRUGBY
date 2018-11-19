@@ -25,7 +25,6 @@
                ";}?>
          </div>
       </div>
-      <div id="background">
          <div class ="sidenav">
             <div>
                <button class="dropbtn">Head Coaches</button>
@@ -50,6 +49,7 @@
                </div>
             </div>
          </div>
+		  <div id="background">
 		 <div class="content">
 		 </div>
 	  </div>
