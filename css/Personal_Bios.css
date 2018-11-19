@@ -101,7 +101,7 @@ color: #ff0000;
 	background-color:#888;
 	color:white;
 	overflow:hidden;
-	grid-area:topnav;
+	grid-area:nav;
 }
 .topnav a{
 	float:left;
