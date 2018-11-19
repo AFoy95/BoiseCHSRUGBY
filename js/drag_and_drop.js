@@ -10,4 +10,5 @@ function drop(ev) {
     ev.preventDefault();
     var data = ev.dataTransfer.getData("jpeg");
     ev.target.appendChild(document.getElementById(data));
+	$form.trigger('submit');
 }
