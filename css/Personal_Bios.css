@@ -1,31 +1,21 @@
+
 body{
-display:grid;
-grid-template-areas:"header header header header header header header"
-					"nav  	nav    nav    nav  	 nav    nav    nav"
-					"menu   main   main   main   main   main   main"
-					"menu   main   main   main   main   main   main"
-					"menu   main   main   main   main   main   main"
-					"menu   main   main   main   main   main   main"
-					"menu   main   main   main   main   main   main"
-					"menu   main   main   main   main   main   main"
-					"menu   main   main   main   main   main   main"
-					"menu   main   main   main   main   main   main"
-					"menu   main   main   main   main   main   main"
-					"menu   main   main   main   main   main   main"
-					"menu   main   main   main   main   main   main"
-					"menu   main   main   main   main   main   main"
-					"menu   main   main   main   main   main   main"
-					"menu   main   main   main   main   main   main"
-					"footer footer footer footer footer footer footer";
+grid-template-areas:"header header header header"
+					"main   main   main   main"
+					"main   main   main   main"
+					"footer footer footer footer";
 background-position:center;
-grid-template-columns:min-content;
 	
 }
+	
 #background{
 background-image:url('/photos/background_image4.png');
   background-size:cover;
   background-repeat:no-repeat;
   grid-area:main;
+  grid-template-areas:"menu body body body"
+					  "menu body body body"
+					  "menu body body body";
 }
 #header {
   background: linear-gradient(to right,rgba(230,195,0,0.5),rgba(255,232,102,1));
@@ -170,6 +160,7 @@ color: #ff0000;
 .content{
 	color:#ffd700;
 	text-align:center;
+	grid-area:body;
 }
 
 
