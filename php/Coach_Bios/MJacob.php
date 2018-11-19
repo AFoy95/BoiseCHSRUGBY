@@ -1,4 +1,3 @@
-
 <?php
    session_start();
    ?>
@@ -25,8 +24,8 @@
                <a href=/php/login_handles/logout.php> LOGOUT</a> 
                ";}?>
          </div>
-      </div>
-      <div id="background">
+		 </div>
+		 <div id="background">
          <div class ="sidenav">
             <div>
                <button class="dropbtn">Head Coaches</button>
@@ -51,7 +50,10 @@
                </div>
             </div>
          </div>
-	  </div>
+		<div class="content">
+		hello its me
+		</div>
+		</div>
       <div class="footer">
          <p> &copy; boisechsrugby.com</p>
          <p>&emsp;Admin: Austin Foy</p>
