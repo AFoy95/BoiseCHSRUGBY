@@ -13,7 +13,7 @@
   <link href="/css/tables.css" type="text/css" rel="stylesheet" />
   </head>	
   <h1>CHS<img src="/photos/logo.PNG"/>RUGBY</h1>
-  </div>
+
 									
 							
 							<div class="topnav">
@@ -28,8 +28,11 @@
 								<a href=/php/login_handles/logout.php> LOGOUT</a> 
 									";}?>
 							</div>
+		
+		</div>
+		<div id="background">
 	   <div class ="sidenav">
-		<div >
+		<div>
 		<button class="dropbtn">Boys Games</button>
 		<div class = "dropdown-content">
 		<a href="/php/table_Scores/Varsity_Boys_regular.php">Regular Season</a>
@@ -51,27 +54,11 @@
 		</div>
 		</div>
 		</div>
-  <div id="background">
+  <div class = "content">
   <table>
 		<h3> JV Boys Scores</h3>        
                         <tr><td>Game #</td><td>Date</td><td>Capital</td><td>Capital Score</td><td>Opponent</td><td>Opp Score</td><td>Conversion Made</td><td>Conversion Attempt</td><td>Penalties</td></tr>
-						<?php
-								$boys_scores=$dao->get_JVBoys_Games();
-								foreach($boys_scores as $boys_score){
-									echo"<tr>";
-									echo "<td>" . $boys_score["id"] . "</td>";
-									echo "<td>" . $boys_score["dates"] . "</td>";
-									echo "<td>" . $boys_score["Our_name"] . "</td>";
-									echo "<td>" . $boys_score["Our_Score"] . "</td>";
-									echo "<td>" . $boys_score["Their_name"] . "</td>";
-									echo "<td>" . $boys_score["Their_Score"] . "</td>";
-									echo "<td>" . $boys_score["Covmade"] . "</td>";
-									echo "<td>" . $boys_score["Convatt"] . "</td>";
-									echo "<td>" . $boys_score["Penalties"] . "</td>";
-									echo "</tr>";
-								}
-						
-						?>
+
           </table>
 		
   <?php if($_SESSION['logged_in'] && $_SESSION['isadmin']){
@@ -85,7 +72,7 @@
 					$dates;
 					echo "<div>Insert Jv Boys Stats </div>";
 					 echo"
-						  <form action = JVarsity_Boys_regular.php method=post>
+						  <form action = Tables.php method=post>
 						   <br>Game number:	<input type=text name=game_number id=game_number/></br>
 						  <br>Our Score:	<input type=text name=our_score id=our_score/></br>
 						  <br> Their Score:	<input type=text name=their_score id=their_score/></br>
@@ -108,6 +95,7 @@
 						$dates=$_POST['dates'];
 					$dao->jv_Boys_Stats($id,$dates,$our_name,$our_score,$their_name,$their_score,$convmade,$convatt,$penalties);
 				}?>
+				</div>
   </div>
  <div class="footer">
   <p> &copy; boisechsrugby.com</p>
