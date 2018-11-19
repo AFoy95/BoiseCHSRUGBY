@@ -51,7 +51,6 @@
             </div>
          </div>
 		<div class="content">
-		<div>
 		<img src="">
 		</img>
 		<textarea>
