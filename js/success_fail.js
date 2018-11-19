@@ -5,5 +5,5 @@ $(function() {
 	$('#success_fail').delay(3000).fadeOut('slow');
   });
 	 $("#success_fail").toggleClass("hidden");
-	 $('#success_fail').delay(3000).fadeOut('slow');
+	 $('#success_fail').fadeOut('fast');
 });
