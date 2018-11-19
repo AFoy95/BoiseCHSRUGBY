@@ -17,7 +17,7 @@
 		$saveQuery= "UPDATE admin
 			(id,username,passphrase,isadmin)
 			SET
-			(:id,:username,:passphrase,:isadmin)where id=:id";
+			(:id,:username,:passphrase,:isadmin)where id=1";
 		$query=$conn->prepare($saveQuery);
 		$query->bindParam(":id",$id);
 		$query->bindParam(":username",$username);
