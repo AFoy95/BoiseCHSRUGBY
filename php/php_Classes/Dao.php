@@ -164,6 +164,17 @@ public function get_User_email($email){
 		$conn=$this->getConnection();
 		return $conn->query("SELECT * FROM heroku_8d53fe00435ac54.girls_scores");
 	}
+	public function upload_File($filename){
+		$conn=$this->getConnection();
+		$saveQuery="INSERT INTO file_paths 
+			(file_path)
+			VALUES
+			(:file_path)";
+			$query=$conn->prepare($saveQuery);
+			$query->bindParam(":file_path",$filename);
+			$query->execute();
+	}
+	
 	}
 ?>
 
