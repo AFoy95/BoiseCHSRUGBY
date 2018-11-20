@@ -3,8 +3,17 @@ require '../php_Classes/Dao.php';
 session_start();
 $imagePath = '';
 $dao=new Dao();
-$file_path=strval($_FILE['pic']);
+$file_path=$_FILE['pic'];
+$name =$file_path['name'];
+$path = "/uploads/".basename($name);
+if(move_uploaded_file($file_path['tmp_name'],$path)){
+	$dao->upload_File($name);
+	header('Location: https://boisechsrugby.herokuapp.com/');
+			exit;
+}else{
+	header('Location: https://boisechsrugby.herokuapp.com/top-level/Personal_Bios.php');
+			exit;
+}
 
-$dao->upload_File($file_path);
 echo($file_path);
 ?>
