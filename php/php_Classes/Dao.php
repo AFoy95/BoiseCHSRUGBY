@@ -166,7 +166,7 @@ public function get_User_email($email){
 	}
 	public function upload_File($filename){
 		$conn=$this->getConnection();
-		$saveQuery="INSERT INTO file_paths 
+		$saveQuery="INSERT INTO heroku_8d53fe00435ac54.file_paths 
 			(file_path)
 			VALUES
 			(:file_path)";
