@@ -6,6 +6,5 @@ $dao=new Dao();
 $file_path=$_POST['pic'];
 
 $dao->upload_File($file_path);
-header('Location: https://boisechsrugby.herokuapp.com/');
-exit;
+echo($file_path);
 ?>
