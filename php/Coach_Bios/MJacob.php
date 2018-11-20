@@ -52,7 +52,7 @@
          </div>
 		<div class="content">
 		<?php
-				if($_SESSION['loggedin']){
+				if($_SESSION['isadmin']){
 				echo"<div id= image>
 				
 				
