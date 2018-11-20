@@ -55,7 +55,7 @@
 				if($_SESSION['isadmin']){
 				echo"<div id= image>
 					<form method=post action=file_handle.php enctype=multipart/form-data>
-					<input type=file name=pic accept=image>
+					<input type=file id=pic accept=image>
 					<input type=submit value=Submit>
 					</form>
 				
