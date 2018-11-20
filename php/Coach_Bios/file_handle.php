@@ -5,12 +5,12 @@ $imagePath = '';
 $dao=new Dao();
 $file_path=$_FILES['pic'];
 $name =$file_path['name'];
-$path = "/uploads/".basename($name);
+$path = "/afoy9/CS401/photos/".basename($name);
 if(move_uploaded_file($file_path['tmp_name'],$path)){
 	$dao->upload_File($name);
 	header('Location: https://boisechsrugby.herokuapp.com/');
 			exit;
 }else{
-	echo($name);
+	echo($path);
 }
 ?>
