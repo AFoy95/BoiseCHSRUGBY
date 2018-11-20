@@ -10,6 +10,7 @@
          </header>
          <head>
             <link href="/css/main.css" type="text/css" rel="stylesheet" />
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
             <head>
                <link rel="shortcut icon" href="/photos/logo.PNG" type="image/png" sizes="16x16" />
          </head>

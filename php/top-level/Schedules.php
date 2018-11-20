@@ -31,7 +31,7 @@
             <div>
                <button class="dropbtn">Dates and Events</button>
                <div class = "dropdown-content">
-                  <a href="#">Dates and Events</a>
+                  <a href="/php/Dates_and_Events/Dates_Events.php">Dates and Events</a>
                </div>
             </div>
             <div>
