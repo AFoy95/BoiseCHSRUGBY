@@ -1,5 +1,5 @@
 <?php
-include'Dao.php';
+require 'Dao.php';
 session_start();
 $imagePath = '';
 $dao=new Dao();
