@@ -1,5 +1,5 @@
 
-<?php
+<<?php
 	session_start();
 ?>
 
@@ -31,16 +31,16 @@
 		<div>
 		<button class="dropbtn">About Us</button>
 		<div class = "dropdown-content">
-		<a href="/php/About_us/Teams.php">Teams</a>
-		<a href="/php/About_us/Championships.php">Championships</a>
+		<a href="/php/About_Us/Teams.php">Teams</a>
+		<a href="/php/About_Us/Championships.php">Championships</a>
 		</div>
 		</div>
 		<div>
 		<button class="dropbtn">Teams Timeline</button>
 		<div class = "dropdown-content">
-		<a href="/php/About_us/Founding.php">Founding</a>
-		<a href="/php/About_us/Btimeline.php">Boys Timeline</a>
-		<a href="/php/About_us/Gtimeline.php">Girls Timeline</a>
+		<a href="/php/About_Us/Founding.php">Founding</a>
+		<a href="/php/About_Us/Btimeline.php">Boys Timeline</a>
+		<a href="/php/About_Us/Gtimeline.php">Girls Timeline</a>
 		</div>
 		</div>
 		</div>
@@ -56,5 +56,6 @@
 	 <script src = "/../../js/sideNav.js"></script>
 </body>
 </html>
+
 
 
