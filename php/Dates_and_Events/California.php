@@ -38,7 +38,7 @@
             <div>
                <button class="dropbtn">Practice Times</button>
                <div class = "dropdown-content">
-                  <a href="/php/Dates_and_Events/Practive.php">Practice</a>
+                  <a href="/php/Dates_and_Events/Practice.php">Practice</a>
                </div>
             </div>
             <div>

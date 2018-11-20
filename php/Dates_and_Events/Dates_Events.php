@@ -38,14 +38,14 @@
             <div>
                <button class="dropbtn">Practice Times</button>
                <div class = "dropdown-content">
-                   <a href="/php/Dates_and_Events/Practive.php">Practice</a>
+                  <a href="/php/Dates_and_Events/Practice.php">Practice</a>
                </div>
             </div>
             <div>
                <button class="dropbtn">California Links</button>
                <div class = "dropdown-content">
-                  <a href="#">General info</a>
-                  <a href="#">California Schedule</a>
+                  <a href="/php/Dates_and_Events/California.php">General info</a>
+                  <a href="#" download="California Trip">California Schedule</a>
                </div>
             </div>
          </div>
@@ -62,3 +62,4 @@
 	  	  <script src = "/../../js/sideNav.js"></script>
    </body>
 </html>
+
