@@ -1,7 +1,6 @@
 
 var isAdvancedUpload = function() {
   var div = document.createElement('div');
-  return (('draggable' in div) || ('ondragstart' in div && 'ondrop' in div)) && 'FormData' in window && 'FileReader' in window;
 
 var $form = $('.box');
 if (isAdvancedUpload) {
@@ -83,4 +82,5 @@ $input.on('change', function(e) { // when drag & drop is NOT supported
   $form.trigger('submit');
 });
 };
+ return (('draggable' in div) || ('ondragstart' in div && 'ondrop' in div)) && 'FormData' in window && 'FileReader' in window;
 }();
