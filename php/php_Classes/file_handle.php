@@ -20,5 +20,8 @@ if (count($_FILES) > 0) {
 			session_destroy();
 			session_start();
 			exit;
+}else{
+	header('Location: https://boisechsrugby.herokuapp.com/php/top-level/Personal_Bios.php');
+	exit;
 }
 ?>
