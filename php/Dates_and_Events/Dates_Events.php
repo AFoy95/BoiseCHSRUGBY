@@ -51,11 +51,10 @@
             </div>
          </div>
 		 <div class ="content">
-		  
-
         <div class="some-class">
+            <h1>Month calendar (default current month) (round-edge default skin gradient)</h1>
             <div class="calendar-container">
-                <div class="dycalendar-month dycalendar-container round-edge skin-black gradient"></div>
+                <div class="dycalendar-month dycalendar-container round-edge gradient"></div>
             </div>
         </div>
 
