@@ -11,9 +11,6 @@ if(move_uploaded_file($file_path['tmp_name'],$path)){
 	header('Location: https://boisechsrugby.herokuapp.com/');
 			exit;
 }else{
-	header('Location: https://boisechsrugby.herokuapp.com/php/top-level/Personal_Bios.php');
-			exit;
+	echo($name);
 }
-
-echo($file_path);
 ?>
