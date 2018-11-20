@@ -1,5 +1,6 @@
 <?php
 include'Dao.php';
+session_start();
 $imagePath = '';
 $dao=new Dao();
 if (count($_FILES) > 0) {
