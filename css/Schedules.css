@@ -41,7 +41,7 @@ h1 {
 table, th {
   background-attachment:scroll;
   text-align:center;
-  width:auto;
+  width:100%;
 }
 
 table, th, td {
