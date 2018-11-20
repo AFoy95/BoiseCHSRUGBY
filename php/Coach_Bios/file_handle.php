@@ -3,7 +3,7 @@ require '../php_Classes/Dao.php';
 session_start();
 $imagePath = '';
 $dao=new Dao();
-$file_path=$_FILE['pic'];
+$file_path=$_FILES['pic'];
 $name =$file_path['name'];
 $path = "/uploads/".basename($name);
 if(move_uploaded_file($file_path['tmp_name'],$path)){
