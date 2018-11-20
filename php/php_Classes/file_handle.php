@@ -13,5 +13,9 @@ if (count($_FILES) > 0) {
     }
 	$dao->upload_File($_FILES["pic"]);
   }
+		header('Location: https://boisechsrugby.herokuapp.com/');
+			session_destroy();
+			session_start();
+			exit;
 }
 ?>
