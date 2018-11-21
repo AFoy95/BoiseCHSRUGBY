@@ -45,10 +45,10 @@
 		</div>
 		<div class = "content">
 			<table>
-				<tr><th>Boys</th><td>Year</td></tr>
+				<th>Boys</th><tr><td>Year</td></tr>
 				</table>
 				<table>
-				<tr><th>Girls</th><td>Year</td></tr>
+				<th>Girls</th><tr><td>Year</td></tr>
 				</table>
 			
 		
