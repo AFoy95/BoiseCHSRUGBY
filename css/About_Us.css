@@ -38,6 +38,12 @@ h1 {
 
 }
 
+table{
+		width:100%;
+		color:#ffd700;
+	
+}
+
 table, th {
   background-attachment:scroll;
   text-align:center;
@@ -45,7 +51,7 @@ table, th {
 }
 
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid #ffd700;
     border-collapse: collapse;
     padding: 10 10;
 	height:auto
