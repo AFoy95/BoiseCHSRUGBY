@@ -82,6 +82,5 @@
       </div>
 	  <script src="/../../js/success_fail.js"></script>
 	  <script src = "/../../js/sideNav.js"></script>
-	  <script src ="/../../js/topNav.js"></script>
    </body>
 </html>
