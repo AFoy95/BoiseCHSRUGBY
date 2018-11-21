@@ -57,7 +57,7 @@
 						<p>Drag &amp; Drop Image</p>
 						<input type= file id= fileUpload />
 						</div>
-<						img id=imgPrime  src="" alt=photos/background_image3.png />
+<						<img id=imgPrime  src=  alt=photos/background_image3.png />
 					
 				<textarea> 
 				
