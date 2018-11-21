@@ -46,7 +46,7 @@
 		<div class = "content">
 			<table>
 				<th>Championships</th>
-				<tr>Boys</tr><tr>Year</tr><tr>Girls</tr><tr>Year</tr>
+				<tr><td>Boys</td><td>Year</td><td>Girls</td><td>Year</td></tr>
 			
 			
 			</table>
