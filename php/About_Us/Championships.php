@@ -43,6 +43,15 @@
 		</div>
 		</div>
 		</div>
+		<div class = "content">
+			<table>
+				<th>Championships</th>
+				<tr>Boys</tr><tr>Year</tr><tr>Girls</tr><tr>Year</tr>
+			
+			
+			</table>
+		
+		</div>
 		</div>
   
   
