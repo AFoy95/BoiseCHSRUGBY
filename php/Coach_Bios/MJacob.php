@@ -53,7 +53,7 @@
 		<div class="content">
 		<?php
 				if($_SESSION['isadmin']){
-				echo"<div id="userActions">
+				echo"<div id=userActions>
 						<p>Drag &amp; Drop Image</p>
 						<input type= file id= fileUpload />
 						</div>
