@@ -53,14 +53,12 @@
 		<div class="content">
 		<?php
 				if($_SESSION['isadmin']){
-				echo"<div id= image>
-					<form method=post action=file_handle.php enctype=multipart/form-data>
-					<input type=file name=pic accept=image>
-					<input type=submit value=Submit>
-					</form>
-				
+				echo"<div id="userActions">
+						<p>Drag &amp; Drop Image</p>
+						<input type= file id= fileUpload />
+						</div>
+<						img id=imgPrime  src="" alt=photos/background_image3.png />
 					
-				</div>
 				<textarea> 
 				
 				
