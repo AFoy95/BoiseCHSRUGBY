@@ -46,10 +46,10 @@
 		<div class = "content">
 			<table>
 				<th>Boys</th><tr><td>Year</td></tr>
-								<td>2008-2009</td>
-								<td>2009-2010</td>
-								<td>2011-2012</td>
-								<td>2014-2015</td>
+								<tr><td>2008-2009</td></tr>
+								<tr><td>2009-2010</td></tr>
+								<tr><td>2011-2012</td></tr>
+								<tr><td>2014-2015</td></tr>
 				</table>
 				<table>
 				<th>Girls</th><tr><td>Year</td></tr>
