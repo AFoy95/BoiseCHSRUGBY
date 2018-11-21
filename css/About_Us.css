@@ -38,6 +38,11 @@ h1 {
 
 }
 
+th{
+font-size:30px;	
+	
+}
+
 table{
 		width:100%;
 		color:#ffd700;
@@ -54,8 +59,6 @@ table, th, td {
     border: 1px solid #ffd700;
     border-collapse: collapse;
     padding: 10 10;
-	height:auto
-	color:#ffd700;
 }
 #navigation {
 text-align:center;
