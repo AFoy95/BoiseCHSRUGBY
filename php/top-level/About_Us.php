@@ -1,18 +1,15 @@
 
-<<?php
+<?php
 	session_start();
 ?>
-
 <html>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
  <body>
 						<div id="header">
 						 <header><title>About Us</title></header>
   <head>
   <link href="/css/About_Us.css" type="text/css" rel="stylesheet" />
   </head>
-                                <h1>CHS<img src="/photos/logo.PNG"/>RUGBY</h1>
-							
+                                <h1>CHS<img src="/photos/logo.PNG"/>RUGBY</h1>						
 							<div class="topnav">
 								<a href="/php/top-level/main_page.php">Main-page</a>
 								<a class="active" href="/php/top-level/About_Us.php">About-Us</a>
@@ -45,8 +42,6 @@
 		</div>
 		</div>
 		</div>
-  
-  
   <div class="footer">
    <p> &copy; boisechsrugby.com</p>
   <p>&emsp;Admin: Austin Foy</p>
@@ -54,6 +49,7 @@
   afoy95@live.com</a>.</p>
 </div>
 	 <script src = "/../../js/sideNav.js"></script>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </body>
 </html>
 
