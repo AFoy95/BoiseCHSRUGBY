@@ -4,7 +4,7 @@ $(document).ready(function(){
 		
 			$.ajax(this.href,{
 				success: function(data){
-					$('.topnav a').html($(data).find('# *'));
+					$('.topnav a').html($(data).find('#'));
 			},
 			error: function(){
 				alert("Unable to load page");
