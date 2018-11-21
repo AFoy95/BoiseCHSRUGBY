@@ -46,9 +46,10 @@
 		<div class = "content">
 			<table>
 				<th>Championships</th>
-				<br>
-				<br>
+			
 				<table>
+				<br>
+				<br>
 				<th>Boys</th><tr><td>Year</td></tr>
 								<tr><td>2008-2009</td></tr>
 								<tr><td>2009-2010</td></tr>
