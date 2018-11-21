@@ -46,14 +46,14 @@
 		<div class = "content">
 			<table>
 				<th>Championships</th>
-			<table>
+			<tr><td><table>
 				<th>Boys</th><tr><td>Year</td></tr>
 								<tr><td>2008-2009</td></tr>
 								<tr><td>2009-2010</td></tr>
 								<tr><td>2011-2012</td></tr>
 								<tr><td>2014-2015</td></tr>
-				</table>
-				<table>
+				</table></td>
+				<td><table>
 				<th>Girls</th><tr><td>Year</td></tr>
 								  <tr><td>2010-2011</td></tr>
 								  <tr><td>2011-2012</td></tr>
@@ -63,7 +63,7 @@
 								  <tr><td>2015-2016</td></tr>
 								  <tr><td>2016-2017</td></tr>
 								  <tr><td>2017-2018</td></tr>		  
-				</table>
+				</table></td></tr>
 				</table>
 			
 		
