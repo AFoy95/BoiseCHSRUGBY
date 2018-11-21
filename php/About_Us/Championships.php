@@ -45,7 +45,6 @@
 		</div>
 		<div class = "content">
 			<table>
-				<th>Championships</th>
 				<tr><td>Boys</td><td>Year</td><td>Girls</td><td>Year</td></tr>
 			
 			
