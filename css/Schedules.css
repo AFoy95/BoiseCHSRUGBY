@@ -43,12 +43,13 @@ table, th {
   text-align:center;
   width:100%;
 }
-
+table{
+	height:85%;
+}
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 10 10;
-	height:85%
 }
 #navigation {
 text-align:center;

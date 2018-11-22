@@ -1,5 +1,6 @@
 <?php
    session_start();
+   
    ?>
 <html>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -53,16 +54,7 @@
 		<div class="content">
 		<?php
 				if($_SESSION['isadmin']){
-				echo"<div id=userActions>
-						<p>Drag &amp; Drop Image</p>
-						<input type= file id= fileUpload />
-						</div>
-<						<img id=imgPrime  src=  alt=photos/background_image3.png />
-					
-				<textarea> 
-				
-				
-				</textarea>
+				echo"
 				";
 					
 				}
