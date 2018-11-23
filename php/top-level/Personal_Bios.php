@@ -13,9 +13,9 @@
          </head>
          <h1>CHS<img src="/photos/logo.PNG"/>RUGBY</h1>
          <div class="topnav">
-            <a class="active" href="/php/top-level/main_page.php" id = "main" >Main-page</a>
+            <a href="/php/top-level/main_page.php" id = "main" >Main-page</a>
             <a href="/php/top-level/About_Us.php" id="Aus" >About-Us</a>
-            <a href="/php/top-level/Personal_Bios.php" id ="Pb" >Personal-Bios</a>	
+            <a class="active" href="/php/top-level/Personal_Bios.php" id ="Pb" >Personal-Bios</a>	
             <a href="/php/top-level/Schedules.php" id = "Sche" >Schedule</a>	
             <a href="/php/top-level/Tables.php" id = "Tab" >Tables</a>
             <a href="/php/login_handles/login.php" id = "Adm" >Admin Login</a>
@@ -61,6 +61,7 @@
          </p>
       </div>
 	   	  <script src = "/../../js/sideNav.js"></script>
+		  <script src = "/../../js/topNav.js"></script>
 		  
    </body>
 </html>
