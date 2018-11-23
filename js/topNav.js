@@ -1,7 +1,6 @@
 document.getElementById("main").onclick=function(event)
 {
 window.location.href = "https://boisechsrugby.herokuapp.com/php/top-level/main_page.php"
-window.location.class="active"
 }
 document.getElementById("Aus").onclick=function(event)
 {
