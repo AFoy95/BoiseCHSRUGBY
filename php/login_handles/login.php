@@ -90,6 +90,6 @@ unset($_SESSION['message']);
   afoy95@live.com</a>.</p>
 </div>
 		  <script src = "/../../js/sideNav.js"></script>
-		  <script src = "/../../js/topNav.js"></script>
+		  
 </body>
 </html
