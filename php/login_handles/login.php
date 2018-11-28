@@ -44,7 +44,14 @@ unset($_SESSION['message']);
 		<div>
 		<button class="dropbtn">General Guidelines</button>
 		<div class = "dropdown-content">
-		<a href="#">Dont be That Guy/Gal</a>
+		<a href="#" id="myBtn">Dont be That Guy/Gal</a>
+				<div id="myModal" class="modal">
+					<div class="modal-content">
+					<span class="close">&times;</span>
+			<img src="photos/DontBeThatGuy.PNG"/>
+  </div>
+
+</div>
 		</div>
 		</div>
 		<div>

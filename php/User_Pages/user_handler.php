@@ -7,6 +7,8 @@
  $password = $_POST['password'];
  $password_rep=$_POST['password-repeat'];
  $pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9-]+\.[a-zA-Z.]{2,5}$";
+ $cnclButton=$_POST['cancel'];
+	if(!$cnclButton){
 	if(filter_var($email,FILTER_VALIDATE_EMAIL)){
 		if($password_rep != $password){
 			$_SESSION['err']="Password verification does not match";
@@ -25,5 +27,9 @@
 		$_SESSION['validated'] = 'bad';
 		header('Location: https://boisechsrugby.herokuapp.com/');
 		exit;
+	}
+	}else{
+		 header("Location: https://boisechsrugby.herokuapp.com/");
+			exit;
 	}
 ?>
