@@ -11,6 +11,7 @@ unset($_SESSION['message']);
                                 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="/css/admin.css" type="text/css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 							  <h1>CHS<img src="/photos/logo.PNG"/>RUGBY</h1>
 							
@@ -89,6 +90,15 @@ unset($_SESSION['message']);
 				<span class="close">&times;</span>
 			</div>
 		</div>
+			<div class = "card">
+				 <h2>Austin Foy</h2>
+				<p>Admin</p>
+				<p>Boise State University</p>
+				<img src = "/../../photos/Admin_Smile.PNG"/>
+					<a href="https://www.linkedin.com/in/austin-foy-b99159173/"><i class="fa fa-linkedin"></i></a> 
+					<a href="https://www.facebook.com/austin.foy.7"><i class="fa fa-facebook"></i></a> 
+			</div>
+		
 		</div>
 
 <div class="footer">
