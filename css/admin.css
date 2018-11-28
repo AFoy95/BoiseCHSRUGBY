@@ -15,7 +15,7 @@ background-position:center;
 	height:100%;
 	grid-template-columns:min-content;
    background-image:url('/photos/background_image.png');
-   display:cover;
+   background-size:cover;
    background-repeat:no-repeat;
 }
 #header {
