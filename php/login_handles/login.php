@@ -45,7 +45,7 @@ unset($_SESSION['message']);
 		<div>
 		<button class="dropbtn">General Guidelines</button>
 		<div class = "dropdown-content">
-		<a href id="myBtn">Don't be that guy</a>
+		<a button id="myBtn">Don't be that guy</a>
 		</div>
 		</div>
 		<div>
