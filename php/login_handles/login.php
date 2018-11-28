@@ -99,6 +99,7 @@ unset($_SESSION['message']);
 </div>
 		  <script src = "/../../js/sideNav.js"></script>
 		  <script src = "/../../js/topNav.js"></script>
+		  <script src = "/../../js/Modal.js"></script>
 		  
 </body>
 </html
