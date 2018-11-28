@@ -215,3 +215,6 @@ html{
     text-decoration: none;
     cursor: pointer;
 }
+button{
+	width:100%;
+}
