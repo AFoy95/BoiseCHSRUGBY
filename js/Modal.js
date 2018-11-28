@@ -1,5 +1,5 @@
 var modal = document.getElementById('myModal');
-var card = document.getElementById('myModal');
+var card = document.getElementById('myPicture');
 // Get the button that opens the modal
 var btn = document.getElementById("myBtn");
 

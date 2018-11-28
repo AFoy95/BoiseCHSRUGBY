@@ -90,7 +90,7 @@ unset($_SESSION['message']);
 				<span class="close">&times;</span>
 			</div>
 		</div>
-			<div id="myModal" class = "card">
+			<div id="myPicture" class = "card">
 				 <div class = "modal-content">
 				 <h2>Austin Foy</h2>
 				<p>Admin</p>
