@@ -19,11 +19,12 @@ unset($_SESSION['message']);
             <a href="/php/top-level/Personal_Bios.php" id ="Pb" >Personal-Bios</a>	
             <a href="/php/top-level/Schedules.php" id = "Sche" >Schedule</a>	
             <a href="/php/top-level/Tables.php" id = "Tab" >Tables</a>
-            <a  class="active" href="/php/login_handles/login.php" id = "Adm" >Admin Login</a>
             <?php if($_SESSION['logged_in']){
-               echo" 
-               <a href=/php/login_handles/logout.php> LOGOUT</a> 
-               ";}?>
+									echo" 
+										<a href=/php/login_handles/logout.php> LOGOUT</a> 
+									";}else{
+										echo"<a href=/php/login_handles/login.php id = Adm > Admin Login</a>";
+										}?>
 		 </div>
                                 </div>		
 	<div id ="background">
