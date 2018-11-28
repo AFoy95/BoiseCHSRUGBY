@@ -15,6 +15,7 @@ background-position:center;
 	height:100%;
 	grid-template-columns:min-content;
    background-image:url('/photos/background_image.png');
+   display:cover;
 }
 #header {
   background: linear-gradient(to right,rgba(230,195,0,0.5),rgba(255,232,102,1));
