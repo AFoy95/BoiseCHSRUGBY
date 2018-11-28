@@ -7,13 +7,14 @@ background-position:center;
 	
 }
 #background{
- grid-template-areas:"menu body body body"
+  grid-area:main;
+  grid-template-areas:"menu body body body"
 					  "menu body body body"
 					  "menu body body body";
 	display:grid;
 	height:100%;
 	grid-template-columns:min-content;
-  grid-area:main;
+   background-image:url('/photos/background_image.png');
 }
 #header {
   background: linear-gradient(to right,rgba(230,195,0,0.5),rgba(255,232,102,1));
