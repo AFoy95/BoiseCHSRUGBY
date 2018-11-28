@@ -49,7 +49,7 @@ unset($_SESSION['message']);
 			<div id="myModal" class="modal">
 				<div class="modal-content">
 				<span class="close">&times;</span>
-					<img src="photos/DontBeThatGuy.PNG"/>
+					<img src="/../../photos/DontBeThatGuy.PNG"/>
 			</div>
 		</div>
 		</div>
