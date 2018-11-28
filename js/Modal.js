@@ -1,5 +1,5 @@
 var modal = document.getElementById('myModal');
-
+var card = document.getElementById('myModal');
 // Get the button that opens the modal
 var btn = document.getElementById("myBtn");
 
@@ -25,5 +25,6 @@ span.onclick = function() {
 window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = "none";
+		card.style.display = "none";
     }
 }
