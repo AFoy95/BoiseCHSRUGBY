@@ -91,7 +91,7 @@ unset($_SESSION['message']);
 			</div>
 		</div>
 			<div id="myPicture" class = "card">
-				 <div class = "modal-content">
+				 <div class = "card-content">
 				 <h2>Austin Foy</h2>
 				<p>Admin</p>
 				<p>Boise State University</p>
