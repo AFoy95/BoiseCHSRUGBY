@@ -4,8 +4,11 @@
  $dao=new Dao();
  $conn=$dao->getConnection();
  $email = $_POST['email'];
+ htmlentities($email);
  $password = $_POST['password'];
+ htmlentities($password);
  $password_rep=$_POST['password-repeat'];
+ htmlentities($password_rep);
  $pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9-]+\.[a-zA-Z.]{2,5}$";
  $cnclButton=$_POST['cancel'];
 	if(!$cnclButton){

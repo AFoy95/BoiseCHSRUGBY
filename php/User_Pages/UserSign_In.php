@@ -4,7 +4,9 @@
  $dao=new Dao();
  $conn=$dao->getConnection();
  $email = $_POST['email'];
+ htmlentities($email);
  $password = $_POST['password'];
+ htmlentities($password);
  $hash=hash("sha512",$password,"YwJGQafgbRdJIC2p");
  if(!$_SESSION['isadmin']){
 	if($dao->get_User_email($email) && $dao->get_User_pass($hash) || $_SESSION['logged_in'] ){
