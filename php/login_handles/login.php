@@ -9,6 +9,7 @@ unset($_SESSION['message']);
   <body>
   <div id="header">
                                 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="/css/admin.css" type="text/css" rel="stylesheet" />
   </head>
 							  <h1>CHS<img src="/photos/logo.PNG"/>RUGBY</h1>
