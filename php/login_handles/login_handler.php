@@ -12,7 +12,7 @@
 		header('Location: https://boisechsrugby.herokuapp.com/');
 		$_SESSION['isadmin']= true;
 		$_SESSION['logged_in'] = true;
-		setcookie($username, $password, time() + (86400 * 30),"","",true,true "/");
+		setcookie($username, $password, time() + (86400 * 30),"","",true,true, "/");
 		exit;
 	}
 	$_SESSION['message'] = "Invalid Username and/or Password";
