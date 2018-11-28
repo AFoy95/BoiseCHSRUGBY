@@ -91,7 +91,6 @@ unset($_SESSION['message']);
 			</div>
 		</div>
 			<div id="myPicture" class = "card">
-				 <div class = "modal-content">
 				 <h2>Austin Foy</h2>
 				<p>Admin</p>
 				<p>Boise State University</p>
@@ -99,7 +98,6 @@ unset($_SESSION['message']);
 					<a href="https://www.linkedin.com/in/austin-foy-b99159173/"><i class="fa fa-linkedin"></i></a> 
 					<a href="https://www.facebook.com/austin.foy.7"><i class="fa fa-facebook"></i></a>
 					<span class ="close">&times;</span>
-					</div>
 			</div>
 		
 		</div>
