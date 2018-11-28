@@ -4,7 +4,9 @@
  $dao=new Dao();
  $conn=$dao->getConnection();
  $username = $_POST['username'];
+ htmlentities($username);
  $password = $_POST['password'];
+ htmlentities($password);
  $hash=hash("sha512",$password,"YwJGQafgbRdJIC2p");
 	if($dao->get_admin_user($username) && $dao->get_admin_pass($hash) || $_SESSION['isadmin']==true){
 		header('Location: https://boisechsrugby.herokuapp.com/');
