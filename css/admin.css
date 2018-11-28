@@ -7,9 +7,12 @@ background-position:center;
 	
 }
 #background{
-  background-image:url('/photos/background_image.png');
-  background-size:cover;
-  background-repeat:no-repeat;
+ grid-template-areas:"menu body body body"
+					  "menu body body body"
+					  "menu body body body";
+	display:grid;
+	height:100%;
+	grid-template-columns:min-content;
   grid-area:main;
 }
 #header {
@@ -192,6 +195,7 @@ html{
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+	grid-area: body;
 }
 
 /* Modal Content (image) */
