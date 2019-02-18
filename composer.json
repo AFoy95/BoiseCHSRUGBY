@@ -1,0 +1,35 @@
+{
+
+
+		"require":{
+				"laravel/laravel": "^5.7"
+		
+		}
+
+		"require": {
+    "php": "^7.1",
+    "ext-json": "*",
+    "ext-mbstring": "*",
+    "johngrogg/ics-parser": "*",
+    "guzzlehttp/guzzle": "*",
+    "silex/silex": "~1.2",
+    "league/fractal": "0.12.0",
+    "olamedia/nokogiri": "^1.0",
+    "symfony/yaml": "~3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-0": {
+      "Punkstar\\RugbyFeed": "src/",
+      "Punkstar\\RugbyFeedService": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-0": {
+      "Punkstar\\RugbyFeedTest": "src/"
+    }
+  }
+
+	}
